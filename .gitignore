@@ -1,3 +1,7 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+
+#Prevent songs from being put into the repository
+/music/
