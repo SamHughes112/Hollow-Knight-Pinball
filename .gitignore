@@ -3,5 +3,5 @@
 /android/
 
 
-#Prevent songs from being put into the repository
+#Prevent songs from being put into the repository for future reference: this uses a file path to from sounds to music specifically
 /sounds/music/
