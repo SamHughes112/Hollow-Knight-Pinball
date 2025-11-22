@@ -9,5 +9,5 @@ slide_player:
 
 sound_player:
   mode_attract_started:
-    hollow_knight:
+    hollow_knight_theme:
       bus: music
