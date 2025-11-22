@@ -18,6 +18,11 @@ config/icon="res://icon.svg"
 
 MPF="*res://addons/mpf-gmc/mpf_gmc.gd"
 
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=1024
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/mpf-gmc/plugin.cfg")
