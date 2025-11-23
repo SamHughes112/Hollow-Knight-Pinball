@@ -11,3 +11,4 @@ sound_player:
   mode_attract_started:
     hollow_knight_theme:
       bus: music
+      loops: -1
