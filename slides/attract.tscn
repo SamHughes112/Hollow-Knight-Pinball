@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://tnuv7n4cntlx"]
+[gd_scene load_steps=7 format=3 uid="uid://tnuv7n4cntlx"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Texture2D" uid="uid://c7txfj1ybci2a" path="res://godot_assets/attract_main.png" id="2_m2s46"]
 [ext_resource type="Texture2D" uid="uid://bcn6t6jmj3gku" path="res://godot_assets/map_hallownest_attract.png" id="3_hhxni"]
+[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="4_cq3lo"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_twbla"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nlvwg"]
 animations = [{
@@ -24,8 +26,34 @@ anchors_preset = 0
 script = ExtResource("1_r1mnt")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
 position = Vector2(639.5, 512)
 scale = Vector2(1.0007813, 1.0039216)
 sprite_frames = SubResource("SpriteFrames_nlvwg")
 animation = &"Attract Mode"
 autoplay = "Attract Mode"
+
+[node name="MPFCarousel" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("4_cq3lo")
+carousel_name = "attract"
+metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
+
+[node name="title" type="Sprite2D" parent="MPFCarousel"]
+position = Vector2(640, 512)
+scale = Vector2(1, 1.0039216)
+texture = ExtResource("2_m2s46")
+
+[node name="credits" type="Label" parent="MPFCarousel"]
+layout_mode = 0
+offset_right = 1285.0
+offset_bottom = 1023.0
+theme_override_font_sizes/font_size = 110
+text = "SAMPLE TEXT"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_name = "credits_String"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"

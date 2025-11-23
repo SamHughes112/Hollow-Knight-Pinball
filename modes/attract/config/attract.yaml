@@ -11,8 +11,8 @@ mode_settings:
     - title
     - credits
     - mpf_logo
-  next_item_events: s_flipper_right_active
-  previous_item_events: s_flipper_left_active
+  next_item_events: s_right_flipper_active
+  previous_item_events: s_left_flipper_active
 
 sound_player:
   mode_attract_started:

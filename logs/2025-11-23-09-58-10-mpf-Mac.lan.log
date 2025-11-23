@@ -1,0 +1,141 @@
+2025-11-23 09:58:10,137 : INFO : root : Loading config.
+2025-11-23 09:58:10,139 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-23 09:58:10,139 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/92f7f295141fbdde09e201e7fd0f1349.mpf_cache
+2025-11-23 09:58:10,163 : WARNING : ConfigProcessor : Config file in cache changed: /Users/samhughes/Desktop/Hollow-Knight-Pinball/modes/attract/config/attract.yaml
+2025-11-23 09:58:10,163 : INFO : ConfigProcessor : Loading config from file /Users/samhughes/mpf/lib/python3.13/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-11-23 09:58:10,164 : INFO : ConfigProcessor : Loading config: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf/modes/attract/config/attract.yaml
+2025-11-23 09:58:10,164 : INFO : ConfigProcessor : Loading config from file /Users/samhughes/Desktop/Hollow-Knight-Pinball/modes/attract/config/attract.yaml.
+2025-11-23 09:58:10,165 : INFO : ConfigProcessor : Loading config: /Users/samhughes/Desktop/Hollow-Knight-Pinball/modes/attract/config/attract.yaml
+2025-11-23 09:58:10,165 : INFO : ConfigProcessor : Config file cache created: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-23 09:58:10,166 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/501e18c1625d42f1ba9bf53b020c49c5.mpf_cache
+2025-11-23 09:58:10,166 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-23 09:58:10,166 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/dda6f4da00898f9f0a4796a41d9a2ef0.mpf_cache
+2025-11-23 09:58:10,166 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-11-23 09:58:10,166 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-11-23-09-58-10-mpf-Mac.lan.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-23-09-58-10-mpf-Mac.lan.log'}
+2025-11-23 09:58:10,166 : INFO : Machine : MPF path: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf
+2025-11-23 09:58:10,166 : INFO : Machine : Machine path: /Users/samhughes/Desktop/Hollow-Knight-Pinball
+2025-11-23 09:58:10,166 : INFO : Machine : Platform: darwin
+2025-11-23 09:58:10,166 : INFO : Machine : Python executable location: /Users/samhughes/mpf/bin/python3.13
+2025-11-23 09:58:10,166 : INFO : Machine : Python version: 3.13.2 (64-bit)
+2025-11-23 09:58:10,167 : INFO : Machine : Initializing MPF...
+2025-11-23 09:58:10,193 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,198 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,198 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,198 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,198 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.2', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,207 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,207 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,207 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,207 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:29:54 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,207 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,207 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-23-09-58-10-mpf-Mac.lan.log', 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,207 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-23 09:58:10,213 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-11-23 09:58:10,213 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-11-23 09:58:10,214 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-11-23 09:58:10,216 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-11-23 09:58:10,217 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-11-23 09:58:10,217 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-11-23 09:58:10,217 : INFO : ball_device.bd_trough : State: idle
+2025-11-23 09:58:10,217 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-11-23 09:58:10,217 : INFO : ball_device.bd_plunger : State: idle
+2025-11-23 09:58:10,220 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-11-23 09:58:10,220 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-11-23 09:58:10,220 : INFO : BallController : Initial balls found: 0
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-11-23 09:58:10,221 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-11-23 09:58:10,259 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-11-23 09:58:10,259 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-11-23 09:58:10,259 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-11-23 09:58:10,259 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-11-23 09:58:10,259 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-11-23 09:58:10,259 : INFO : Mode.attract : Started. Priority: 10
+2025-11-23 09:58:10,259 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-23 09:58:10,260 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-11-23 09:58:10,260 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-11-23 09:58:10,260 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-11-23 09:58:10,260 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-11-23 09:58:10,377 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-11-23 09:58:10,377 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-11-23 09:58:10,377 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-23 09:58:17,554 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:17,737 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:17,920 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:18,087 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:18,253 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:18,437 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:18,520 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:18,687 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:18,787 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:18,921 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:18,922 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:19,070 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:19,437 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:19,603 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:19,604 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:19,753 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:19,887 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:20,037 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:20,038 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:20,120 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:20,270 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:20,354 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:20,404 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:20,520 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:20,621 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:20,737 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:20,753 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:20,853 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:20,954 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:21,053 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:21,087 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:21,187 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:21,270 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:21,387 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:21,403 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:21,504 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:21,604 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:21,687 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:21,720 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:21,803 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:21,954 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:22,054 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:22,071 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:22,169 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:22,486 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:22,571 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:22,920 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:23,003 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:23,171 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:23,237 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:23,320 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:23,454 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:23,604 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:23,720 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:23,887 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:23,954 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:23,955 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:24,104 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:24,387 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:24,588 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:24,954 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:25,121 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:25,154 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:25,287 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:25,453 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:25,621 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_right'
+2025-11-23 09:58:25,721 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:25,871 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2025-11-23 09:58:30,641 : INFO : Machine : Shutting down...
+2025-11-23 09:58:30,641 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-23 09:58:30,644 : INFO : root : MPF run loop ended.
