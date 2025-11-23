@@ -7,6 +7,41 @@
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 
+#Number is used once the board is wired up to assign the correct switch on the cobra pin
+
+switches:
+  s_left_flipper:
+    number: 
+    tags: left_flipper
+  s_right_flipper:
+    number: 
+    tags: right_flipper
+
+coils:
+  c_flipper_left_main:
+    number:
+  c_flipper_left_hold:
+    number:
+  c_flipper_right_main:
+    number:
+  c_flipper_right_hold:
+    number:
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: None
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper
+
 modes:
   - attract
   - base
