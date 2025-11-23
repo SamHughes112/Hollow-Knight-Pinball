@@ -6,6 +6,13 @@
 slide_player:
   mode_attract_started: attract
 
+mode_settings:
+  selectable_items:
+    - title
+    - credits
+    - mpf_logo
+  next_item_events: s_flipper_right_active
+  previous_item_events: s_flipper_left_active
 
 sound_player:
   mode_attract_started:
