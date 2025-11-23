@@ -18,7 +18,7 @@ hardware:
 config:
   - config_switches.yaml
   - config_coils.yaml
-  - config_light.yaml
+  - config_lights.yaml
   - config_ball_devices.yaml
 
 playfields:
