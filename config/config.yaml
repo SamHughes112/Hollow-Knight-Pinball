@@ -8,6 +8,12 @@
 # imported and merged with this one.
 
 #Number is used once the board is wired up to assign the correct switch on the cobra pin
+#For the coild the pulses will need to be adjusted
+#Might need to adjust default coild hold strengths
+
+hardware:
+  platform: opp
+  driverboards: gen2
 
 switches:
   s_left_flipper:
@@ -20,12 +26,16 @@ switches:
 coils:
   c_flipper_left_main:
     number:
+    default_pulse_ms: 
   c_flipper_left_hold:
     number:
+    allow_enable: true
   c_flipper_right_main:
     number:
+    default_pulse_ms:
   c_flipper_right_hold:
     number:
+    allow_enable: true
 
 playfields:
   playfield:
