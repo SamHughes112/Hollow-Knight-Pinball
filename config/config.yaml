@@ -15,56 +15,16 @@ hardware:
   platform: opp
   driverboards: gen2
 
-switches:
-  s_left_flipper:
-    number: 
-    tags: left_flipper
-  s_right_flipper:
-    number: 
-    tags: right_flipper
-
-#Trough switches will have to be reworked
-  s_trough_1:
-    number: 
-  s_trough_2:
-    number:
-  s_trough_3:
-    number:
-  s_plunger_lane:
-   number:
-
-coils:
-  c_flipper_left_main:
-    number:
-    default_pulse_ms: 
-  c_flipper_left_hold:
-    number:
-    allow_enable: true
-  c_flipper_right_main:
-    number:
-    default_pulse_ms:
-  c_flipper_right_hold:
-    number:
-    allow_enable: true
-  c_trough_eject:
-    number:
-    default_pulse_ms:
-
+config:
+  - config_switches.yaml
+  - config_coils.yaml
+  - config_light.yaml
+  - config_ball_devices.yaml
 
 playfields:
   playfield:
     tags: default
     default_source_device: bd_trough
-
-ball_devices:
-  bd_trough:
-    ball_switches: s_trough_1, s_trough_2, s_trough_3
-    eject_coil: c_trough_eject
-    eject_targets: bd_plunger
-    tags: trough, home, drain
-  bd_plunger:
-    ball_switches: s_plunger_lane
-    mechanical_eject: true
 
 flippers:
   left_flipper:

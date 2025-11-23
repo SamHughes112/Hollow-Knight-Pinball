@@ -1,0 +1,18 @@
+#config_version=6
+
+coils:
+  c_flipper_left_main:
+    number:
+    default_pulse_ms: 
+  c_flipper_left_hold:
+    number:
+    allow_enable: true
+  c_flipper_right_main:
+    number:
+    default_pulse_ms:
+  c_flipper_right_hold:
+    number:
+    allow_enable: true
+  c_trough_eject:
+    number:
+    default_pulse_ms:
