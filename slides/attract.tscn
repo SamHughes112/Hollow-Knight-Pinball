@@ -1,10 +1,12 @@
-[gd_scene load_steps=6 format=3 uid="uid://tnuv7n4cntlx"]
+[gd_scene load_steps=8 format=3 uid="uid://tnuv7n4cntlx"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Texture2D" uid="uid://d1cmgt0smtosm" path="res://godot_assets/attract_main.png" id="2_m2s46"]
 [ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="4_cq3lo"]
+[ext_resource type="FontFile" uid="uid://dumvfllyi8lf3" path="res://godot_assets/Cinzel/static/Cinzel-Regular.ttf" id="4_nlvwg"]
 [ext_resource type="Texture2D" uid="uid://ccr6loi78ep6s" path="res://godot_assets/mission_pinball_logo.png" id="5_cq3lo"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_twbla"]
+[ext_resource type="Texture2D" uid="uid://cbuurgal6kn8g" path="res://godot_assets/cobrapin_logo.jpg" id="7_hhnfk"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -32,6 +34,7 @@ offset_left = 1.0
 offset_top = 5.0
 offset_right = 1278.0
 offset_bottom = 239.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
 theme_override_font_sizes/font_size = 110
 text = "SAMPLE TEXT"
 horizontal_alignment = 1
@@ -43,10 +46,11 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="title" type="Label" parent="MPFCarousel"]
 layout_mode = 0
-offset_left = 768.0
-offset_top = 1.0
-offset_right = 1340.0
-offset_bottom = 478.0
+offset_left = 741.0
+offset_top = -8.0
+offset_right = 1313.0
+offset_bottom = 469.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
 theme_override_font_sizes/font_size = 110
 text = "Hollow 
 Knight 
@@ -54,7 +58,12 @@ Pinball"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
+[node name="mpf_and_cobrapin_logo" type="Sprite2D" parent="MPFCarousel"]
 position = Vector2(247.00002, 219.99998)
 scale = Vector2(1.2283951, 1.154321)
 texture = ExtResource("5_cq3lo")
+
+[node name="cobrapin_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo"]
+position = Vector2(61.86933, 560.5027)
+scale = Vector2(0.3536899, 0.3536899)
+texture = ExtResource("7_hhnfk")

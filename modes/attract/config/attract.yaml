@@ -10,7 +10,7 @@ mode_settings:
   selectable_items:
     - title
     - credits
-    - mpf_logo
+    - mpf_and_cobrapin_logo
   next_item_events: s_right_flipper_active
   previous_item_events: s_left_flipper_active
 
