@@ -11,6 +11,7 @@ anchors_preset = 0
 script = ExtResource("1_r1mnt")
 
 [node name="background" type="Sprite2D" parent="."]
+z_index = -1
 position = Vector2(640, 512)
 scale = Vector2(1, 1.0039216)
 texture = ExtResource("2_m2s46")
