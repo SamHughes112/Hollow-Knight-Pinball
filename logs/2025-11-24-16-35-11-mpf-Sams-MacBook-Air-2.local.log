@@ -1,0 +1,450 @@
+2025-11-24 16:35:11,921 : INFO : root : Loading config.
+2025-11-24 16:35:11,922 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-24 16:35:11,922 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/92f7f295141fbdde09e201e7fd0f1349.mpf_cache
+2025-11-24 16:35:11,947 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-24 16:35:11,947 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/501e18c1625d42f1ba9bf53b020c49c5.mpf_cache
+2025-11-24 16:35:11,947 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-24 16:35:11,947 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/dda6f4da00898f9f0a4796a41d9a2ef0.mpf_cache
+2025-11-24 16:35:11,948 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-11-24 16:35:11,948 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-11-24-16-35-11-mpf-Sams-MacBook-Air-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-24-16-35-11-mpf-Sams-MacBook-Air-2.local.log'}
+2025-11-24 16:35:11,948 : INFO : Machine : MPF path: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf
+2025-11-24 16:35:11,948 : INFO : Machine : Machine path: /Users/samhughes/Desktop/Hollow-Knight-Pinball
+2025-11-24 16:35:11,948 : INFO : Machine : Platform: darwin
+2025-11-24 16:35:11,948 : INFO : Machine : Python executable location: /Users/samhughes/mpf/bin/python3.13
+2025-11-24 16:35:11,948 : INFO : Machine : Python version: 3.13.2 (64-bit)
+2025-11-24 16:35:11,948 : INFO : Machine : Initializing MPF...
+2025-11-24 16:35:11,975 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,980 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,980 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,980 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,980 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.2', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,987 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,987 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,987 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,987 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:29:54 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,987 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,987 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-24-16-35-11-mpf-Sams-MacBook-Air-2.local.log', 'prev_value': None, 'change': True}
+2025-11-24 16:35:11,987 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-24 16:35:11,993 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-11-24 16:35:11,994 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-11-24 16:35:11,995 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-11-24 16:35:21,335 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-11-24 16:35:21,335 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-11-24 16:35:21,338 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-11-24 16:35:21,339 : INFO : ball_device.bd_trough : State: idle
+2025-11-24 16:35:21,339 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-11-24 16:35:21,340 : INFO : ball_device.bd_plunger : State: idle
+2025-11-24 16:35:21,346 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-11-24 16:35:21,348 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-11-24 16:35:21,351 : INFO : BallController : Initial balls found: 0
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_middle_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_middle_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lane_to_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_middle_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,353 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-11-24 16:35:21,354 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-11-24 16:35:21,354 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-11-24 16:35:21,354 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-11-24 16:35:21,359 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-11-24 16:35:21,359 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-11-24 16:35:21,359 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-11-24 16:35:21,359 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-11-24 16:35:21,360 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-11-24 16:35:21,360 : INFO : Mode.attract : Started. Priority: 10
+2025-11-24 16:35:21,360 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-24 16:35:21,360 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-11-24 16:35:21,360 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-11-24 16:35:21,361 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-11-24 16:35:21,361 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-11-24 16:35:21,467 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-11-24 16:35:21,467 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-11-24 16:35:21,467 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-24 16:35:28,318 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:28,451 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:28,833 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:28,934 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:32,001 : INFO : SwitchController : <<<<<<< 's_pop_bumper' active >>>>>>>
+2025-11-24 16:35:32,151 : INFO : SwitchController : <<<<<<< 's_pop_bumper' inactive >>>>>>>
+2025-11-24 16:35:32,533 : INFO : SwitchController : <<<<<<< 's_pop_bumper' active >>>>>>>
+2025-11-24 16:35:32,684 : INFO : SwitchController : <<<<<<< 's_pop_bumper' inactive >>>>>>>
+2025-11-24 16:35:33,067 : INFO : SwitchController : <<<<<<< 's_pop_bumper' active >>>>>>>
+2025-11-24 16:35:33,184 : INFO : SwitchController : <<<<<<< 's_pop_bumper' inactive >>>>>>>
+2025-11-24 16:35:40,034 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:40,150 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:40,500 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:40,617 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:40,734 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:40,817 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:40,950 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:41,084 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:41,617 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:41,767 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:42,035 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:42,135 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:42,634 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:42,767 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:43,683 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:35:43,883 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:35:43,950 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:35:44,050 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:35:44,268 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:35:44,417 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:35:44,484 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:35:44,617 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:35:44,717 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:35:44,800 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:35:44,851 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:35:44,987 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:35:45,250 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' active >>>>>>>
+2025-11-24 16:35:45,418 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' inactive >>>>>>>
+2025-11-24 16:35:45,750 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' active >>>>>>>
+2025-11-24 16:35:45,917 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' inactive >>>>>>>
+2025-11-24 16:35:46,200 : INFO : SwitchController : <<<<<<< 's_right_orbit' active >>>>>>>
+2025-11-24 16:35:46,351 : INFO : SwitchController : <<<<<<< 's_right_orbit' inactive >>>>>>>
+2025-11-24 16:35:47,000 : INFO : SwitchController : <<<<<<< 's_left_outlane' active >>>>>>>
+2025-11-24 16:35:47,167 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2025-11-24 16:35:47,300 : INFO : SwitchController : <<<<<<< 's_left_outlane' inactive >>>>>>>
+2025-11-24 16:35:47,301 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-24 16:35:47,384 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2025-11-24 16:35:47,484 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-24 16:35:47,650 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-24 16:35:47,851 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-24 16:35:48,767 : INFO : SwitchController : <<<<<<< 's_left_outlane' active >>>>>>>
+2025-11-24 16:35:48,967 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2025-11-24 16:35:49,067 : INFO : SwitchController : <<<<<<< 's_left_outlane' inactive >>>>>>>
+2025-11-24 16:35:49,084 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2025-11-24 16:35:49,450 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:35:49,533 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:35:49,650 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:35:49,800 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:35:49,850 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:35:50,000 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:35:50,168 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:35:50,334 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:35:50,633 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:35:50,750 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:35:51,000 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:35:51,117 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:35:51,217 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:35:51,284 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:35:51,351 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:35:51,483 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:35:51,584 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:35:51,617 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:35:51,700 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:35:51,768 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:35:53,801 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' active >>>>>>>
+2025-11-24 16:35:53,934 : INFO : SwitchController : <<<<<<< 's_right_orbit' active >>>>>>>
+2025-11-24 16:35:53,987 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' inactive >>>>>>>
+2025-11-24 16:35:54,068 : INFO : SwitchController : <<<<<<< 's_right_orbit' inactive >>>>>>>
+2025-11-24 16:35:54,301 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2025-11-24 16:35:54,467 : INFO : SwitchController : <<<<<<< 's_right_orbit' active >>>>>>>
+2025-11-24 16:35:54,517 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2025-11-24 16:35:54,650 : INFO : SwitchController : <<<<<<< 's_right_orbit' inactive >>>>>>>
+2025-11-24 16:35:54,988 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2025-11-24 16:35:55,133 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2025-11-24 16:35:56,284 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:56,317 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:35:56,499 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:35:56,516 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:56,633 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:35:56,733 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:35:56,784 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:35:56,867 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:35:56,884 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:35:56,967 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:35:57,018 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:35:57,034 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:57,035 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:35:57,035 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:35:57,217 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:57,234 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:35:57,251 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:57,252 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:35:57,317 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:57,367 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:35:57,400 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:35:57,501 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:35:57,684 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:57,684 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:35:57,701 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:35:57,702 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:35:57,866 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:35:57,900 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:35:57,987 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:35:58,034 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:35:58,067 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:35:58,151 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:35:58,183 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:35:58,201 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:35:58,300 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:35:58,433 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:00,217 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:00,401 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:00,451 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:00,568 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:00,651 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:00,717 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:03,801 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:03,817 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:03,834 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:03,835 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:03,851 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:03,868 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:11,651 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:11,800 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:12,235 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:13,167 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:13,783 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:13,900 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:14,767 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:15,017 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:15,384 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:36:15,617 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:15,734 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:36:15,751 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:16,117 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:36:16,134 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:36:16,367 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:36:16,417 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:36:17,634 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:17,652 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:36:17,667 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:18,384 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:36:18,401 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:18,417 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:19,117 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:19,217 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:19,217 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:36:19,634 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:36:20,701 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:36:20,867 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2025-11-24 16:36:21,067 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-24 16:36:21,201 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2025-11-24 16:36:24,883 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:36:24,884 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-24 16:36:24,884 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2025-11-24 16:36:24,951 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:36:25,017 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:36:25,050 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2025-11-24 16:36:25,066 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:25,068 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:25,150 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:36:25,317 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:36:25,434 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:36:25,567 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:36:25,650 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:36:25,751 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:36:25,850 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:36:25,950 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:36:26,051 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:36:26,317 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2025-11-24 16:36:26,384 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:26,385 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:36:26,401 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:26,433 : INFO : SwitchController : <<<<<<< 's_left_outlane' active >>>>>>>
+2025-11-24 16:36:28,501 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-24 16:36:28,502 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:28,502 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:36:28,502 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2025-11-24 16:36:28,502 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:28,717 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:29,417 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:29,584 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:29,750 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-24 16:36:29,751 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:29,917 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:29,934 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:30,067 : INFO : SwitchController : <<<<<<< 's_left_outlane' inactive >>>>>>>
+2025-11-24 16:36:30,152 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2025-11-24 16:36:30,153 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:36:30,168 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2025-11-24 16:36:31,434 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:31,534 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:31,667 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:31,817 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:31,834 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:31,867 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:32,034 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:32,084 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:32,167 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:32,251 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:32,383 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:32,501 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:32,650 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:32,817 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:32,988 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:33,284 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:34,100 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:34,267 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:34,349 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:34,667 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:35,017 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:35,167 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:35,467 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:35,567 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:35,683 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:35,684 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:37,067 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:37,084 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:37,101 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:37,150 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:38,601 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:38,618 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:39,217 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:39,218 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:43,867 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:43,885 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:43,901 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:43,951 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:44,017 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:44,084 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:44,417 : INFO : SwitchController : <<<<<<< 's_pop_bumper' active >>>>>>>
+2025-11-24 16:36:45,017 : INFO : SwitchController : <<<<<<< 's_pop_bumper' inactive >>>>>>>
+2025-11-24 16:36:45,067 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:45,234 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:45,284 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:45,400 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:45,417 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:45,534 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:45,651 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:45,683 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:45,784 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:45,834 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:45,883 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:46,034 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:46,051 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:46,067 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:46,133 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:46,200 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:46,267 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:46,284 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:46,301 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:46,351 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:46,433 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:46,451 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:46,500 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:46,550 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:46,583 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:46,651 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:46,667 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:46,750 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:46,767 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:46,867 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:46,934 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:46,950 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:46,951 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:47,034 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:47,083 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:47,116 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:47,134 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:47,151 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:47,217 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:47,284 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:47,367 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:47,383 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:47,400 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:47,401 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:47,451 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:47,534 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:47,551 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:47,582 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:47,635 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:47,650 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:47,651 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:47,817 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:47,835 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:47,836 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:47,853 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:47,868 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:47,950 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:47,966 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:48,001 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:48,050 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:48,117 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:48,183 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:48,201 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:48,218 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:48,219 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:48,251 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:48,367 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:48,400 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:48,850 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:48,901 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:48,917 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:48,918 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:48,918 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:48,950 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:49,134 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:36:49,167 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:36:49,184 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:36:50,284 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:36:50,316 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:36:50,334 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:36:50,667 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:36:50,668 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:36:50,684 : INFO : SwitchController : <<<<<<< 's_front_left_target' active >>>>>>>
+2025-11-24 16:36:50,701 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:36:51,851 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:36:51,900 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:36:51,901 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:36:51,917 : INFO : SwitchController : <<<<<<< 's_front_left_target' inactive >>>>>>>
+2025-11-24 16:36:54,967 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:36:55,034 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:36:55,116 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:36:57,317 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' active >>>>>>>
+2025-11-24 16:36:57,350 : INFO : SwitchController : <<<<<<< 's_right_orbit' active >>>>>>>
+2025-11-24 16:36:58,233 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2025-11-24 16:36:58,517 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2025-11-24 16:36:58,600 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2025-11-24 16:37:00,550 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:37:00,600 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:37:00,634 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:37:00,634 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' inactive >>>>>>>
+2025-11-24 16:37:00,634 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2025-11-24 16:37:00,683 : INFO : SwitchController : <<<<<<< 's_right_orbit' inactive >>>>>>>
+2025-11-24 16:37:01,517 : INFO : SwitchController : <<<<<<< 's_left_outlane' active >>>>>>>
+2025-11-24 16:37:01,583 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2025-11-24 16:37:01,750 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-24 16:37:02,650 : INFO : SwitchController : <<<<<<< 's_left_outlane' inactive >>>>>>>
+2025-11-24 16:37:02,733 : INFO : SwitchController : <<<<<<< 's_left_outlane' active >>>>>>>
+2025-11-24 16:37:03,768 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2025-11-24 16:37:04,800 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2025-11-24 16:37:05,417 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2025-11-24 16:37:06,988 : INFO : SwitchController : <<<<<<< 's_left_outlane' inactive >>>>>>>
+2025-11-24 16:37:07,134 : INFO : SwitchController : <<<<<<< 's_left_outlane' active >>>>>>>
+2025-11-24 16:37:09,184 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2025-11-24 16:37:09,217 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-24 16:37:09,250 : INFO : SwitchController : <<<<<<< 's_left_outlane' inactive >>>>>>>
+2025-11-24 16:37:09,301 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2025-11-24 16:37:09,600 : INFO : SwitchController : <<<<<<< 's_pop_bumper' active >>>>>>>
+2025-11-24 16:37:10,068 : INFO : SwitchController : <<<<<<< 's_pop_bumper' inactive >>>>>>>
+2025-11-24 16:37:17,292 : INFO : Machine : Shutting down...
+2025-11-24 16:37:17,293 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-24 16:37:17,300 : INFO : root : MPF run loop ended.

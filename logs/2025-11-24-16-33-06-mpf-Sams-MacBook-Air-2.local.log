@@ -1,0 +1,138 @@
+2025-11-24 16:33:06,591 : INFO : root : Loading config.
+2025-11-24 16:33:06,592 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-24 16:33:06,592 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/92f7f295141fbdde09e201e7fd0f1349.mpf_cache
+2025-11-24 16:33:06,605 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-24 16:33:06,605 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/501e18c1625d42f1ba9bf53b020c49c5.mpf_cache
+2025-11-24 16:33:06,605 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-24 16:33:06,605 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/dda6f4da00898f9f0a4796a41d9a2ef0.mpf_cache
+2025-11-24 16:33:06,605 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-11-24 16:33:06,605 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-11-24-16-33-06-mpf-Sams-MacBook-Air-2.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-24-16-33-06-mpf-Sams-MacBook-Air-2.local.log'}
+2025-11-24 16:33:06,605 : INFO : Machine : MPF path: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf
+2025-11-24 16:33:06,605 : INFO : Machine : Machine path: /Users/samhughes/Desktop/Hollow-Knight-Pinball
+2025-11-24 16:33:06,605 : INFO : Machine : Platform: darwin
+2025-11-24 16:33:06,605 : INFO : Machine : Python executable location: /Users/samhughes/mpf/bin/python3.13
+2025-11-24 16:33:06,605 : INFO : Machine : Python version: 3.13.2 (64-bit)
+2025-11-24 16:33:06,606 : INFO : Machine : Initializing MPF...
+2025-11-24 16:33:06,619 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,621 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,621 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,621 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,622 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.2', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,628 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,628 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,628 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,628 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:29:54 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,628 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,628 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-24-16-33-06-mpf-Sams-MacBook-Air-2.local.log', 'prev_value': None, 'change': True}
+2025-11-24 16:33:06,628 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-24 16:33:06,633 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-11-24 16:33:06,634 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-11-24 16:33:06,634 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-11-24 16:33:14,391 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-11-24 16:33:14,392 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-11-24 16:33:14,393 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-11-24 16:33:14,393 : INFO : ball_device.bd_trough : State: idle
+2025-11-24 16:33:14,394 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-11-24 16:33:14,394 : INFO : ball_device.bd_plunger : State: idle
+2025-11-24 16:33:14,401 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-11-24 16:33:14,403 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-11-24 16:33:14,403 : INFO : BallController : Initial balls found: 0
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_middle_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lane_to_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_middle_left_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_middle_right_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,405 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-11-24 16:33:14,406 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-11-24 16:33:14,406 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-11-24 16:33:14,406 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-11-24 16:33:14,442 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-11-24 16:33:14,443 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-11-24 16:33:14,443 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-11-24 16:33:14,443 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-11-24 16:33:14,444 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-11-24 16:33:14,444 : INFO : Mode.attract : Started. Priority: 10
+2025-11-24 16:33:14,444 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-24 16:33:14,445 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-11-24 16:33:14,445 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-11-24 16:33:14,445 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-11-24 16:33:14,446 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-11-24 16:33:14,546 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-11-24 16:33:14,546 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-11-24 16:33:14,546 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-24 16:33:24,851 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-11-24 16:33:24,851 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-11-24 16:33:24,852 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'backwards', 'item': 'team_cherry'}
+2025-11-24 16:33:25,018 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-11-24 16:33:25,635 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-11-24 16:33:25,635 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-11-24 16:33:25,635 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2025-11-24 16:33:25,784 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-11-24 16:33:28,434 : INFO : SwitchController : <<<<<<< 's_left_outlane' active >>>>>>>
+2025-11-24 16:33:28,717 : INFO : SwitchController : <<<<<<< 's_left_outlane' inactive >>>>>>>
+2025-11-24 16:33:29,417 : INFO : SwitchController : <<<<<<< 's_left_inlane' active >>>>>>>
+2025-11-24 16:33:29,518 : INFO : SwitchController : <<<<<<< 's_left_inlane' inactive >>>>>>>
+2025-11-24 16:33:30,001 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-24 16:33:30,117 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-24 16:33:30,668 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2025-11-24 16:33:30,751 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2025-11-24 16:33:31,985 : INFO : SwitchController : <<<<<<< 's_right_outlane' active >>>>>>>
+2025-11-24 16:33:32,101 : INFO : SwitchController : <<<<<<< 's_right_outlane' inactive >>>>>>>
+2025-11-24 16:33:36,951 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-11-24 16:33:37,134 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-11-24 16:33:37,535 : INFO : SwitchController : <<<<<<< 's_ramp' active >>>>>>>
+2025-11-24 16:33:37,651 : INFO : SwitchController : <<<<<<< 's_ramp' inactive >>>>>>>
+2025-11-24 16:33:38,918 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-11-24 16:33:39,001 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-11-24 16:33:39,718 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' active >>>>>>>
+2025-11-24 16:33:39,817 : INFO : SwitchController : <<<<<<< 's_lane_to_pop' inactive >>>>>>>
+2025-11-24 16:33:41,184 : INFO : SwitchController : <<<<<<< 's_right_orbit' active >>>>>>>
+2025-11-24 16:33:41,235 : INFO : SwitchController : <<<<<<< 's_right_orbit' inactive >>>>>>>
+2025-11-24 16:33:41,851 : INFO : SwitchController : <<<<<<< 's_saucer' active >>>>>>>
+2025-11-24 16:33:41,918 : INFO : SwitchController : <<<<<<< 's_saucer' inactive >>>>>>>
+2025-11-24 16:33:50,684 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:33:50,817 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:33:51,051 : INFO : SwitchController : <<<<<<< 's_front_middle_target' active >>>>>>>
+2025-11-24 16:33:51,118 : INFO : SwitchController : <<<<<<< 's_front_middle_target' inactive >>>>>>>
+2025-11-24 16:33:57,668 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:33:57,751 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:33:58,484 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:33:58,584 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:33:59,200 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-11-24 16:33:59,367 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-11-24 16:34:03,018 : INFO : SwitchController : <<<<<<< 's_back_left_target' active >>>>>>>
+2025-11-24 16:34:03,151 : INFO : SwitchController : <<<<<<< 's_back_left_target' inactive >>>>>>>
+2025-11-24 16:34:04,134 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' active >>>>>>>
+2025-11-24 16:34:04,251 : INFO : SwitchController : <<<<<<< 's_back_middle_left_target' inactive >>>>>>>
+2025-11-24 16:34:05,468 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' active >>>>>>>
+2025-11-24 16:34:05,551 : INFO : SwitchController : <<<<<<< 's_back_middle_right_target' inactive >>>>>>>
+2025-11-24 16:34:06,834 : INFO : SwitchController : <<<<<<< 's_back_right_target' active >>>>>>>
+2025-11-24 16:34:06,917 : INFO : SwitchController : <<<<<<< 's_back_right_target' inactive >>>>>>>
+2025-11-24 16:34:23,658 : INFO : Machine : Shutting down...
+2025-11-24 16:34:23,658 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-24 16:34:23,662 : INFO : root : MPF run loop ended.
