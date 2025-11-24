@@ -11,6 +11,7 @@
 #For the coild the pulses will need to be adjusted
 #Might need to adjust default coild hold strengths
 
+#will probably need to add stough here
 hardware:
   platform: opp
   driverboards: gen2

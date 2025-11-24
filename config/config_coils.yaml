@@ -16,3 +16,15 @@ coils:
   c_trough_eject:
     number:
     default_pulse_ms:
+
+  #will need to be modified
+
+  c_vuk_eject:
+    number:
+    default_pulse_ms:
+  c_pop_bumper:
+    number:
+    default_pulse_ms:
+  c_saucer_eject:
+    number:
+    default_pulse_ms:

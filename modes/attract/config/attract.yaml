@@ -9,6 +9,7 @@ slide_player:
 mode_settings:
   selectable_items:
     - title
+    - map
     - credits
     - mpf_and_cobrapin_logo
     - team_cherry

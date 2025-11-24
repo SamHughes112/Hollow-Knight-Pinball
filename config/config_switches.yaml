@@ -17,3 +17,57 @@ switches:
     number:
   s_plunger_lane:
    number:
+
+#Other playfield switches will need more info once I am building them out
+#Need start button
+#Need vuk switches (1 or 2???)
+
+  s_right_outlane:
+    number:
+  s_right_inlane:
+    number:
+  s_left_inlane:
+    number:
+  s_left_outlane:
+    number:
+  
+  s_top_left_slingshot:
+    number:
+  s_bottom_left_slingshot:
+    number:
+  s_top_right_slingshot:
+    number:
+  s_bottom_right_slingshot:
+    number:
+  
+  s_ramp:
+    number:
+  s_left_orbit:
+    number:
+  s_lane_to_pop:
+    number:
+  s_right_orbit:
+    number:
+  s_saucer:
+    number:
+
+  s_front_left_target:
+    number:
+  s_front_middle_target:
+    number:
+  s_front_right_target:
+    number:
+  
+  s_pop_bumper:
+    number:
+  
+  s_back_left_target:
+    number:
+  s_back_middle_left_target:
+    number:
+  s_back_middle_right_target:
+    number:
+  s_back_right_target:
+    number:
+
+  
