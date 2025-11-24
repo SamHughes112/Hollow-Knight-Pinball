@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://tnuv7n4cntlx"]
+[gd_scene load_steps=9 format=3 uid="uid://tnuv7n4cntlx"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Texture2D" uid="uid://d1cmgt0smtosm" path="res://godot_assets/attract_main.png" id="2_m2s46"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://ccr6loi78ep6s" path="res://godot_assets/mission_pinball_logo.png" id="5_cq3lo"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_twbla"]
 [ext_resource type="Texture2D" uid="uid://cbuurgal6kn8g" path="res://godot_assets/cobrapin_logo.jpg" id="7_hhnfk"]
+[ext_resource type="Texture2D" uid="uid://bc10e5ycw6u3g" path="res://godot_assets/team_cherry_logo.png" id="8_hhnfk"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -64,6 +65,22 @@ scale = Vector2(1.2283951, 1.154321)
 texture = ExtResource("5_cq3lo")
 
 [node name="cobrapin_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo"]
-position = Vector2(61.86933, 560.5027)
+position = Vector2(51.28642, 578.6952)
 scale = Vector2(0.3536899, 0.3536899)
 texture = ExtResource("7_hhnfk")
+
+[node name="team_cherry" type="Label" parent="MPFCarousel"]
+layout_mode = 0
+offset_right = 1288.0
+offset_bottom = 316.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "A Special Thanks To
+Team Cherry"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="team_cherry_logo" type="Sprite2D" parent="MPFCarousel/team_cherry"]
+position = Vector2(1085, 874)
+scale = Vector2(0.30664063, 0.30664063)
+texture = ExtResource("8_hhnfk")
