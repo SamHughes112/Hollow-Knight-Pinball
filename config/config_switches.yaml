@@ -40,6 +40,8 @@ switches:
   s_bottom_right_slingshot:
     number:
   
+  s_vuk:
+    number:
   s_ramp:
     number:
   s_left_orbit:
