@@ -1,87 +1,79 @@
 events:
-  game_ended: 2
-  game_started: 22
+  game_ended: 6
+  game_started: 27
 missing_switches:
-  s_back_left_target: 1
-  s_back_middle_left_target: 1
-  s_back_middle_right_target: 1
-  s_back_right_target: 1
-  s_bottom_left_slingshot: 22
-  s_bottom_right_slingshot: 22
-  s_front_left_target: 1
-  s_front_middle_target: 1
-  s_front_right_target: 1
-  s_lane_to_pop: 1
-  s_left_flipper: 22
-  s_left_inlane: 1
-  s_left_orbit: 1
-  s_left_outlane: 1
-  s_pop_bumper: 1
-  s_ramp: 1
-  s_right_flipper: 22
-  s_right_inlane: 1
-  s_right_orbit: 1
-  s_right_outlane: 1
+  s_back_right_target: 6
+  s_bottom_left_slingshot: 27
+  s_bottom_right_slingshot: 27
+  s_left_flipper: 27
+  s_right_flipper: 3
+  s_saucer: 5
   s_start: 2
-  s_top_left_slingshot: 22
-  s_top_right_slingshot: 22
-  s_trough_1: 2
-  s_trough_2: 9
-  s_trough_3: 7
+  s_top_left_slingshot: 27
+  s_top_right_slingshot: 27
+  s_trough_2: 14
+  s_trough_3: 12
 player:
   score:
-    average: 25000
+    average: 36284
     top:
+    - 173500
+    - 81940
     - 45000
     - 15000
     - 15000
-    total: 3
+    - 15000
+    - 15000
+    - 15000
+    - 15000
+    - 15000
+    total: 12
 shots:
-  back_left_target: 1
-  back_middle_right_target: 1
+  back_left_target: 4
+  back_middle_right_target: 3
   back_right_target: 1
-  bakc_middle_left_target: 1
-  front_left_target: 3
-  front_middle_target: 2
-  front_right_target: 1
-  lane_to_pop: 11
-  left_inlane: 1
-  left_orbit: 8
-  left_outlane: 3
-  pop_bumper: 17
-  ramp: 2
-  right_inlane: 3
-  right_orbit: 190
-  right_outlane: 1
+  bakc_middle_left_target: 2
+  front_left_target: 5
+  front_middle_target: 5
+  front_right_target: 4
+  lane_to_pop: 20
+  left_inlane: 3
+  left_orbit: 18
+  left_outlane: 4
+  pop_bumper: 21
+  ramp: 8
+  right_inlane: 8
+  right_orbit: 216
+  right_outlane: 9
   saucer: 12
-  vuk: 4
+  vuk: 16
 switches:
-  s_back_left_target: 1
-  s_back_middle_left_target: 2
-  s_back_middle_right_target: 2
+  s_back_left_target: 4
+  s_back_middle_left_target: 3
+  s_back_middle_right_target: 4
   s_back_right_target: 2
   s_bottom_left_slingshot: 0
   s_bottom_right_slingshot: 0
-  s_front_left_target: 3
-  s_front_middle_target: 3
-  s_front_right_target: 2
-  s_lane_to_pop: 13
+  s_front_left_target: 5
+  s_front_middle_target: 6
+  s_front_right_target: 5
+  s_lane_to_pop: 22
   s_left_flipper: 0
-  s_left_inlane: 2
-  s_left_orbit: 10
-  s_left_outlane: 4
-  s_plunger_lane: 161
-  s_pop_bumper: 17
-  s_ramp: 4
+  s_left_inlane: 4
+  s_left_orbit: 20
+  s_left_outlane: 5
+  s_plunger_lane: 201
+  s_pop_bumper: 21
+  s_ramp: 10
   s_right_flipper: 0
-  s_right_inlane: 4
-  s_right_orbit: 211
-  s_right_outlane: 2
+  s_right_inlane: 9
+  s_right_orbit: 250
+  s_right_outlane: 10
   s_saucer: 19
-  s_start: 19
+  s_start: 26
   s_top_left_slingshot: 0
   s_top_right_slingshot: 0
-  s_trough_1: 31
+  s_trough_1: 64
   s_trough_2: 9
   s_trough_3: 52
-  s_vuk: 20
+  s_vuk: 32

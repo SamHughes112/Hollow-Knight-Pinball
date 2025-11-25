@@ -32,7 +32,7 @@ sound_player:
 timers:
   attract_carousel_timer:
     end_value: 1
-    tick_interval: 5s
+    tick_interval: 7.5s
     start_running: true
     control_events:
       - event: timer_attract_carousel_timer_complete
