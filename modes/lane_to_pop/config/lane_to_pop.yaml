@@ -1,0 +1,14 @@
+#config_version=6
+
+mode: 
+  start_events: start_mode_lane_to_pop
+  stop_events: stop_mode_lane_to_pop
+  priority: 200
+
+shots:
+  lane_to_pop:
+    switch: s_lane_to_pop
+
+variable_player:
+  lane_to_pop_hit:
+    score: 5000

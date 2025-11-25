@@ -1,0 +1,14 @@
+#config_version=6
+
+mode: 
+  start_events: start_mode_left_orbit
+  stop_events: stop_mode_left_orbit
+  priority: 200
+
+shots:
+  left_orbit:
+    switch: s_left_orbit
+
+variable_player:
+  left_orbit_hit:
+    score: 5000
