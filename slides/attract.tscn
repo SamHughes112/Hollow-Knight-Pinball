@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://tnuv7n4cntlx"]
+[gd_scene load_steps=11 format=3 uid="uid://tnuv7n4cntlx"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Texture2D" uid="uid://d1cmgt0smtosm" path="res://godot_assets/attract_main.png" id="2_m2s46"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_twbla"]
 [ext_resource type="Texture2D" uid="uid://cbuurgal6kn8g" path="res://godot_assets/cobrapin_logo.jpg" id="7_hhnfk"]
 [ext_resource type="Texture2D" uid="uid://bc10e5ycw6u3g" path="res://godot_assets/team_cherry_logo.png" id="8_hhnfk"]
+[ext_resource type="FontFile" uid="uid://ce4x3f4kco5e7" path="res://godot_assets/Cinzel/static/Cinzel-Bold.ttf" id="10_vr35g"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -29,12 +30,34 @@ script = ExtResource("4_cq3lo")
 carousel_name = "attract"
 metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
 
+[node name="team_cherry" type="Node2D" parent="MPFCarousel"]
+visible = false
+
+[node name="team_cherry_logo" type="Sprite2D" parent="MPFCarousel/team_cherry"]
+visible = false
+position = Vector2(640, 640)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("8_hhnfk")
+
+[node name="team_cherry_text" type="Label" parent="MPFCarousel/team_cherry"]
+visible = false
+offset_right = 1288.0
+offset_bottom = 316.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "A Special Thanks To
+Team Cherry"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="map" type="Sprite2D" parent="MPFCarousel"]
+visible = false
 position = Vector2(640, 511)
 scale = Vector2(1, 1.0019531)
 texture = ExtResource("3_hhxni")
 
 [node name="credits" type="Label" parent="MPFCarousel"]
+visible = false
 z_index = 1
 layout_mode = 0
 offset_left = 1.0
@@ -52,6 +75,7 @@ variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="title" type="Label" parent="MPFCarousel"]
+visible = false
 layout_mode = 0
 offset_left = 741.0
 offset_top = -8.0
@@ -65,28 +89,216 @@ Pinball"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="mpf_and_cobrapin_logo" type="Sprite2D" parent="MPFCarousel"]
-position = Vector2(247.00002, 219.99998)
-scale = Vector2(1.2283951, 1.154321)
+[node name="mpf_and_cobrapin_logo2" type="Node2D" parent="MPFCarousel"]
+visible = false
+position = Vector2(-1.5258789e-05, -1.5258789e-05)
+scale = Vector2(1, 1.0000001)
+
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo2"]
+visible = false
+position = Vector2(247.00003, 219.99997)
+scale = Vector2(1.2283951, 1.1543208)
 texture = ExtResource("5_cq3lo")
 
-[node name="cobrapin_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo"]
-position = Vector2(51.28642, 578.6952)
-scale = Vector2(0.3536899, 0.3536899)
+[node name="cobrapin_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo2"]
+visible = false
+position = Vector2(310, 887.9999)
+scale = Vector2(0.43447095, 0.4082716)
 texture = ExtResource("7_hhnfk")
 
-[node name="team_cherry" type="Label" parent="MPFCarousel"]
-layout_mode = 0
-offset_right = 1288.0
-offset_bottom = 316.0
-theme_override_fonts/font = ExtResource("4_nlvwg")
+[node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
+
+[node name="1p_title" type="Label" parent="MPFCarousel/last_scores_1p"]
+offset_right = 1278.0
+offset_bottom = 284.0
+theme_override_fonts/font = ExtResource("10_vr35g")
 theme_override_font_sizes/font_size = 110
-text = "A Special Thanks To
-Team Cherry"
+text = "Last Game Scores:"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="team_cherry_logo" type="Sprite2D" parent="MPFCarousel/team_cherry"]
-position = Vector2(640, 640)
-scale = Vector2(0.6, 0.6)
-texture = ExtResource("8_hhnfk")
+[node name="p1_score_1p" type="Label" parent="MPFCarousel/last_scores_1p"]
+offset_right = 1272.0
+offset_bottom = 1022.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
+
+[node name="2p_title" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_right = 1278.0
+offset_bottom = 284.0
+theme_override_fonts/font = ExtResource("10_vr35g")
+theme_override_font_sizes/font_size = 110
+text = "Last Game Scores:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="p1_score_2p" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_right = 1272.0
+offset_bottom = 731.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="p2_score_2p" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_right = 1272.0
+offset_bottom = 1022.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="last_scores_3p" type="Node2D" parent="MPFCarousel"]
+
+[node name="3p_title" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_right = 1278.0
+offset_bottom = 284.0
+theme_override_fonts/font = ExtResource("10_vr35g")
+theme_override_font_sizes/font_size = 110
+text = "Last Game Scores:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="p1_score_3p" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_right = 1272.0
+offset_bottom = 731.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="p2_score_3p" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_right = 1272.0
+offset_bottom = 1022.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="p3_score_3p" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_top = 281.0
+offset_right = 1272.0
+offset_bottom = 1022.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player3_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
+
+[node name="4p_title" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_right = 1278.0
+offset_bottom = 284.0
+theme_override_fonts/font = ExtResource("10_vr35g")
+theme_override_font_sizes/font_size = 110
+text = "Last Game Scores:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="p1_score_4p" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_right = 1272.0
+offset_bottom = 731.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="p2_score_4p" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_right = 1272.0
+offset_bottom = 1022.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="p3_score_4p" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_top = 281.0
+offset_right = 1272.0
+offset_bottom = 1022.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player3_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="p4_score_4p" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_top = 549.0
+offset_right = 1272.0
+offset_bottom = 1022.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 110
+text = "123456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_twbla")
+variable_type = 2
+variable_name = "player4_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
