@@ -1,8 +1,8 @@
 #config_version=6
 
 mode: 
-  start_events: start_mode_slinghots
-  stop_events: stop_mode_slinghots
+  start_events: start_mode_slingshots
+  stop_events: stop_mode_slingshots
   priority: 150
 
 shots:
