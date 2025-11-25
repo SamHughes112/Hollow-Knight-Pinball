@@ -1,14 +1,14 @@
 [gd_scene load_steps=11 format=3 uid="uid://tnuv7n4cntlx"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
-[ext_resource type="Texture2D" path="res://godot_assets/attract_main.png" id="2_m2s46"]
-[ext_resource type="Texture2D" path="res://godot_assets/map_hallownest_attract.png" id="3_hhxni"]
+[ext_resource type="Texture2D" uid="uid://d1cmgt0smtosm" path="res://godot_assets/Attract Mode/attract_main.png" id="2_vr35g"]
 [ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="4_cq3lo"]
 [ext_resource type="FontFile" uid="uid://dumvfllyi8lf3" path="res://godot_assets/Cinzel/static/Cinzel-Regular.ttf" id="4_nlvwg"]
-[ext_resource type="Texture2D" path="res://godot_assets/mission_pinball_logo.png" id="5_cq3lo"]
+[ext_resource type="Texture2D" uid="uid://bc10e5ycw6u3g" path="res://godot_assets/Attract Mode/team_cherry_logo.png" id="4_vr35g"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_twbla"]
-[ext_resource type="Texture2D" path="res://godot_assets/cobrapin_logo.jpg" id="7_hhnfk"]
-[ext_resource type="Texture2D" path="res://godot_assets/team_cherry_logo.png" id="8_hhnfk"]
+[ext_resource type="Texture2D" uid="uid://bcn6t6jmj3gku" path="res://godot_assets/Attract Mode/map_hallownest_attract.png" id="6_bo6y5"]
+[ext_resource type="Texture2D" uid="uid://ccr6loi78ep6s" path="res://godot_assets/Attract Mode/mission_pinball_logo.png" id="8_bvyxe"]
+[ext_resource type="Texture2D" uid="uid://cbuurgal6kn8g" path="res://godot_assets/Attract Mode/cobrapin_logo.jpg" id="9_gvrry"]
 [ext_resource type="FontFile" uid="uid://ce4x3f4kco5e7" path="res://godot_assets/Cinzel/static/Cinzel-Bold.ttf" id="10_vr35g"]
 
 [node name="attract" type="Control"]
@@ -20,7 +20,7 @@ script = ExtResource("1_r1mnt")
 z_index = -1
 position = Vector2(640, 512)
 scale = Vector2(1, 1.0039216)
-texture = ExtResource("2_m2s46")
+texture = ExtResource("2_vr35g")
 
 [node name="MPFCarousel" type="Control" parent="."]
 anchors_preset = 0
@@ -35,7 +35,7 @@ metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
 [node name="team_cherry_logo" type="Sprite2D" parent="MPFCarousel/team_cherry"]
 position = Vector2(640, 640)
 scale = Vector2(0.6, 0.6)
-texture = ExtResource("8_hhnfk")
+texture = ExtResource("4_vr35g")
 
 [node name="team_cherry_text" type="Label" parent="MPFCarousel/team_cherry"]
 offset_right = 1288.0
@@ -50,7 +50,7 @@ vertical_alignment = 1
 [node name="map" type="Sprite2D" parent="MPFCarousel"]
 position = Vector2(640, 511)
 scale = Vector2(1, 1.0019531)
-texture = ExtResource("3_hhxni")
+texture = ExtResource("6_bo6y5")
 
 [node name="credits" type="Label" parent="MPFCarousel"]
 z_index = 1
@@ -90,12 +90,12 @@ scale = Vector2(1, 1.0000001)
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo"]
 position = Vector2(247.00003, 219.99997)
 scale = Vector2(1.2283951, 1.1543208)
-texture = ExtResource("5_cq3lo")
+texture = ExtResource("8_bvyxe")
 
 [node name="cobrapin_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo"]
 position = Vector2(310, 887.9999)
 scale = Vector2(0.43447095, 0.4082716)
-texture = ExtResource("7_hhnfk")
+texture = ExtResource("9_gvrry")
 
 [node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
 

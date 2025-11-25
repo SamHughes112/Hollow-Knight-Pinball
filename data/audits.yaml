@@ -1,34 +1,31 @@
 events:
   game_ended: 6
-  game_started: 28
+  game_started: 35
 missing_switches:
-  s_back_left_target: 1
-  s_back_middle_left_target: 1
-  s_back_middle_right_target: 1
-  s_back_right_target: 7
-  s_bottom_left_slingshot: 28
-  s_bottom_right_slingshot: 28
-  s_front_left_target: 1
-  s_front_middle_target: 1
-  s_front_right_target: 1
+  s_back_left_target: 4
+  s_back_middle_left_target: 8
+  s_back_middle_right_target: 8
+  s_back_right_target: 14
+  s_bottom_left_slingshot: 35
+  s_bottom_right_slingshot: 35
+  s_front_left_target: 4
+  s_front_middle_target: 4
+  s_front_right_target: 4
   s_lane_to_pop: 1
-  s_left_flipper: 28
-  s_left_inlane: 1
-  s_left_orbit: 1
-  s_left_outlane: 1
-  s_plunger_lane: 1
-  s_pop_bumper: 1
-  s_ramp: 1
-  s_right_inlane: 1
-  s_right_orbit: 1
-  s_right_outlane: 1
-  s_saucer: 6
-  s_top_left_slingshot: 28
-  s_top_right_slingshot: 28
-  s_trough_1: 1
-  s_trough_2: 15
-  s_trough_3: 13
-  s_vuk: 1
+  s_left_flipper: 35
+  s_left_inlane: 4
+  s_left_outlane: 4
+  s_pop_bumper: 8
+  s_right_flipper: 7
+  s_right_inlane: 4
+  s_right_orbit: 8
+  s_right_outlane: 4
+  s_saucer: 13
+  s_top_left_slingshot: 35
+  s_top_right_slingshot: 35
+  s_trough_1: 3
+  s_trough_2: 22
+  s_trough_3: 20
 player:
   score:
     average: 36284
@@ -45,51 +42,51 @@ player:
     - 15000
     total: 12
 shots:
-  back_left_target: 4
+  back_left_target: 5
   back_middle_right_target: 3
   back_right_target: 1
   bakc_middle_left_target: 2
-  front_left_target: 5
-  front_middle_target: 5
-  front_right_target: 4
-  lane_to_pop: 20
-  left_inlane: 3
-  left_orbit: 18
-  left_outlane: 4
+  front_left_target: 6
+  front_middle_target: 6
+  front_right_target: 6
+  lane_to_pop: 74
+  left_inlane: 4
+  left_orbit: 79
+  left_outlane: 5
   pop_bumper: 21
-  ramp: 8
-  right_inlane: 8
+  ramp: 68
+  right_inlane: 13
   right_orbit: 216
-  right_outlane: 9
+  right_outlane: 12
   saucer: 12
-  vuk: 16
+  vuk: 77
 switches:
-  s_back_left_target: 4
+  s_back_left_target: 5
   s_back_middle_left_target: 3
   s_back_middle_right_target: 4
   s_back_right_target: 2
   s_bottom_left_slingshot: 0
   s_bottom_right_slingshot: 0
-  s_front_left_target: 5
-  s_front_middle_target: 6
-  s_front_right_target: 5
-  s_lane_to_pop: 22
+  s_front_left_target: 6
+  s_front_middle_target: 7
+  s_front_right_target: 7
+  s_lane_to_pop: 76
   s_left_flipper: 0
-  s_left_inlane: 4
-  s_left_orbit: 20
-  s_left_outlane: 5
-  s_plunger_lane: 201
+  s_left_inlane: 5
+  s_left_orbit: 81
+  s_left_outlane: 6
+  s_plunger_lane: 211
   s_pop_bumper: 21
-  s_ramp: 10
+  s_ramp: 70
   s_right_flipper: 4
-  s_right_inlane: 9
+  s_right_inlane: 14
   s_right_orbit: 250
-  s_right_outlane: 10
+  s_right_outlane: 13
   s_saucer: 19
-  s_start: 27
+  s_start: 38
   s_top_left_slingshot: 0
   s_top_right_slingshot: 0
-  s_trough_1: 64
+  s_trough_1: 67
   s_trough_2: 9
   s_trough_3: 52
-  s_vuk: 32
+  s_vuk: 93
