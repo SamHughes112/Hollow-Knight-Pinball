@@ -31,16 +31,13 @@ carousel_name = "attract"
 metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
 
 [node name="team_cherry" type="Node2D" parent="MPFCarousel"]
-visible = false
 
 [node name="team_cherry_logo" type="Sprite2D" parent="MPFCarousel/team_cherry"]
-visible = false
 position = Vector2(640, 640)
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("8_hhnfk")
 
 [node name="team_cherry_text" type="Label" parent="MPFCarousel/team_cherry"]
-visible = false
 offset_right = 1288.0
 offset_bottom = 316.0
 theme_override_fonts/font = ExtResource("4_nlvwg")
@@ -51,13 +48,11 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="map" type="Sprite2D" parent="MPFCarousel"]
-visible = false
 position = Vector2(640, 511)
 scale = Vector2(1, 1.0019531)
 texture = ExtResource("3_hhxni")
 
 [node name="credits" type="Label" parent="MPFCarousel"]
-visible = false
 z_index = 1
 layout_mode = 0
 offset_left = 1.0
@@ -75,7 +70,6 @@ variable_name = "credits_string"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="title" type="Label" parent="MPFCarousel"]
-visible = false
 layout_mode = 0
 offset_left = 741.0
 offset_top = -8.0
@@ -89,19 +83,16 @@ Pinball"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="mpf_and_cobrapin_logo2" type="Node2D" parent="MPFCarousel"]
-visible = false
+[node name="mpf_and_cobrapin_logo" type="Node2D" parent="MPFCarousel"]
 position = Vector2(-1.5258789e-05, -1.5258789e-05)
 scale = Vector2(1, 1.0000001)
 
-[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo2"]
-visible = false
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo"]
 position = Vector2(247.00003, 219.99997)
 scale = Vector2(1.2283951, 1.1543208)
 texture = ExtResource("5_cq3lo")
 
-[node name="cobrapin_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo2"]
-visible = false
+[node name="cobrapin_logo" type="Sprite2D" parent="MPFCarousel/mpf_and_cobrapin_logo"]
 position = Vector2(310, 887.9999)
 scale = Vector2(0.43447095, 0.4082716)
 texture = ExtResource("7_hhnfk")
