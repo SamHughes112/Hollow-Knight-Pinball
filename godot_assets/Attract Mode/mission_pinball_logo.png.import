@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbuurgal6kn8g"
-path="res://.godot/imported/cobrapin_logo.jpg-3a8f524c2e625e8a715a51f193bcc48c.ctex"
+uid="uid://ccr6loi78ep6s"
+path="res://.godot/imported/mission_pinball_logo.png-60346578306c4205f0d37249334046a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://godot_assets/cobrapin_logo.jpg"
-dest_files=["res://.godot/imported/cobrapin_logo.jpg-3a8f524c2e625e8a715a51f193bcc48c.ctex"]
+source_file="res://godot_assets/Attract Mode/mission_pinball_logo.png"
+dest_files=["res://.godot/imported/mission_pinball_logo.png-60346578306c4205f0d37249334046a0.ctex"]
 
 [params]
 

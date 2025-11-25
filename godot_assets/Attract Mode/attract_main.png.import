@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bc10e5ycw6u3g"
-path="res://.godot/imported/team_cherry_logo.png-19999db99828c6a7e7ce00b2a9c15ae4.ctex"
+uid="uid://d1cmgt0smtosm"
+path="res://.godot/imported/attract_main.png-a076cd6e29d2c75a6e53d660384a55dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://godot_assets/team_cherry_logo.png"
-dest_files=["res://.godot/imported/team_cherry_logo.png-19999db99828c6a7e7ce00b2a9c15ae4.ctex"]
+source_file="res://godot_assets/Attract Mode/attract_main.png"
+dest_files=["res://.godot/imported/attract_main.png-a076cd6e29d2c75a6e53d660384a55dd.ctex"]
 
 [params]
 

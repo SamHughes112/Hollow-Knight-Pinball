@@ -20,6 +20,7 @@ event_player:
     - start_mode_saucer
     - start_mode_targets
     - start_mode_pop_bumper
+    - start_mode_dirtmouth
   mode_base_will_stop:
     - stop_mode_right_orbit
     - stop_mode_slingshots
@@ -31,6 +32,7 @@ event_player:
     - stop_mode_saucer
     - stop_mode_targets
     - stop_mode_pop_bumper
+    - stop_mode_dirtmouth
 
 slide_player:
   mode_base_started: base

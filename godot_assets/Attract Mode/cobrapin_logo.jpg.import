@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcn6t6jmj3gku"
-path="res://.godot/imported/map_hallownest_attract.png-c31ed137cc4f902ae65292828f057e44.ctex"
+uid="uid://cbuurgal6kn8g"
+path="res://.godot/imported/cobrapin_logo.jpg-842e37155518f685558bd7a5656b4136.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://godot_assets/map_hallownest_attract.png"
-dest_files=["res://.godot/imported/map_hallownest_attract.png-c31ed137cc4f902ae65292828f057e44.ctex"]
+source_file="res://godot_assets/Attract Mode/cobrapin_logo.jpg"
+dest_files=["res://.godot/imported/cobrapin_logo.jpg-842e37155518f685558bd7a5656b4136.ctex"]
 
 [params]
 

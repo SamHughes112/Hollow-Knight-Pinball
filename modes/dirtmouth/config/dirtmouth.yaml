@@ -1,0 +1,15 @@
+#config_version=6
+
+slide_player:
+  mode_dirtmouth_started: dirtmouth
+
+
+sound_player:
+  mode_dirtmouth_started:
+    dirtmouth:
+      bus: music
+      loops: -1
+  mode_dirtmouth_stopped:
+    dirtmouth:
+      action: stop
+

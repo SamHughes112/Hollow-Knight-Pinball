@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccr6loi78ep6s"
-path="res://.godot/imported/mission_pinball_logo.png-f0e742d3039871fec39f47b0475fbdda.ctex"
+uid="uid://bc10e5ycw6u3g"
+path="res://.godot/imported/team_cherry_logo.png-385a79aa50822d22305112ff66ab5a77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://godot_assets/mission_pinball_logo.png"
-dest_files=["res://.godot/imported/mission_pinball_logo.png-f0e742d3039871fec39f47b0475fbdda.ctex"]
+source_file="res://godot_assets/Attract Mode/team_cherry_logo.png"
+dest_files=["res://.godot/imported/team_cherry_logo.png-385a79aa50822d22305112ff66ab5a77.ctex"]
 
 [params]
 

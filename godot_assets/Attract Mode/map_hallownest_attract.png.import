@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1cmgt0smtosm"
-path="res://.godot/imported/attract_main.png-9e391689c9c572500364baef60540f1d.ctex"
+uid="uid://bcn6t6jmj3gku"
+path="res://.godot/imported/map_hallownest_attract.png-c4326fddcf1c11248a963607a994caa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://godot_assets/attract_main.png"
-dest_files=["res://.godot/imported/attract_main.png-9e391689c9c572500364baef60540f1d.ctex"]
+source_file="res://godot_assets/Attract Mode/map_hallownest_attract.png"
+dest_files=["res://.godot/imported/map_hallownest_attract.png-c4326fddcf1c11248a963607a994caa5.ctex"]
 
 [params]
 
