@@ -16,7 +16,7 @@ game:
   balls_per_game: 3
 
 hardware:
-  platform: opp
+  platform: smart_virtual #change this back to opp
   driverboards: gen2
 
 config:
@@ -44,6 +44,7 @@ modes:
   - attract
   - base
   - right_orbit
+
 
 
 #Get rid of this when pushing to the game
