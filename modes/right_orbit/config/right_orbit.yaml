@@ -11,4 +11,4 @@ shots:
 
 variable_player:
   right_orbit_hit:
-    scores: 5000
+    score: 5000

@@ -1,27 +1,41 @@
 events:
   game_ended: 0
-  game_started: 2
+  game_started: 7
 missing_switches:
-  s_back_left_target: 2
-  s_bottom_left_slingshot: 2
-  s_bottom_right_slingshot: 2
-  s_front_left_target: 2
-  s_left_flipper: 2
-  s_pop_bumper: 2
-  s_right_flipper: 2
-  s_start: 2
-  s_top_left_slingshot: 2
-  s_top_right_slingshot: 2
-  s_trough_1: 2
-  s_trough_2: 2
-  s_trough_3: 2
+  s_back_left_target: 7
+  s_back_middle_left_target: 5
+  s_back_middle_right_target: 5
+  s_back_right_target: 5
+  s_bottom_left_slingshot: 7
+  s_bottom_right_slingshot: 7
+  s_front_left_target: 7
+  s_front_middle_target: 5
+  s_front_right_target: 5
+  s_lane_to_pop: 5
+  s_left_flipper: 7
+  s_left_inlane: 5
+  s_left_orbit: 5
+  s_left_outlane: 5
+  s_pop_bumper: 7
+  s_ramp: 5
+  s_right_flipper: 7
+  s_right_inlane: 5
+  s_right_outlane: 5
+  s_saucer: 5
+  s_start: 3
+  s_top_left_slingshot: 7
+  s_top_right_slingshot: 7
+  s_trough_1: 1
+  s_trough_2: 1
+  s_trough_3: 7
+  s_vuk: 5
 player:
   score:
     average: 0
     top: []
     total: 0
 shots:
-  right_orbit: 21
+  right_orbit: 59
 switches:
   s_back_left_target: 0
   s_back_middle_left_target: 1
@@ -37,18 +51,18 @@ switches:
   s_left_inlane: 1
   s_left_orbit: 2
   s_left_outlane: 1
-  s_plunger_lane: 10
+  s_plunger_lane: 18
   s_pop_bumper: 0
   s_ramp: 2
   s_right_flipper: 0
   s_right_inlane: 1
-  s_right_orbit: 21
+  s_right_orbit: 59
   s_right_outlane: 1
   s_saucer: 4
-  s_start: 0
+  s_start: 14
   s_top_left_slingshot: 0
   s_top_right_slingshot: 0
-  s_trough_1: 0
-  s_trough_2: 0
+  s_trough_1: 1
+  s_trough_2: 1
   s_trough_3: 0
   s_vuk: 2
