@@ -1,0 +1,14 @@
+#config_version=6
+
+mode: 
+  start_events: start_mode_vuk
+  stop_events: stop_mode_vuk
+  priority: 200
+
+shots:
+  vuk:
+    switch: s_vuk
+
+variable_player:
+  vuk_hit:
+    score: 5000

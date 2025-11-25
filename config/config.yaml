@@ -44,6 +44,9 @@ modes:
   - attract
   - base
   - right_orbit
+  - slingshots
+  - lanes
+  - vuk
 
 
 

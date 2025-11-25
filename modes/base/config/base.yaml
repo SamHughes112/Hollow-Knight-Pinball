@@ -11,8 +11,14 @@ mode:
 event_player:
   mode_base_started:
     - start_mode_right_orbit
+    - start_mode_slingshots
+    - start_mode_lanes
+    - stop_mode_vuk
   mode_base_will_stop:
     - stop_mode_right_orbit
+    - stop_mode_slingshots
+    - stop_mode_lanes
+    - start_mode_vuk
 
 slide_player:
   mode_base_started: base
