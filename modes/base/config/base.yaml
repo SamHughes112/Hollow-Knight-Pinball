@@ -19,6 +19,7 @@ event_player:
     - start_mode_lane_to_pop
     - start_mode_saucer
     - start_mode_targets
+    - start_mode_pop_bumper
   mode_base_will_stop:
     - stop_mode_right_orbit
     - stop_mode_slingshots
@@ -29,6 +30,7 @@ event_player:
     - stop_mode_lane_to_pop
     - stop_mode_saucer
     - stop_mode_targets
+    - stop_mode_pop_bumper
 
 slide_player:
   mode_base_started: base

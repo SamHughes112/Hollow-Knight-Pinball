@@ -1,0 +1,14 @@
+#config_version=6
+
+mode: 
+  start_events: start_mode_pop_bumper
+  stop_events: stop_mode_pop_bumper
+  priority: 150
+
+shots:
+  pop_bumper:
+    switch: s_pop_bumper
+
+variable_player:
+  pop_bumper_hits:
+    score: 1110

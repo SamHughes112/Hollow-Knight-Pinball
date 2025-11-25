@@ -52,6 +52,7 @@ modes:
   - lane_to_pop
   - saucer
   - targets
+  - pop_bumper
 
 
 
