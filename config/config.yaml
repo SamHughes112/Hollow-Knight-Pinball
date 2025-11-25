@@ -50,6 +50,8 @@ modes:
   - ramp
   - left_orbit
   - lane_to_pop
+  - saucer
+  - targets
 
 
 

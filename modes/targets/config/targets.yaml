@@ -1,0 +1,30 @@
+#config_version=6
+
+mode: 
+  start_events: start_mode_targets
+  stop_events: stop_mode_targets
+  priority: 175
+
+shots:
+  front_left_target:
+    switch: s_front_left_target
+  front_middle_target:
+    switch: s_front_middle_target
+  front_right_target:
+    switch: s_front_right_target
+  back_left_target:
+    switch: s_back_left_target
+  bakc_middle_left_target:
+    switch: s_back_middle_left_target
+  back_middle_right_target:
+    switch: s_back_middle_right_target
+  back_right_target:
+    switch: s_back_right_target
+
+shot_groups:
+  targets:
+    shots: front_left_target, front_middle_target, front_right_target, back_left_target, bakc_middle_left_target, back_middle_right_target, back_right_target
+
+variable_player:
+  targets_hit:
+    score: 2500
