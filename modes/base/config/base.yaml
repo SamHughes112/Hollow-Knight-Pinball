@@ -7,3 +7,12 @@ mode:
   start_events: ball_starting
   stop_events: ball_will_end
   priority: 100
+
+event_player:
+  mode_base_started:
+    - start_mode_right_orbit
+  mode_base_will_stop:
+    - stop_mode_right_orbit
+
+slide_player:
+  mode_base_started: base

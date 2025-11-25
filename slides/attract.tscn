@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://bc10e5ycw6u3g" path="res://godot_assets/team_cherry_logo.png" id="8_hhnfk"]
 [ext_resource type="FontFile" uid="uid://ce4x3f4kco5e7" path="res://godot_assets/Cinzel/static/Cinzel-Bold.ttf" id="10_vr35g"]
 
-[node name="Attract" type="Control"]
+[node name="attract" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_r1mnt")

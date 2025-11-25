@@ -19,8 +19,6 @@ switches:
    number:
 
 #Other playfield switches will need more info once I am building them out
-#Need start button
-#Need vuk switches (1 or 2???)
 
   s_right_outlane:
     number:
@@ -71,5 +69,10 @@ switches:
     number:
   s_back_right_target:
     number:
+
+  s_start:
+    number:
+    tags: start
+  
 
   

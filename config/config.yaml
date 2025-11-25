@@ -40,3 +40,11 @@ flippers:
 modes:
   - attract
   - base
+  - right_orbit
+
+
+#Get rid of this when pushing to the game
+virtual_platform_start_active_switches:
+  - s_trough_1
+  - s_trough_2
+  - s_trough_3

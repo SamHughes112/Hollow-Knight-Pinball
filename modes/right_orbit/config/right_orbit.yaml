@@ -1,0 +1,14 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_right_orbit
+  stop_events: stop_mode_right_orbit
+  priority: 200
+
+shots:
+  right_orbit:
+    switch: s_right_orbit
+
+variable_player:
+  right_orbit_hit:
+    scores: 5000
