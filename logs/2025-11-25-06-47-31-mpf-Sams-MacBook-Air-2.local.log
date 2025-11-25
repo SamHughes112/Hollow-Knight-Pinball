@@ -1,0 +1,7 @@
+2025-11-25 06:47:31,452 : INFO : root : Loading config.
+2025-11-25 06:47:31,453 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-25 06:47:31,453 : WARNING : ConfigProcessor : Config file in cache changed: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config.yaml
+2025-11-25 06:47:31,453 : INFO : ConfigProcessor : Loading config from file /Users/samhughes/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-11-25 06:47:31,468 : INFO : ConfigProcessor : Loading config: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-11-25 06:47:31,468 : INFO : ConfigProcessor : Loading config from file /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config.yaml.
+2025-11-25 06:47:31,470 : INFO : ConfigProcessor : Loading config: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config.yaml

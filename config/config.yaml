@@ -12,6 +12,9 @@
 #Might need to adjust default coild hold strengths
 
 #will probably need to add stough here
+game:
+  balls_per_game: 3
+
 hardware:
   platform: opp
   driverboards: gen2
