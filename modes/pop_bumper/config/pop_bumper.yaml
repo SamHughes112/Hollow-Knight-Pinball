@@ -10,5 +10,5 @@ shots:
     switch: s_pop_bumper
 
 variable_player:
-  pop_bumper_hits:
+  pop_bumper_hit:
     score: 1110

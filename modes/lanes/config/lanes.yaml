@@ -15,7 +15,7 @@ shots:
   right_outlane:
     switch: s_right_outlane
   
-shot_grouos:
+shot_groups:
   lanes:
     shots: left_outlane, left_inlane, right_inlane, right_outlane
 

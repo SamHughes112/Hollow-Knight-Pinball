@@ -13,7 +13,7 @@ event_player:
     - start_mode_right_orbit
     - start_mode_slingshots
     - start_mode_lanes
-    - stop_mode_vuk
+    - start_mode_vuk
     - start_mode_ramp
     - start_mode_left_orbit
     - start_mode_lane_to_pop
@@ -24,7 +24,7 @@ event_player:
     - stop_mode_right_orbit
     - stop_mode_slingshots
     - stop_mode_lanes
-    - start_mode_vuk
+    - stop_mode_vuk
     - stop_mode_ramp
     - stop_mode_left_orbit
     - stop_mode_lane_to_pop

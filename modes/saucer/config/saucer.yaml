@@ -10,5 +10,5 @@ shots:
     switch: s_saucer
 
 variable_player:
-  saucer_hits:
+  saucer_hit:
     score: 5000
