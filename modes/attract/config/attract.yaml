@@ -13,7 +13,7 @@ mode_settings:
     - credits
     - mpf_and_cobrapin_logo
     - team_cherry
-  next_item_events: s_right_flipper_active
+  next_item_events: s_right_flipper_active, timer_attract_carousel_timer_complete
   previous_item_events: s_left_flipper_active
 
 sound_player:
@@ -24,3 +24,18 @@ sound_player:
   mode_attract_stopped:
     holloow_knight_theme:
       action: stop
+
+timers:
+  attract_carousel_timer:
+    end_value: 1
+    tick_interval: 5s
+    start_running: true
+    control_events:
+      - event: timer_attract_carousel_timer_complete
+        action: restart
+      - event: item_highlighted
+        action: restart
+      - event: flipper_cradle
+        action: stop
+      - event: flipper_cradle_release
+        action: restart
