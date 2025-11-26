@@ -29,12 +29,14 @@ shot_groups:
     shots: vuk_dirtmouth, saucer_dirtmouth
 
 event_player:
-  locks_hit:{slingshots_active}:start_mode_false_knight_controller
+  locks_hit{current_player.slingshots_active == 1}: start_mode_false_knight_controller
 
 variable_player:
   mode_dirtmouth_started:
-    dirtmouth_active: true
-    action: set
+    dirtmouth_active:
+      int: 1
+      action: set
   mode_dirtmouth_stopped:
-    dirtmouth_active: false
-    action: set
+    dirtmouth_active:
+      int: 0
+      action: set

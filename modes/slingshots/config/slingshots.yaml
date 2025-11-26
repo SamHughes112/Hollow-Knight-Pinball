@@ -23,8 +23,10 @@ variable_player:
   slingshots_hit:
     score: 1000
   mode_slingshots_started:
-    slingshots_active: true
-    action: set
+    slingshots_active:
+      int: 1
+      action: set
   mode_slingshots_stopped:
-    slingshots_active: false
-    action: set
+    slingshots_active:
+      int: 0
+      action: set

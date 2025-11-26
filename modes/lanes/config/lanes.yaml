@@ -23,8 +23,10 @@ variable_player:
   lanes_hit:
     score: 1100
   mode_lanes_started:
-    lanes_active: true
-    action: set
+    lanes_active:
+      int: 1
+      action: set
   mode_lanes_stopped:
-    lanes_active: false
-    action: set
+    lanes_active:
+      int: 0
+      action: set

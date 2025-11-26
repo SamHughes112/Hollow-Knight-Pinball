@@ -13,8 +13,11 @@ variable_player:
   saucer_hit:
     score: 5000
   mode_saucer_started:
-    saucer_active: true
-    action: set
+    saucer_active:
+      int: 1
+      action: set
   mode_saucer_stopped:
-    saucer_active: false
-    action: set
+    saucer_active:
+      int: 0
+      action: set
+  

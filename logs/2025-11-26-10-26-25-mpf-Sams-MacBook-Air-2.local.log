@@ -1,0 +1,117 @@
+2025-11-26 10:26:25,065 : INFO : root : Loading config.
+2025-11-26 10:26:25,067 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-26 10:26:25,067 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/92f7f295141fbdde09e201e7fd0f1349.mpf_cache
+2025-11-26 10:26:25,068 : WARNING : ConfigProcessor : Config file in cache changed: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config_variables.yaml
+2025-11-26 10:26:25,068 : INFO : ConfigProcessor : Loading config from file /Users/samhughes/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-11-26 10:26:25,083 : INFO : ConfigProcessor : Loading config: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-11-26 10:26:25,083 : INFO : ConfigProcessor : Loading config from file /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config.yaml.
+2025-11-26 10:26:25,085 : INFO : ConfigProcessor : Loading config: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config.yaml
+2025-11-26 10:26:25,087 : INFO : ConfigProcessor : Loading config: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config_switches.yaml
+2025-11-26 10:26:25,088 : INFO : ConfigProcessor : Loading config: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config_coils.yaml
+2025-11-26 10:26:25,089 : INFO : ConfigProcessor : Loading config: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config_ball_devices.yaml
+2025-11-26 10:26:25,090 : INFO : ConfigProcessor : Loading config: /Users/samhughes/Desktop/Hollow-Knight-Pinball/config/config_variables.yaml
+2025-11-26 10:26:25,091 : INFO : ConfigProcessor : Config file cache created: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/92f7f295141fbdde09e201e7fd0f1349.mpf_cache
+2025-11-26 10:26:25,117 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-26 10:26:25,117 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/501e18c1625d42f1ba9bf53b020c49c5.mpf_cache
+2025-11-26 10:26:25,118 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-11-26 10:26:25,118 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/dda6f4da00898f9f0a4796a41d9a2ef0.mpf_cache
+2025-11-26 10:26:25,118 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/522fc819f659907ecbd91e12554f307a.mpf_cache
+2025-11-26 10:26:25,118 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/05e9cee2d62266bbcd3eb3df28f11ba0.mpf_cache
+2025-11-26 10:26:25,118 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/a751b7622f38b4d73d2da25b66d734b1.mpf_cache
+2025-11-26 10:26:25,119 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/515d12d22bfc89771946156b9f4733e7.mpf_cache
+2025-11-26 10:26:25,119 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/3db5df4db04e3e0d951f803bb6fa84e6.mpf_cache
+2025-11-26 10:26:25,120 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/3572cafb19834c572118c1dfbec55588.mpf_cache
+2025-11-26 10:26:25,120 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/39b20d9bce0c2f44f75a85f57a0d45f4.mpf_cache
+2025-11-26 10:26:25,120 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/189edcb2679eb1788c8ca3be3e29f2f1.mpf_cache
+2025-11-26 10:26:25,120 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/f00019ffccce993d2850c9d82b9dc44e.mpf_cache
+2025-11-26 10:26:25,120 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/14560612c17bb039b05632d29f192033.mpf_cache
+2025-11-26 10:26:25,120 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/1b88d79160cc8850354d058f9a270569.mpf_cache
+2025-11-26 10:26:25,120 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-11-26 10:26:25,121 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-11-26-10-26-25-mpf-Sams-MacBook-Air-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-26-10-26-25-mpf-Sams-MacBook-Air-2.local.log'}
+2025-11-26 10:26:25,121 : INFO : Machine : MPF path: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf
+2025-11-26 10:26:25,121 : INFO : Machine : Machine path: /Users/samhughes/Desktop/Hollow-Knight-Pinball
+2025-11-26 10:26:25,121 : INFO : Machine : Platform: darwin
+2025-11-26 10:26:25,121 : INFO : Machine : Python executable location: /Users/samhughes/mpf/bin/python3.13
+2025-11-26 10:26:25,121 : INFO : Machine : Python version: 3.13.2 (64-bit)
+2025-11-26 10:26:25,121 : INFO : Machine : Initializing MPF...
+2025-11-26 10:26:25,151 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,156 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,156 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 81940, 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,156 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,156 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,156 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.2', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,165 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,165 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,165 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,165 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:29:54 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,165 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,165 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-11-26-10-26-25-mpf-Sams-MacBook-Air-2.local.log', 'prev_value': None, 'change': True}
+2025-11-26 10:26:25,165 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-26 10:26:25,172 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-11-26 10:26:25,172 : INFO : SwitchController : Found active switch: (1002, <Platform.SmartVirtual>) <switch.s_trough_1>
+2025-11-26 10:26:25,172 : INFO : SwitchController : Found active switch: (1003, <Platform.SmartVirtual>) <switch.s_trough_2>
+2025-11-26 10:26:25,172 : INFO : SwitchController : Found active switch: (1004, <Platform.SmartVirtual>) <switch.s_trough_3>
+2025-11-26 10:26:25,173 : ERROR : asyncio : Exception in callback EventManager._queue_task_done()
+handle: <Handle EventManager._queue_task_done()>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/config_player.py", line 112, in validate_config
+    for event, settings in config.items():
+                           ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'items'
+2025-11-26 10:26:25,175 : INFO : Machine : Starting the main run loop with active modes: []
+2025-11-26 10:26:25,175 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-11-26 10:26:25,175 : INFO : Machine : Shutting down...
+2025-11-26 10:26:25,175 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-26 10:26:26,177 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/samhughes/mpf/lib/python3.13/site-packages/mpf/core/config_player.py", line 112, in validate_config
+    for event, settings in config.items():
+                           ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'items'
+2025-11-26 10:26:26,182 : INFO : root : MPF run loop ended.

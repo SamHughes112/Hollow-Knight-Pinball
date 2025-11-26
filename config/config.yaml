@@ -24,7 +24,7 @@ config:
   - config_coils.yaml
   - config_lights.yaml
   - config_ball_devices.yaml
-  - confog_variables.yaml
+  - config_player_variables.yaml
 
 playfields:
   playfield:
@@ -55,6 +55,7 @@ modes:
   - targets
   - pop_bumper
   - dirtmouth
+  - false_knight_controller
 
 
 

@@ -29,8 +29,10 @@ variable_player:
   targets_hit:
     score: 2500
   mode_targets_started:
-    targets_active: true
-    action: set
+    targets_active:
+      int: 1
+      action: set
   mode_targets_stopped:
-    targets_active: false
-    action: set
+    targets_active:
+      int: 0
+      action: set

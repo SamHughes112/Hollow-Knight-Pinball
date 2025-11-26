@@ -5,11 +5,12 @@ mode:
   stop_events: stop_mode_false_knight_controller
   priority: 300
 
-
 variable_player:
   mode_false_knight_controller_started:
-    false_knight_controller_active: true
-    action: set
+    false_knight_controller_active:
+      int: 1
+      action: set
   mode_false_knight_controller_stopped:
-    false_knight_controller_active: false
-    action: set
+    false_knight_controller_active:
+      int: 0
+      action: set

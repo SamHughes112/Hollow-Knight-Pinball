@@ -13,8 +13,10 @@ variable_player:
   ramp_hit:
     score: 5000
   mode_ramp_started:
-    ramp_active: true
-    action: set
+    ramp_active:  
+      int: 1
+      action: set
   mode_ramp_stopped:
-    ramp_active: false
-    action: set
+    ramp_active:  
+      int: 0
+      action: set

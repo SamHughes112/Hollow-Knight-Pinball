@@ -13,8 +13,10 @@ variable_player:
   pop_bumper_hit:
     score: 1110
   mode_pop_bumper_started:
-    pop_bumper_active: true
-    action: set
+    pop_bumper_active: 
+      int: 1
+      action: set
   mode_pop_bumper_stopped:
-    pop_bumper_active: false
-    action: set
+    pop_bumper_active: 
+      int: 0
+      action: set

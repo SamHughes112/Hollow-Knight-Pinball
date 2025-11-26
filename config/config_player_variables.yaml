@@ -1,0 +1,27 @@
+#config_version=6
+
+player_vars:
+  dirtmouth_active:
+    initial_value: 0
+  false_knight_controller_active:
+    initial_value: 0
+  lane_to_pop_active:
+    initial_value: 0
+  lanes_active:
+    initial_value: 0
+  left_orbit_active:
+    initial_value: 0
+  pop_bumper_active:
+    initial_value: 0
+  ramp_active:
+    initial_value: 0
+  right_orbit_active:
+    initial_value: 0
+  saucer_active:
+    initial_value: 0
+  slingshots_active:
+    initial_value: 0
+  targets_active:
+    initial_value: 0
+  vuk_active:
+    initial_value: 0
