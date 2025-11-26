@@ -28,3 +28,9 @@ shot_groups:
 variable_player:
   targets_hit:
     score: 2500
+  mode_targets_started:
+    targets_active: true
+    action: set
+  mode_targets_stopped:
+    targets_active: false
+    action: set

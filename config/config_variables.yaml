@@ -1,0 +1,40 @@
+#config_version=6
+
+player_variables:
+  slingshots_active:
+    type: boolean
+    initial_value: false
+  dirtmouth_active:
+    type: boolean
+    initial_value: false
+  false_knight_controller_active:
+    type: boolean
+    initial_value: false
+  lane_to_pop_active:
+    type: boolean
+    initial_value: false
+  lanes_active:
+    type: boolean
+    initial_value: false
+  left_orbit_active:
+    type: boolean
+    initial_value: false
+  pop_bumper_active:
+    type: boolean
+    initial_value: false
+  ramp_active:
+    type: boolean
+    initial_value: false
+  right_orbit_active:
+    type: boolean
+    initial_value: false
+  saucer_active:
+    type: boolean
+    initial_value: false
+  targets_active:
+    type: boolean
+    initial_value: false
+  vuk_active:
+    type: boolean
+    initial_value: false
+  

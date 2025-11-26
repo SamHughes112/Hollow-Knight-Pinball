@@ -12,3 +12,9 @@ shots:
 variable_player:
   ramp_hit:
     score: 5000
+  mode_ramp_started:
+    ramp_active: true
+    action: set
+  mode_ramp_stopped:
+    ramp_active: false
+    action: set

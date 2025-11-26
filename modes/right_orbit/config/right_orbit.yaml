@@ -12,3 +12,9 @@ shots:
 variable_player:
   right_orbit_hit:
     score: 5000
+  mode_right_orbit_started:
+    right_orbit_active: true
+    action: set
+  mode_right_orbit_stopped:
+    right_orbit_active: false
+    action: set

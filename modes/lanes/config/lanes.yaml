@@ -22,3 +22,9 @@ shot_groups:
 variable_player:
   lanes_hit:
     score: 1100
+  mode_lanes_started:
+    lanes_active: true
+    action: set
+  mode_lanes_stopped:
+    lanes_active: false
+    action: set

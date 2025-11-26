@@ -22,3 +22,9 @@ shot_groups:
 variable_player:
   slingshots_hit:
     score: 1000
+  mode_slingshots_started:
+    slingshots_active: true
+    action: set
+  mode_slingshots_stopped:
+    slingshots_active: false
+    action: set

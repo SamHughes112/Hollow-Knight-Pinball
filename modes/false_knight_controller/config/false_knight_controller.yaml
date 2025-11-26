@@ -1,0 +1,15 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_false_knight_controller
+  stop_events: stop_mode_false_knight_controller
+  priority: 300
+
+
+variable_player:
+  mode_false_knight_controller_started:
+    false_knight_controller_active: true
+    action: set
+  mode_false_knight_controller_stopped:
+    false_knight_controller_active: false
+    action: set

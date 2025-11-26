@@ -12,3 +12,9 @@ shots:
 variable_player:
   vuk_hit:
     score: 5000
+  mode_vuk_started:
+    vuk_active: true
+    action: set
+  mode_vuk_stopped:
+    vuk_active: false
+    action: set

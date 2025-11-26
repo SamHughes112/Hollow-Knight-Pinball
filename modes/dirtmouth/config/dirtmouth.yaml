@@ -17,3 +17,24 @@ sound_player:
     dirtmouth:
       action: stop
 
+
+shots:
+  vuk_dirtmouth:
+    switch: s_vuk
+  saucer_dirtmouth: 
+    switch: s_saucer
+
+shot_groups:
+  locks: 
+    shots: vuk_dirtmouth, saucer_dirtmouth
+
+event_player:
+  locks_hit:{slingshots_active}:start_mode_false_knight_controller
+
+variable_player:
+  mode_dirtmouth_started:
+    dirtmouth_active: true
+    action: set
+  mode_dirtmouth_stopped:
+    dirtmouth_active: false
+    action: set

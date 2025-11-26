@@ -12,3 +12,9 @@ shots:
 variable_player:
   lane_to_pop_hit:
     score: 5000
+  mode_lane_to_pop_started:
+    slingshots_active: true
+    action: set
+  mode_lane_to_pop_stopped:
+    slingshots_active: false
+    action: set
