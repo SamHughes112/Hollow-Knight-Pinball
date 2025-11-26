@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cacrng3v1dfj0"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_n5qtc"]
-[ext_resource type="Texture2D" uid="uid://djkkxsb0svmi6" path="res://godot_assets/Dirtmouth/dirtmouth_bench.jpeg" id="2_mvexj"]
+[ext_resource type="Texture2D" uid="uid://bp03ty087xuqm" path="res://godot_assets/Dirtmouth/dirtmouth_bench.JPG" id="2_mvexj"]
 
 [node name="dirtmouth" type="Control"]
 layout_mode = 3
@@ -12,6 +12,6 @@ script = ExtResource("1_n5qtc")
 metadata/_custom_type_script = "uid://dru3usokwlhd3"
 
 [node name="dirtmouth_bench" type="Sprite2D" parent="."]
-position = Vector2(639, 438)
-scale = Vector2(2.5898438, 2.5898438)
+position = Vector2(608.77783, 440.25003)
+scale = Vector2(1.6437501, 1.6437501)
 texture = ExtResource("2_mvexj")

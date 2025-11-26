@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://douk76jqqtbmx"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_pnthm"]
+[ext_resource type="Texture2D" uid="uid://chdqrypku820l" path="res://godot_assets/Forgoten Crossroads/frogoten_crossroads_bench.JPG" id="2_skp5y"]
+
+[node name="frogotten_crossroads" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_pnthm")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="frogotten_crossroads_bench" type="Sprite2D" parent="."]
+position = Vector2(360, 514.00006)
+scale = Vector2(1.475, 1.475)
+texture = ExtResource("2_skp5y")

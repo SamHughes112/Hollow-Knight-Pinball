@@ -1,0 +1,18 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_frogotten_crossroads
+  stop_events: stop_mode_frogotten_crossroads
+  priority: 250
+
+slide_player:
+  mode_frogotten_crossroads_started: frogotten_crossroads
+
+sound_player:
+  mode_attract_started:
+    crossroads:
+      bus: music
+      loops: -1
+  mode_attract_stopped:
+    crossroads:
+      action: stop

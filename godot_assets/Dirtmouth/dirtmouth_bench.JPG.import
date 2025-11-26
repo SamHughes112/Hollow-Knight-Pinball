@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djkkxsb0svmi6"
-path="res://.godot/imported/dirtmouth_bench.jpeg-642175f824329f2bb7ddd13411510aa9.ctex"
+uid="uid://bp03ty087xuqm"
+path="res://.godot/imported/dirtmouth_bench.JPG-83f32fc2790d09f507850ba4f8fb907e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://godot_assets/Dirtmouth/dirtmouth_bench.jpeg"
-dest_files=["res://.godot/imported/dirtmouth_bench.jpeg-642175f824329f2bb7ddd13411510aa9.ctex"]
+source_file="res://godot_assets/Dirtmouth/dirtmouth_bench.JPG"
+dest_files=["res://.godot/imported/dirtmouth_bench.JPG-83f32fc2790d09f507850ba4f8fb907e.ctex"]
 
 [params]
 

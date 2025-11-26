@@ -14,3 +14,17 @@ variable_player:
     false_knight_controller_active:
       int: 0
       action: set
+
+sound_player:
+  mode_false_knight_controller_started:
+    false_knght:
+      bus: music
+      loops: -1
+  mode_false_knight_controller_stopped:
+    false_knight:
+      action: stop
+
+slide_player:
+  mode_false_knight_controller_started: false_knight_controller
+
+#Three more "modes" need to be implemented attack, armor, and damage as well as a finishing clip

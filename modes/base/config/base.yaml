@@ -35,6 +35,8 @@ event_player:
     - stop_mode_targets
     - stop_mode_pop_bumper
     - stop_mode_dirtmouth
+    - stop_mode_false_knight_controller
+    - stop_mode_frogotten_crossroads
 
 slide_player:
   mode_base_started: base

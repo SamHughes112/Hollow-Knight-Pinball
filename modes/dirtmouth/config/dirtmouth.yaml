@@ -29,6 +29,8 @@ shot_groups:
     shots: vuk_dirtmouth, saucer_dirtmouth
 
 event_player:
+#Need to replace this condition once I have the proper carosel working
+#This also needds to be converted to frogogotten crossroads travel
   locks_hit{current_player.slingshots_active == 1}: start_mode_false_knight_controller
 
 variable_player:
