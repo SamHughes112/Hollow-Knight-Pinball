@@ -30,8 +30,7 @@ shot_groups:
 
 event_player:
 #Need to replace this condition once I have the proper carosel working
-#This also needds to be converted to frogogotten crossroads travel
-  locks_hit{current_player.slingshots_active == 1}: start_mode_false_knight_controller
+  locks_hit{current_player.slingshots_active == 1}: start_mode_travel_dirtmouth_to_frogotten_crossroads
 
 variable_player:
   mode_dirtmouth_started:

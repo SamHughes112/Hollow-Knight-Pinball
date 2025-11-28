@@ -14,7 +14,7 @@ script = ExtResource("1_b71wd")
 metadata/_custom_type_script = "uid://dru3usokwlhd3"
 
 [node name="score" type="Label" parent="."]
-z_index = 1
+z_index = 2
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -43,7 +43,7 @@ min_digits = 3
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="p4_score" type="Label" parent="."]
-z_index = 1
+z_index = 2
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
@@ -68,7 +68,7 @@ min_digits = 3
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="p3_score" type="Label" parent="."]
-z_index = 1
+z_index = 2
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
@@ -92,7 +92,7 @@ min_digits = 3
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="p2_score" type="Label" parent="."]
-z_index = 1
+z_index = 2
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
@@ -116,7 +116,7 @@ min_digits = 3
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="p1_score" type="Label" parent="."]
-z_index = 1
+z_index = 2
 layout_mode = 1
 offset_right = 335.0
 offset_bottom = 149.0
@@ -137,6 +137,7 @@ min_digits = 3
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="ball" type="Label" parent="."]
+z_index = 2
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0

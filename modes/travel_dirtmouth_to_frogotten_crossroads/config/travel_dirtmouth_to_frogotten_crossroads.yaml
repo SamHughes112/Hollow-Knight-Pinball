@@ -1,0 +1,93 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_travel_dirtmouth_to_frogotten_crossroads
+  stop_events: stop_mode_travel_dirtmouth_to_frogotten_crossroads
+  priority: 300
+  code: mpf.modes.carousel.code.carousel.Carousel
+
+#Still need to do GMC with time shots remaining and background
+
+slide_player:
+  mode_travel_dirtmouth_to_frogotten_crossroads_started: travel_dirtmouth_to_frogotten_crossroads
+
+shots:
+  ramp_travel_dirtmouth_to_frogotten_crossroads:
+    switch: s_ramp
+  right_orbit_travel_dirtmouth_to_frogotten_crossroads:
+    switch: s_right_orbit
+  left_orbit_travel_dirtmouth_to_frogotten_crossroads:
+    switch: s_left_orbit
+
+shot_groups:
+  travel:
+    shots: ramp_travel_dirtmouth_to_frogotten_crossroads, right_orbit_travel_dirtmouth_to_frogotten_crossroads, left_orbit_travel_dirtmouth_to_frogotten_crossroads
+
+variable_player:
+  mode_travel_dirtmouth_to_frogotten_crossroads_started:
+    travel_progress:
+      int: 0
+      action: set
+    score: 10000
+    time_remaining_travel_dirtmouth_to_frogotten_crossroads:
+      float: 40.0
+      action: set
+    travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads:
+      int: 3
+      action: set
+  travel_hit:
+    travel_progress:
+      int: 1
+      action: add
+    score: 40000
+  mode_travel_dirtmouth_to_frogotten_crossroads_stopped:
+    travel_progress:
+      int: 0
+      action: set
+  timer_travel_end_timer_tick:
+    time_remaining_travel_dirtmouth_to_frogotten_crossroads:
+      float: -0.4
+      action: add
+    travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads: 
+      int: 3 - current_player.travel_progress
+      action: set
+  
+
+event_player:
+  timer_travel_end_timer_complete:
+    - stop_mode_travel_dirtmouth_to_frogotten_crossroads
+  travel_hit{current_player.travel_progress == 2}:
+    - stop_mode_travel_dirtmouth_to_frogotten_crossroads
+    - start_mode_frogotten_crossroads
+    - stop_mode_dirtmouth
+
+
+mode_settings:
+  selectable_items:
+    - travel_1
+    - travel_2
+    - travel_3
+  next_item_events: timer_travel_display_timer_complete
+
+timers:
+  travel_display_timer:
+    end_value: 1
+    tick_interval: 5s
+    start_running: true
+    restart_on_complete: true
+    control_events:
+      - event: flipper_cradle
+        action: stop
+      - event: flipper_cradle_release
+        action: restart
+  travel_end_timer:
+    end_value: 100
+    tick_interval: 0.4s
+    start_running: true
+    control_events:
+      - event: flipper_cradle
+        action: stop
+      - event: flipper_cradle_release
+        action: start
+
+

@@ -1,0 +1,46 @@
+2025-11-27 07:55:29,911 : INFO : root : Loading MPF Monitor Version 0.57.1
+2025-11-27 07:55:30,085 : INFO : Core : Looking for MPF at localhost:5051
+2025-11-27 07:55:31,138 : INFO : BCP Client : Connected to MPF
+2025-11-27 07:57:28,207 : INFO : BCP Client : Connected to MPF
+2025-11-27 07:59:52,210 : INFO : BCP Client : Connected to MPF
+2025-11-27 08:01:01,209 : INFO : BCP Client : Connected to MPF
+2025-11-27 08:03:14,212 : INFO : BCP Client : Connected to MPF
+2025-11-27 08:05:06,214 : INFO : BCP Client : Connected to MPF
+2025-11-27 08:10:01,216 : INFO : BCP Client : Connected to MPF
+2025-11-27 08:10:46,216 : INFO : BCP Client : Connected to MPF
+2025-11-27 08:12:30,218 : INFO : BCP Client : Connected to MPF
+2025-11-27 08:14:24,220 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:22:14,277 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:22:50,279 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:30:05,285 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:37:17,291 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:38:14,291 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:38:42,291 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:41:54,157 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:42:38,157 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:43:11,156 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:44:23,158 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:46:52,156 : INFO : BCP Client : Connected to MPF
+2025-11-27 09:48:19,156 : INFO : BCP Client : Connected to MPF
+2025-11-27 15:13:06,273 : INFO : BCP Client : Connected to MPF
+2025-11-27 15:14:10,272 : INFO : BCP Client : Connected to MPF
+2025-11-27 15:19:32,276 : INFO : BCP Client : Connected to MPF
+2025-11-27 15:21:20,276 : INFO : BCP Client : Connected to MPF
+2025-11-27 15:22:14,274 : INFO : BCP Client : Connected to MPF
+2025-11-28 06:56:07,495 : INFO : BCP Client : Connected to MPF
+2025-11-28 06:58:54,496 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:04:14,502 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:05:11,502 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:06:14,504 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:09:09,508 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:11:31,512 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:12:27,481 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:14:32,481 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:15:25,481 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:18:50,484 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:21:11,486 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:23:20,488 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:25:35,488 : INFO : BCP Client : Connected to MPF
+2025-11-28 07:26:53,517 : INFO : root : MPF Monitor run loop ended.
+2025-11-28 07:26:53,518 : INFO : root : Stopping child threads... (0 remaining)
+2025-11-28 07:26:53,518 : INFO : root : All child threads stopped.

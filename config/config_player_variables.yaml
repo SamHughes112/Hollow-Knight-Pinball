@@ -25,3 +25,10 @@ player_vars:
     initial_value: 0
   vuk_active:
     initial_value: 0
+  travel_progress:
+    initial_value: 0
+  travel_time_remaining_travel_dirtmouth_to_frogotten_crossroads:
+    value_type: float
+    initial_value: 40
+  travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads:
+    initial_value: 2

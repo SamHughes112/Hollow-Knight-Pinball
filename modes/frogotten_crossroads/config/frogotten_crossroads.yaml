@@ -9,10 +9,10 @@ slide_player:
   mode_frogotten_crossroads_started: frogotten_crossroads
 
 sound_player:
-  mode_attract_started:
+  mode_frogotten_crossroads_started:
     crossroads:
       bus: music
       loops: -1
-  mode_attract_stopped:
+  mode_frogotten_crossroads_stopped:
     crossroads:
       action: stop

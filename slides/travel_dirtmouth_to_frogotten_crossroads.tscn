@@ -1,0 +1,97 @@
+[gd_scene load_steps=8 format=3 uid="uid://fl5yibkxihlk"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_tja7f"]
+[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_yyvwm"]
+[ext_resource type="Texture2D" uid="uid://besjq5ipgu3h8" path="res://godot_assets/Travel Dirtmouth to Frogotten Crossroads/travel_1.JPG" id="3_x1uvv"]
+[ext_resource type="Texture2D" uid="uid://sbs06nlf5hr6" path="res://godot_assets/Travel Dirtmouth to Frogotten Crossroads/travel_2.JPG" id="4_xs6dd"]
+[ext_resource type="Texture2D" uid="uid://l7agok82l6ri" path="res://godot_assets/Travel Dirtmouth to Frogotten Crossroads/travel_3.JPG" id="5_4mit4"]
+[ext_resource type="FontFile" uid="uid://dumvfllyi8lf3" path="res://godot_assets/Cinzel/static/Cinzel-Regular.ttf" id="6_m5gam"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="7_gebeo"]
+
+[node name="travel_dirtmouth_to_frogotten_crossroads" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1246.0
+offset_bottom = 1022.0
+script = ExtResource("1_tja7f")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="travel_dirtmouth_to_frogotten_crossroads" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_yyvwm")
+carousel_name = "travel_dirtmouth_to_frogotten_crossroads"
+metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
+
+[node name="travel_1" type="Sprite2D" parent="travel_dirtmouth_to_frogotten_crossroads"]
+z_index = 1
+position = Vector2(374.00006, 514)
+scale = Vector2(1.5194445, 1.5194445)
+texture = ExtResource("3_x1uvv")
+
+[node name="travel_2" type="Sprite2D" parent="travel_dirtmouth_to_frogotten_crossroads"]
+z_index = 1
+position = Vector2(286.00006, 509)
+scale = Vector2(1.6277778, 1.6277778)
+texture = ExtResource("4_xs6dd")
+
+[node name="travel_3" type="Sprite2D" parent="travel_dirtmouth_to_frogotten_crossroads"]
+z_index = 1
+position = Vector2(404, 496)
+scale = Vector2(1.5694444, 1.5694444)
+texture = ExtResource("5_4mit4")
+
+[node name="shots_left" type="Label" parent="."]
+z_index = 1
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -435.0
+offset_bottom = -746.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 23
+theme_override_constants/shadow_outline_size = 1
+theme_override_fonts/font = ExtResource("6_m5gam")
+theme_override_font_sizes/font_size = 80
+text = "Shots Left"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("7_gebeo")
+variable_name = "travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads"
+comma_separate = true
+min_digits = 0
+template_string = "Shots Left: %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="timer" type="Label" parent="."]
+z_index = 2
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -857.0
+offset_top = 14.0
+offset_bottom = 123.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 23
+theme_override_constants/shadow_outline_size = 1
+theme_override_fonts/font = ExtResource("6_m5gam")
+theme_override_font_sizes/font_size = 80
+text = "Time Remaining 40.0"
+horizontal_alignment = 2
+vertical_alignment = 1
+text_overrun_behavior = 1
+script = ExtResource("7_gebeo")
+variable_name = "time_remaining_travel_dirtmouth_to_frogotten_crossroads"
+comma_separate = true
+min_digits = 0
+template_string = "Time Remaining: %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
