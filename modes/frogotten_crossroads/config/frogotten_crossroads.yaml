@@ -34,4 +34,4 @@ shot_groups:
     shots: vuk_frogotten_crossroads, saucer_frogotten_crossroads
 
 event_player:
-  locks_forgotten_crossroads_hit{current_player.mode_active == 0}: start_mode_carousel_mode_select
+  locks_frogotten_crossroads_hit{current_player.mode_active == 0}: start_mode_carousel_mode_select

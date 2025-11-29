@@ -13,7 +13,7 @@ variable_player:
 
 sound_player:
   mode_false_knight_controller_started:
-    false_knght:
+    false_knight:
       bus: music
       loops: -1
 
