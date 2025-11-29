@@ -32,3 +32,5 @@ player_vars:
     initial_value: 40
   travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads:
     initial_value: 2
+  frogotten_crossroads_active:
+    initial_value: 0

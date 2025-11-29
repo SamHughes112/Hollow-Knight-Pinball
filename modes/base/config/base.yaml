@@ -38,6 +38,7 @@ event_player:
     - stop_mode_false_knight_controller
     - stop_mode_frogotten_crossroads
     - stop_mode_travel_dirtmouth_to_frogotten_crossroads
+    - stop_mode_carousel_mode_select
 
 slide_player:
   mode_base_started: base

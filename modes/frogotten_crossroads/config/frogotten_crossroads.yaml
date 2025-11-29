@@ -1,5 +1,8 @@
 #config_version=6
 
+#This is basically the default location code but you need to change the names everywhere as well as add it to main config
+#And to stop in base as well as declare the active variable in config_player_variables
+
 mode:
   start_events: start_mode_frogotten_crossroads
   stop_events: stop_mode_frogotten_crossroads
@@ -16,3 +19,26 @@ sound_player:
   mode_frogotten_crossroads_stopped:
     crossroads:
       action: stop
+
+variable_player:
+  mode_frogotten_crossroads_started:
+    frogotten_crossroads_active:
+      int: 1
+      action: set
+  mode_frogotten_crossroads_stopped:
+    frogotten_crossroads_active:
+      int: 0
+      action: set
+
+shots:
+  vuk_frogotten_crossroads:
+    switch: s_vuk
+  saucer_frogotten_crossroads: 
+    switch: s_saucer
+
+shot_groups:
+  locks_frogotten_crossroads: 
+    shots: vuk_frogotten_crossroads, saucer_frogotten_crossroads
+
+event_player:
+  locks_forgotten_crossroads_hit{current_player.mode_active == 0}: start_mode_carousel_mode_select

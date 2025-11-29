@@ -25,12 +25,11 @@ shots:
     switch: s_saucer
 
 shot_groups:
-  locks: 
+  locks_dirtmouth: 
     shots: vuk_dirtmouth, saucer_dirtmouth
 
 event_player:
-#Need to replace this condition once I have the proper carosel working
-  locks_hit{current_player.slingshots_active == 1}: start_mode_travel_dirtmouth_to_frogotten_crossroads
+  locks_dirtmouth_hit{current_player.mode_active == 0}: start_mode_carousel_mode_select
 
 variable_player:
   mode_dirtmouth_started:

@@ -1,0 +1,81 @@
+[gd_scene load_steps=7 format=3 uid="uid://f3ypwf8j0ni0"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_jwbqo"]
+[ext_resource type="Texture2D" uid="uid://b8l1hygem1owk" path="res://godot_assets/carousel selection/mode_select_carousel_background.png" id="2_bhndw"]
+[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_tmbyu"]
+[ext_resource type="Texture2D" uid="uid://dbqtslumw7sge" path="res://godot_assets/carousel selection/dirtmouth_and_frogotten_crossroads.png" id="4_synmk"]
+[ext_resource type="FontFile" uid="uid://dumvfllyi8lf3" path="res://godot_assets/Cinzel/static/Cinzel-Regular.ttf" id="5_lnbv1"]
+[ext_resource type="Texture2D" uid="uid://damxwo1764vh5" path="res://godot_assets/carousel selection/False_Knight_Sprite.png" id="6_on8cc"]
+
+[node name="carousel_mode_select" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1288.0
+offset_bottom = 1036.0
+script = ExtResource("1_jwbqo")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ModeSelectCarouselBackground" type="Sprite2D" parent="."]
+z_index = 5
+position = Vector2(791, 509)
+scale = Vector2(1.7508417, 1.7508417)
+texture = ExtResource("2_bhndw")
+
+[node name="carousel_mode_select" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_tmbyu")
+metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
+
+[node name="travel_dirtmouth_to_frogotten_crossroads" type="Node2D" parent="carousel_mode_select"]
+z_index = 5
+
+[node name="DirtmouthAndFrogottenCrossroads" type="Sprite2D" parent="carousel_mode_select/travel_dirtmouth_to_frogotten_crossroads"]
+position = Vector2(642.99994, 597)
+scale = Vector2(1.1586331, 1.1586331)
+texture = ExtResource("4_synmk")
+
+[node name="dirtmouth_to_crossroads_text" type="Label" parent="carousel_mode_select/travel_dirtmouth_to_frogotten_crossroads"]
+offset_left = 17.0
+offset_right = 1265.0
+offset_bottom = 205.0
+theme_override_fonts/font = ExtResource("5_lnbv1")
+theme_override_font_sizes/font_size = 70
+text = "Travel Between Dirtmouth and The Frogotten Crossroads"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="false_knight_controller" type="Node2D" parent="carousel_mode_select"]
+z_index = 5
+
+[node name="false_knight_text" type="Label" parent="carousel_mode_select/false_knight_controller"]
+offset_left = 17.0
+offset_right = 1265.0
+offset_bottom = 205.0
+theme_override_fonts/font = ExtResource("5_lnbv1")
+theme_override_font_sizes/font_size = 70
+text = "Fight the False Knight"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="FalseKnightSprite" type="Sprite2D" parent="carousel_mode_select/false_knight_controller"]
+position = Vector2(702, 614.00006)
+scale = Vector2(1.6645508, 1.6645508)
+texture = ExtResource("6_on8cc")
+
+[node name="leave" type="Node2D" parent="carousel_mode_select"]
+z_index = 5
+
+[node name="leave_text" type="Label" parent="carousel_mode_select/leave"]
+offset_left = 17.0
+offset_right = 1265.0
+offset_bottom = 1010.0
+theme_override_fonts/font = ExtResource("5_lnbv1")
+theme_override_font_sizes/font_size = 110
+text = "Leave Without Selecting a Mode"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
