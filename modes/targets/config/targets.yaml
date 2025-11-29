@@ -32,7 +32,3 @@ variable_player:
     targets_active:
       int: 1
       action: set
-  mode_targets_stopped:
-    targets_active:
-      int: 0
-      action: set

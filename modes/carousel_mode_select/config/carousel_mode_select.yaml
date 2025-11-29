@@ -22,10 +22,10 @@ slide_player:
 
 
 event_player:
-  carousel_travel_dirtmouth_to_frogotten_crossroads_selected: 
+  carousel_item_selected{item == 'travel_dirtmouth_to_frogotten_crossroads'}: 
     - start_mode_travel_dirtmouth_to_frogotten_crossroads
     - stop_mode_carousel_mode_select
-  carousel_false_knight_controller_selected: 
+  carousel_item_selected{item == 'false_knight_controller'}: 
     - start_mode_false_knight_controller
     - stop_mode_carousel_mode_select
-  carousel_leave_selected: stop_mode_carousel_mode_select
+  carousel_item_selected{item == 'leave'}: stop_mode_carousel_mode_select

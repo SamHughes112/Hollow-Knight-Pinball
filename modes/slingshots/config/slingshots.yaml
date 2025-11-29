@@ -26,7 +26,3 @@ variable_player:
     slingshots_active:
       int: 1
       action: set
-  mode_slingshots_stopped:
-    slingshots_active:
-      int: 0
-      action: set

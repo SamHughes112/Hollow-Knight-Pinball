@@ -42,3 +42,79 @@ event_player:
 
 slide_player:
   mode_base_started: base
+
+sound_player:
+  mode_attract_stopped:
+    hollow_knight_theme:
+      action: stop
+  mode_dirtmouth_stopped:
+    dirtmouth:
+      action: stop
+  mode_false_knight_controller_stopped:
+    false_knight:
+      action: stop
+  mode_frogotten_crossroads_stopped:
+    crossroads:
+      action: stop
+
+
+variable_player:
+  mode_dirtmouth_stopped:
+    dirtmouth_active:
+      int: 0
+      action: set
+  mode_false_knight_controller_stopped:
+    mode_active:
+      int: 0
+      action: set
+  mode_lane_to_pop_stopped:
+    lane_to_pop_active:
+      int: 0
+      action: set
+  mode_frogotten_crossroads_stopped:
+    frogotten_crossroads_active:
+      int: 0
+      action: set
+  mode_lanes_stopped:
+    lanes_active:
+      int: 0
+      action: set
+  mode_left_orbit_stopped:
+    left_orbit_active:
+      int: 0
+      action: set
+  mode_pop_bumper_stopped:
+    pop_bumper_active: 
+      int: 0
+      action: set
+  mode_ramp_stopped:
+    ramp_active:  
+      int: 0
+      action: set
+  mode_right_orbit_stopped:
+    right_orbit_active: 
+      int: 0
+      action: set
+  mode_saucer_stopped:
+    saucer_active:
+      int: 0
+      action: set
+  mode_slingshots_stopped:
+    slingshots_active:
+      int: 0
+      action: set
+  mode_travel_dirtmouth_to_frogotten_crossroads_stopped:
+    travel_progress:
+      int: 0
+      action: set
+    mode_active:
+      int: 0
+      action: set
+  mode_vuk_stopped:
+    vuk_active:
+      int: 0
+      action: set
+  mode_targets_stopped:
+    targets_active:
+      int: 0
+      action: set

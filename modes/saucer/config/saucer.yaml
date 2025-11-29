@@ -16,8 +16,4 @@ variable_player:
     saucer_active:
       int: 1
       action: set
-  mode_saucer_stopped:
-    saucer_active:
-      int: 0
-      action: set
   

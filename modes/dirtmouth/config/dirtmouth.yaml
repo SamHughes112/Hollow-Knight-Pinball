@@ -13,9 +13,6 @@ sound_player:
     dirtmouth:
       bus: music
       loops: -1
-  mode_dirtmouth_stopped:
-    dirtmouth:
-      action: stop
 
 
 shots:
@@ -35,8 +32,4 @@ variable_player:
   mode_dirtmouth_started:
     dirtmouth_active:
       int: 1
-      action: set
-  mode_dirtmouth_stopped:
-    dirtmouth_active:
-      int: 0
       action: set

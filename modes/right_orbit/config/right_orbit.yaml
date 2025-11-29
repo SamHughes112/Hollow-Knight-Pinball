@@ -16,7 +16,3 @@ variable_player:
     right_orbit_active: 
       int: 1
       action: set
-  mode_right_orbit_stopped:
-    right_orbit_active: 
-      int: 0
-      action: set

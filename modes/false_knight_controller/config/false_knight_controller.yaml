@@ -10,19 +10,12 @@ variable_player:
     mode_active:
       int: 1
       action: set
-  mode_false_knight_controller_stopped:
-    mode_active:
-      int: 0
-      action: set
 
 sound_player:
   mode_false_knight_controller_started:
     false_knght:
       bus: music
       loops: -1
-  mode_false_knight_controller_stopped:
-    false_knight:
-      action: stop
 
 slide_player:
   mode_false_knight_controller_started: false_knight_controller

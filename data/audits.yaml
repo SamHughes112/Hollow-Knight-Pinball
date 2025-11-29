@@ -1,34 +1,31 @@
 events:
   game_ended: 6
-  game_started: 138
+  game_started: 150
 missing_switches:
-  s_back_left_target: 10
-  s_back_middle_left_target: 100
-  s_back_middle_right_target: 99
-  s_back_right_target: 100
-  s_bottom_left_slingshot: 95
-  s_bottom_right_slingshot: 97
-  s_front_left_target: 107
-  s_front_middle_target: 10
-  s_front_right_target: 107
-  s_lane_to_pop: 37
-  s_left_flipper: 1
-  s_left_inlane: 95
-  s_left_orbit: 10
-  s_left_outlane: 107
-  s_pop_bumper: 95
-  s_ramp: 12
-  s_right_flipper: 1
-  s_right_inlane: 59
-  s_right_orbit: 10
-  s_right_outlane: 107
-  s_saucer: 10
-  s_start: 6
-  s_top_left_slingshot: 93
-  s_top_right_slingshot: 95
-  s_trough_1: 101
-  s_trough_2: 125
-  s_trough_3: 123
+  s_back_left_target: 22
+  s_back_middle_left_target: 112
+  s_back_middle_right_target: 111
+  s_back_right_target: 112
+  s_bottom_left_slingshot: 107
+  s_bottom_right_slingshot: 109
+  s_front_left_target: 119
+  s_front_middle_target: 22
+  s_front_right_target: 119
+  s_lane_to_pop: 1
+  s_left_inlane: 107
+  s_left_outlane: 119
+  s_pop_bumper: 107
+  s_ramp: 6
+  s_right_inlane: 71
+  s_right_orbit: 4
+  s_right_outlane: 119
+  s_saucer: 4
+  s_start: 18
+  s_top_left_slingshot: 105
+  s_top_right_slingshot: 107
+  s_trough_1: 113
+  s_trough_2: 137
+  s_trough_3: 135
 player:
   score:
     average: 36284
@@ -53,24 +50,26 @@ shots:
   front_left_target: 6
   front_middle_target: 8
   front_right_target: 6
-  lane_to_pop: 89
+  lane_to_pop: 101
   left_inlane: 7
-  left_orbit: 118
-  left_orbit_travel_dirtmouth_to_frogotten_crossroads: 31
+  left_orbit: 137
+  left_orbit_travel_dirtmouth_to_frogotten_crossroads: 49
   left_outlane: 5
   pop_bumper: 23
-  ramp: 77
+  ramp: 78
   ramp_travel_dirtmouth_to_frogotten_crossroads: 7
   right_inlane: 14
-  right_orbit: 258
-  right_orbit_travel_dirtmouth_to_frogotten_crossroads: 38
+  right_orbit: 267
+  right_orbit_travel_dirtmouth_to_frogotten_crossroads: 44
   right_outlane: 12
-  saucer: 33
-  saucer_dirtmouth: 18
+  saucer: 37
+  saucer_dirtmouth: 19
+  saucer_frogotten_crossroads: 3
   top_left_slingshot: 1
   top_right_slingshot: 6
-  vuk: 243
-  vuk_dirtmouth: 163
+  vuk: 289
+  vuk_dirtmouth: 175
+  vuk_frogotten_crossroads: 34
 switches:
   s_back_left_target: 7
   s_back_middle_left_target: 4
@@ -81,23 +80,23 @@ switches:
   s_front_left_target: 6
   s_front_middle_target: 9
   s_front_right_target: 7
-  s_lane_to_pop: 91
-  s_left_flipper: 62
+  s_lane_to_pop: 103
+  s_left_flipper: 91
   s_left_inlane: 8
-  s_left_orbit: 120
+  s_left_orbit: 139
   s_left_outlane: 6
-  s_plunger_lane: 315
+  s_plunger_lane: 327
   s_pop_bumper: 23
-  s_ramp: 79
-  s_right_flipper: 73
+  s_ramp: 80
+  s_right_flipper: 109
   s_right_inlane: 15
-  s_right_orbit: 292
+  s_right_orbit: 301
   s_right_outlane: 13
-  s_saucer: 40
+  s_saucer: 44
   s_start: 57
   s_top_left_slingshot: 22
   s_top_right_slingshot: 25
   s_trough_1: 68
   s_trough_2: 9
   s_trough_3: 52
-  s_vuk: 263
+  s_vuk: 309

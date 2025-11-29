@@ -29,9 +29,6 @@ sound_player:
     hollow_knight_theme:
       bus: music
       loops: -1
-  mode_attract_stopped:
-    hollow_knight_theme:
-      action: stop
 
 timers:
   attract_carousel_timer:

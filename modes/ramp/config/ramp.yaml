@@ -16,7 +16,3 @@ variable_player:
     ramp_active:  
       int: 1
       action: set
-  mode_ramp_stopped:
-    ramp_active:  
-      int: 0
-      action: set

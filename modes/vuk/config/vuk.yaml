@@ -16,7 +16,3 @@ variable_player:
     vuk_active:
       int: 1
       action: set
-  mode_vuk_stopped:
-    vuk_active:
-      int: 0
-      action: set

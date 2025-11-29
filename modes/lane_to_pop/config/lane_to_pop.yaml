@@ -16,7 +16,3 @@ variable_player:
     lane_to_pop_active:
       int: 1
       action: set
-  mode_lane_to_pop_stopped:
-    lane_to_pop_active:
-      int: 0
-      action: set
