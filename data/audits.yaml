@@ -1,33 +1,33 @@
 events:
   game_ended: 6
-  game_started: 125
+  game_started: 126
 missing_switches:
-  s_back_left_target: 87
-  s_back_middle_left_target: 87
-  s_back_middle_right_target: 86
-  s_back_right_target: 87
-  s_bottom_left_slingshot: 82
-  s_bottom_right_slingshot: 84
-  s_front_left_target: 94
-  s_front_middle_target: 86
-  s_front_right_target: 94
-  s_lane_to_pop: 24
-  s_left_flipper: 61
-  s_left_inlane: 82
-  s_left_orbit: 32
-  s_left_outlane: 94
-  s_pop_bumper: 82
-  s_ramp: 37
-  s_right_flipper: 61
-  s_right_inlane: 46
-  s_right_outlane: 94
-  s_saucer: 59
-  s_start: 74
-  s_top_left_slingshot: 80
-  s_top_right_slingshot: 82
-  s_trough_1: 88
-  s_trough_2: 112
-  s_trough_3: 110
+  s_back_left_target: 88
+  s_back_middle_left_target: 88
+  s_back_middle_right_target: 87
+  s_back_right_target: 88
+  s_bottom_left_slingshot: 83
+  s_bottom_right_slingshot: 85
+  s_front_left_target: 95
+  s_front_middle_target: 87
+  s_front_right_target: 95
+  s_lane_to_pop: 25
+  s_left_flipper: 62
+  s_left_inlane: 83
+  s_left_orbit: 33
+  s_left_outlane: 95
+  s_pop_bumper: 83
+  s_right_flipper: 62
+  s_right_inlane: 47
+  s_right_orbit: 1
+  s_right_outlane: 95
+  s_saucer: 60
+  s_start: 75
+  s_top_left_slingshot: 81
+  s_top_right_slingshot: 83
+  s_trough_1: 89
+  s_trough_2: 113
+  s_trough_3: 111
 player:
   score:
     average: 36284
@@ -58,8 +58,8 @@ shots:
   left_orbit_travel_dirtmouth_to_frogotten_crossroads: 31
   left_outlane: 5
   pop_bumper: 23
-  ramp: 72
-  ramp_travel_dirtmouth_to_frogotten_crossroads: 4
+  ramp: 77
+  ramp_travel_dirtmouth_to_frogotten_crossroads: 7
   right_inlane: 14
   right_orbit: 257
   right_orbit_travel_dirtmouth_to_frogotten_crossroads: 38
@@ -68,8 +68,8 @@ shots:
   saucer_dirtmouth: 16
   top_left_slingshot: 1
   top_right_slingshot: 6
-  vuk: 223
-  vuk_dirtmouth: 143
+  vuk: 224
+  vuk_dirtmouth: 144
 switches:
   s_back_left_target: 6
   s_back_middle_left_target: 4
@@ -85,9 +85,9 @@ switches:
   s_left_inlane: 8
   s_left_orbit: 119
   s_left_outlane: 6
-  s_plunger_lane: 302
+  s_plunger_lane: 303
   s_pop_bumper: 23
-  s_ramp: 74
+  s_ramp: 79
   s_right_flipper: 5
   s_right_inlane: 15
   s_right_orbit: 291
@@ -99,4 +99,4 @@ switches:
   s_trough_1: 68
   s_trough_2: 9
   s_trough_3: 52
-  s_vuk: 243
+  s_vuk: 244

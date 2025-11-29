@@ -17,6 +17,10 @@ mode_settings:
     - last_scores_2p{machine.player2_score and not machine.player3_score}
     - last_scores_3p{machine.player3_score and not machine.player4_score}
     - last_scores_4p{machine.player4_score}
+    - tutorial_slash
+    - tutorial_damage
+    - tutorial_dodge
+    - tutorial_heal
   next_item_events: s_right_flipper_active, timer_attract_carousel_timer_complete
   previous_item_events: s_left_flipper_active
 

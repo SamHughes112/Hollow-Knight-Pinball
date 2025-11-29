@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://tnuv7n4cntlx"]
+[gd_scene load_steps=15 format=3 uid="uid://tnuv7n4cntlx"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Texture2D" uid="uid://d1cmgt0smtosm" path="res://godot_assets/Attract Mode/attract_main.png" id="2_vr35g"]
@@ -10,6 +10,10 @@
 [ext_resource type="Texture2D" uid="uid://ccr6loi78ep6s" path="res://godot_assets/Attract Mode/mission_pinball_logo.png" id="8_bvyxe"]
 [ext_resource type="Texture2D" uid="uid://cbuurgal6kn8g" path="res://godot_assets/Attract Mode/cobrapin_logo.jpg" id="9_gvrry"]
 [ext_resource type="FontFile" uid="uid://ce4x3f4kco5e7" path="res://godot_assets/Cinzel/static/Cinzel-Bold.ttf" id="10_vr35g"]
+[ext_resource type="Texture2D" uid="uid://cgep1jb7frr77" path="res://godot_assets/Tutorial/tutorial_slash.JPG" id="11_q4ha8"]
+[ext_resource type="Texture2D" uid="uid://bjsqqdpr8uaf4" path="res://godot_assets/Tutorial/tutorial_damage.JPG" id="12_qvr08"]
+[ext_resource type="Texture2D" uid="uid://c6itw4io44os4" path="res://godot_assets/Tutorial/tutorial_dodge.JPG" id="13_n85b2"]
+[ext_resource type="Texture2D" uid="uid://c47p6df6b0473" path="res://godot_assets/Tutorial/tutorial_heal.JPG" id="14_y7fsi"]
 
 [node name="attract" type="Control"]
 layout_mode = 3
@@ -53,6 +57,7 @@ scale = Vector2(1, 1.0019531)
 texture = ExtResource("6_bo6y5")
 
 [node name="credits" type="Label" parent="MPFCarousel"]
+visible = false
 z_index = 1
 layout_mode = 0
 offset_left = 1.0
@@ -293,3 +298,79 @@ variable_name = "player4_score"
 comma_separate = true
 min_digits = 2
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="tutorial_slash" type="Node2D" parent="MPFCarousel"]
+
+[node name="tutorial_slash_image" type="Sprite2D" parent="MPFCarousel/tutorial_slash"]
+position = Vector2(413.00006, 501)
+scale = Vector2(1.5694444, 1.5694444)
+texture = ExtResource("11_q4ha8")
+
+[node name="tutorial_slash_text" type="Label" parent="MPFCarousel/tutorial_slash"]
+offset_left = 3.0
+offset_top = 337.0
+offset_right = 1277.0
+offset_bottom = 1283.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 80
+text = "Hitting Purple Shots Will Do Damage to Enemies and Advance Modes"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="tutorial_damage" type="Node2D" parent="MPFCarousel"]
+
+[node name="tutorial_damage_image" type="Sprite2D" parent="MPFCarousel/tutorial_damage"]
+position = Vector2(444, 509)
+scale = Vector2(1.629514, 1.6295139)
+texture = ExtResource("12_qvr08")
+
+[node name="tutorial_damage_text" type="Label" parent="MPFCarousel/tutorial_damage"]
+offset_left = 749.0
+offset_top = 8.0
+offset_right = 1273.0
+offset_bottom = 1031.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 70
+text = "Most Modes Don't Have Timers Enemies do Damage Instead Either Directley or When You Hit Red Shots"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="tutorial_dodge" type="Node2D" parent="MPFCarousel"]
+
+[node name="tutorial_dodge_image" type="Sprite2D" parent="MPFCarousel/tutorial_dodge"]
+position = Vector2(419.00006, 502.00003)
+scale = Vector2(1.6083333, 1.6083333)
+texture = ExtResource("13_n85b2")
+
+[node name="tutorial_dodge_text" type="Label" parent="MPFCarousel/tutorial_dodge"]
+offset_left = -4.0
+offset_top = 335.0
+offset_right = 1284.0
+offset_bottom = 1281.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 80
+text = "Hitting Blue Shots Will Allow You to Dodge Attacks Resseting the Timer Untill The Enemie Attacks Again"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="tutorial_heal" type="Node2D" parent="MPFCarousel"]
+
+[node name="tutorial_heal_image" type="Sprite2D" parent="MPFCarousel/tutorial_heal"]
+position = Vector2(334, 503)
+scale = Vector2(1.5069447, 1.5069445)
+texture = ExtResource("14_y7fsi")
+
+[node name="tutorial_heal_text" type="Label" parent="MPFCarousel/tutorial_heal"]
+offset_left = -11.0
+offset_top = 332.0
+offset_right = 1277.0
+offset_bottom = 1278.0
+theme_override_fonts/font = ExtResource("4_nlvwg")
+theme_override_font_sizes/font_size = 65
+text = "Damaging Enemies Will Give You Soul That You Can Use to Cast Spells (Multiball) or Hold Both Flippers to Heal (Increasing Mode Timers)"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
