@@ -1,0 +1,54 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_mask_controller
+  stop_events: stop_mode_mask_controller
+  priority: 125
+
+shots:
+  lane_to_pop_mask:
+    switch: s_lane_to_pop
+  left_orbit_mask:
+    switch: s_left_orbit
+  ramp_mask:
+    switch: s_ramp
+  right_orbit_mask:
+    switch: s_right_orbit
+  saucer_mask:
+    switch: s_saucer
+  front_left_target_mask:
+    switch: s_front_left_target
+  front_middle_target_mask:
+    switch: s_front_middle_target
+  front_right_target_mask:
+    switch: s_front_right_target
+  back_left_target_mask:
+    switch: s_back_left_target
+  back_middle_left_target_mask:
+    switch: s_back_middle_left_target
+  back_middle_right_target_mask:
+    switch: s_back_middle_right_target
+  back_right_target_mask:
+    switch: s_back_right_target
+
+shot_groups:
+  mask_update:
+    shots:
+      - lane_to_pop_mask
+      - left_orbit_mask
+      - ramp_mask
+      - right_orbit_mask
+      - saucer_mask
+      - front_left_target_mask
+      - front_middle_target_mask
+      - front_right_target_mask
+      - back_left_target_mask
+      - back_middle_left_target_mask
+      - back_middle_right_target_mask
+      - back_right_target_mask
+
+#All modes that run out of masks need to be put here including all of their sub modes
+event_player:
+  mask_update_hit{current_player.masks <= 0}:
+    - stop_mode_false_knight_controller
+    

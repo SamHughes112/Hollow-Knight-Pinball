@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b8q5pf8ngab7g"]
+[gd_scene load_steps=3 format=3 uid="uid://b8q5pf8ngab7g"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_374vv"]
+[ext_resource type="Texture2D" uid="uid://dqjs1ni2c7q5n" path="res://godot_assets/False Knight/false_knight_default.JPG" id="2_nfws3"]
 
 [node name="false_knight_controller" type="Control"]
 layout_mode = 3
@@ -10,4 +11,7 @@ offset_bottom = 40.0
 script = ExtResource("1_374vv")
 metadata/_custom_type_script = "uid://dru3usokwlhd3"
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="FalseKnightDefault" type="Sprite2D" parent="."]
+position = Vector2(487, 572)
+scale = Vector2(1.7555554, 1.7555556)
+texture = ExtResource("2_nfws3")

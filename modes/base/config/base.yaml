@@ -21,6 +21,7 @@ event_player:
     - start_mode_targets
     - start_mode_pop_bumper
     - start_mode_dirtmouth
+    - start_mode_mask_controller
 
   #Every mode needs to stop here
   mode_base_will_stop:
@@ -39,6 +40,7 @@ event_player:
     - stop_mode_frogotten_crossroads
     - stop_mode_travel_dirtmouth_to_frogotten_crossroads
     - stop_mode_carousel_mode_select
+    - stop_mode_mask_controller
 
 slide_player:
   mode_base_started: base

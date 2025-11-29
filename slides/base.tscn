@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bwyhdl2i4vyep"]
+[gd_scene load_steps=5 format=3 uid="uid://bwyhdl2i4vyep"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_b71wd"]
 [ext_resource type="FontFile" uid="uid://dumvfllyi8lf3" path="res://godot_assets/Cinzel/static/Cinzel-Regular.ttf" id="2_mixwp"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_myvl5"]
+[ext_resource type="Script" uid="uid://g50gvmnepohu" path="res://addons/mpf-gmc/classes/mpf_conditional.gd" id="4_myvl5"]
 
 [node name="base" type="Control"]
 z_index = 1
@@ -48,8 +49,10 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = -149.0
-offset_right = 335.0
+offset_left = 32.0
+offset_top = -147.0
+offset_right = 367.0
+offset_bottom = 2.0
 grow_vertical = 0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -72,8 +75,10 @@ z_index = 2
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
-offset_top = 280.0
-offset_right = 335.0
+offset_left = 26.0
+offset_top = 497.0
+offset_right = 361.0
+offset_bottom = -26.0
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -96,8 +101,10 @@ z_index = 2
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
-offset_right = 335.0
-offset_bottom = -335.0
+offset_left = 38.0
+offset_top = 355.0
+offset_right = 373.0
+offset_bottom = -288.0
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
@@ -118,8 +125,10 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="p1_score" type="Label" parent="."]
 z_index = 2
 layout_mode = 1
-offset_right = 335.0
-offset_bottom = 149.0
+offset_left = 34.0
+offset_top = 278.0
+offset_right = 369.0
+offset_bottom = 427.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 20
@@ -160,3 +169,10 @@ script = ExtResource("3_myvl5")
 variable_name = "ball"
 template_string = "Ball %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="MPFConditional" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+metadata/_custom_type_script = "uid://g50gvmnepohu"
