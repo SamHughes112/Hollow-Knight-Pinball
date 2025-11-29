@@ -3,7 +3,7 @@
 player_vars:
   dirtmouth_active:
     initial_value: 0
-  false_knight_controller_active:
+  mode_active:
     initial_value: 0
   lane_to_pop_active:
     initial_value: 0

@@ -29,6 +29,9 @@ variable_player:
       int: 0
       action: set
     score: 10000
+    mode_active:
+      int: 1
+      action: set
     time_remaining_travel_dirtmouth_to_frogotten_crossroads:
       float: 40.0
       action: set
@@ -42,6 +45,9 @@ variable_player:
     score: 40000
   mode_travel_dirtmouth_to_frogotten_crossroads_stopped:
     travel_progress:
+      int: 0
+      action: set
+    mode_active:
       int: 0
       action: set
   timer_travel_end_timer_tick:
