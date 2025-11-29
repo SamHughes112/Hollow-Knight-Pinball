@@ -55,10 +55,14 @@ variable_player:
 event_player:
   timer_travel_end_timer_complete:
     - stop_mode_travel_dirtmouth_to_frogotten_crossroads
-  travel_hit{current_player.travel_progress == 2}:
+  travel_hit{current_player.travel_progress == 2 and current_player.dirtmouth_active == 1}:
     - stop_mode_travel_dirtmouth_to_frogotten_crossroads
     - start_mode_frogotten_crossroads
     - stop_mode_dirtmouth
+  travel_hit{current_player.travel_progress == 2 and current_player.frogotten_crossroads_active == 1}:
+    - stop_mode_travel_dirtmouth_to_frogotten_crossroads
+    - stop_mode_frogotten_crossroads
+    - start_mode_dirtmouth
 
 
 mode_settings:
