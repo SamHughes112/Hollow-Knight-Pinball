@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://bwyhdl2i4vyep"]
+[gd_scene load_steps=7 format=3 uid="uid://bwyhdl2i4vyep"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_b71wd"]
 [ext_resource type="FontFile" uid="uid://dumvfllyi8lf3" path="res://godot_assets/Cinzel/static/Cinzel-Regular.ttf" id="2_mixwp"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_myvl5"]
+[ext_resource type="Texture2D" uid="uid://dwrptuvntsxh5" path="res://godot_assets/mask_and_vessel_assets/empty_mask.png" id="4_6vrr4"]
 [ext_resource type="Script" uid="uid://g50gvmnepohu" path="res://addons/mpf-gmc/classes/mpf_conditional.gd" id="4_myvl5"]
+[ext_resource type="Texture2D" uid="uid://grluojgvkbrl" path="res://godot_assets/mask_and_vessel_assets/full_mask.png" id="6_smx5b"]
 
 [node name="base" type="Control"]
 z_index = 1
@@ -170,9 +172,227 @@ variable_name = "ball"
 template_string = "Ball %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="MPFConditional" type="Control" parent="."]
+[node name="EmptyMask1" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(400, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask2" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(500, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask3" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(600, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask4" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(700, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask5" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(800, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask6" type="Control" parent="."]
 anchors_preset = 0
-offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("4_myvl5")
+variable_name = "max_masks"
+condition_type = 5
+condition_value = "6"
 metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="EmptyMask6" type="Sprite2D" parent="EmptyMask6"]
+z_index = 2
+position = Vector2(900, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask7" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "max_masks"
+condition_type = 5
+condition_value = "7"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="EmptyMask7" type="Sprite2D" parent="EmptyMask7"]
+z_index = 2
+position = Vector2(1000, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask8" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "max_masks"
+condition_type = 5
+condition_value = "8"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="EmptyMask8" type="Sprite2D" parent="EmptyMask8"]
+z_index = 2
+position = Vector2(1100, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="EmptyMask9" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "max_masks"
+condition_type = 5
+condition_value = "9"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="EmptyMask9" type="Sprite2D" parent="EmptyMask9"]
+z_index = 2
+position = Vector2(1200, 75)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_6vrr4")
+
+[node name="FullMask" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "1"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask" type="Sprite2D" parent="FullMask"]
+z_index = 2
+position = Vector2(400, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask2" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "2"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask2" type="Sprite2D" parent="FullMask2"]
+z_index = 2
+position = Vector2(500, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask3" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "3"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask3" type="Sprite2D" parent="FullMask3"]
+z_index = 2
+position = Vector2(600, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask4" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "4"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask4" type="Sprite2D" parent="FullMask4"]
+z_index = 2
+position = Vector2(700, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask5" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "5"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask5" type="Sprite2D" parent="FullMask5"]
+z_index = 2
+position = Vector2(800, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask6" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "6"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask6" type="Sprite2D" parent="FullMask6"]
+z_index = 2
+position = Vector2(900, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask7" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "7"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask7" type="Sprite2D" parent="FullMask7"]
+z_index = 2
+position = Vector2(1000, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask8" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "8"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask8" type="Sprite2D" parent="FullMask8"]
+z_index = 2
+position = Vector2(1100, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")
+
+[node name="FullMask9" type="Control" parent="."]
+anchors_preset = 0
+offset_bottom = 40.0
+script = ExtResource("4_myvl5")
+variable_name = "masks"
+condition_type = 5
+condition_value = "9"
+metadata/_custom_type_script = "uid://g50gvmnepohu"
+
+[node name="FullMask9" type="Sprite2D" parent="FullMask9"]
+z_index = 2
+position = Vector2(1200, 65)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("6_smx5b")

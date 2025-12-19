@@ -5,15 +5,6 @@
 
 #Prevent songs from being put into the repository for future reference: this uses a file path to from sounds to music specifically
 /sounds/music/
-.VSCodeCounter/2025-11-30_09-37-49/results.txt
-.VSCodeCounter/2025-11-30_09-37-49/details.md
-.VSCodeCounter/2025-11-30_09-37-49/diff-details.md
-.VSCodeCounter/2025-11-30_09-37-49/diff.csv
-.VSCodeCounter/2025-11-30_09-37-49/diff.md
-.gitignore
-.VSCodeCounter/2025-11-30_09-37-49/diff.txt
-.gitignore
-.VSCodeCounter/2025-11-30_09-37-49/results.json
-.VSCodeCounter/2025-11-30_09-37-49/results.csv
-.gitignore
-.VSCodeCounter/2025-11-30_09-37-49/results.md
+
+
+.VSCodeCounter/

@@ -1,0 +1,1005 @@
+2025-12-02 10:39:20,218 : INFO : root : Loading config.
+2025-12-02 10:39:20,222 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-12-02 10:39:20,223 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/92f7f295141fbdde09e201e7fd0f1349.mpf_cache
+2025-12-02 10:39:20,330 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-12-02 10:39:20,330 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/501e18c1625d42f1ba9bf53b020c49c5.mpf_cache
+2025-12-02 10:39:20,330 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7b77bdcd1da4c54cc720d492bab55a0d.mpf_cache
+2025-12-02 10:39:20,330 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/dda6f4da00898f9f0a4796a41d9a2ef0.mpf_cache
+2025-12-02 10:39:20,331 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/522fc819f659907ecbd91e12554f307a.mpf_cache
+2025-12-02 10:39:20,331 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/05e9cee2d62266bbcd3eb3df28f11ba0.mpf_cache
+2025-12-02 10:39:20,331 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/a751b7622f38b4d73d2da25b66d734b1.mpf_cache
+2025-12-02 10:39:20,332 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/515d12d22bfc89771946156b9f4733e7.mpf_cache
+2025-12-02 10:39:20,333 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/3db5df4db04e3e0d951f803bb6fa84e6.mpf_cache
+2025-12-02 10:39:20,334 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/3572cafb19834c572118c1dfbec55588.mpf_cache
+2025-12-02 10:39:20,334 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/39b20d9bce0c2f44f75a85f57a0d45f4.mpf_cache
+2025-12-02 10:39:20,334 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/189edcb2679eb1788c8ca3be3e29f2f1.mpf_cache
+2025-12-02 10:39:20,335 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/f00019ffccce993d2850c9d82b9dc44e.mpf_cache
+2025-12-02 10:39:20,335 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/14560612c17bb039b05632d29f192033.mpf_cache
+2025-12-02 10:39:20,336 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/1b88d79160cc8850354d058f9a270569.mpf_cache
+2025-12-02 10:39:20,336 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/db143814423fb474166c86cac053d40c.mpf_cache
+2025-12-02 10:39:20,337 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/77ecd758607ea296c19f456a8642983d.mpf_cache
+2025-12-02 10:39:20,338 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/7c3641fae2b7003d26f031771405f733.mpf_cache
+2025-12-02 10:39:20,338 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/fb7f263f29c0f8af46e6dfce6099ce86.mpf_cache
+2025-12-02 10:39:20,339 : INFO : ConfigProcessor : Loading config from cache: /var/folders/k0/j_dpx55x4kndbs36pl2nt9l00000gn/T/8ec02d334e515a6774c1da6355f69b0a.mpf_cache
+2025-12-02 10:39:20,339 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev11
+2025-12-02 10:39:20,339 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-12-02-10-39-20-mpf-Sams-MacBook-Air-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-12-02-10-39-20-mpf-Sams-MacBook-Air-2.local.log'}
+2025-12-02 10:39:20,340 : INFO : Machine : MPF path: /Users/samhughes/mpf/lib/python3.13/site-packages/mpf
+2025-12-02 10:39:20,340 : INFO : Machine : Machine path: /Users/samhughes/Desktop/Hollow-Knight-Pinball
+2025-12-02 10:39:20,340 : INFO : Machine : Platform: darwin
+2025-12-02 10:39:20,340 : INFO : Machine : Python executable location: /Users/samhughes/mpf/bin/python3.13
+2025-12-02 10:39:20,340 : INFO : Machine : Python version: 3.13.2 (64-bit)
+2025-12-02 10:39:20,341 : INFO : Machine : Initializing MPF...
+2025-12-02 10:39:20,478 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,489 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,489 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 81940, 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,489 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,489 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev11, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,489 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.2', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,504 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,504 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,504 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,504 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:29:54 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,504 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,504 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/samhughes/Desktop/Hollow-Knight-Pinball/logs/2025-12-02-10-39-20-mpf-Sams-MacBook-Air-2.local.log', 'prev_value': None, 'change': True}
+2025-12-02 10:39:20,505 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-12-02 10:39:20,521 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-12-02 10:39:20,521 : INFO : SwitchController : Found active switch: (1002, <Platform.SmartVirtual>) <switch.s_trough_1>
+2025-12-02 10:39:20,521 : INFO : SwitchController : Found active switch: (1003, <Platform.SmartVirtual>) <switch.s_trough_2>
+2025-12-02 10:39:20,521 : INFO : SwitchController : Found active switch: (1004, <Platform.SmartVirtual>) <switch.s_trough_3>
+2025-12-02 10:39:20,524 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-12-02 10:39:20,525 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-12-02 10:39:27,952 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-12-02 10:39:27,952 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-12-02 10:39:27,954 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2025-12-02 10:39:27,954 : INFO : ball_device.bd_trough : State: idle
+2025-12-02 10:39:27,955 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-12-02 10:39:27,955 : INFO : ball_device.bd_plunger : State: idle
+2025-12-02 10:39:27,975 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-12-02 10:39:27,979 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-12-02 10:39:27,979 : INFO : BallController : Initial balls found: 3
+2025-12-02 10:39:27,979 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 170, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_back_left_target'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_back_middle_left_target'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_back_middle_right_target'====== Args={'value': 131, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_back_right_target'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bottom_left_slingshot'====== Args={'value': 127, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bottom_right_slingshot'====== Args={'value': 129, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_front_left_target'====== Args={'value': 139, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_front_middle_target'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_front_right_target'====== Args={'value': 139, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lane_to_pop'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inlane'====== Args={'value': 127, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 139, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop_bumper'====== Args={'value': 127, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_ramp'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_orbit'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane'====== Args={'value': 139, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_saucer'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top_left_slingshot'====== Args={'value': 125, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top_right_slingshot'====== Args={'value': 127, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 133, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 157, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 155, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 36284, 'top': [173500, 81940, 45000, 15000, 15000, 15000, 15000, 15000, 15000, 15000], 'total': 12}, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_shots_back_left_target'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,980 : INFO : EventManager : Event: ======'machine_var_audits_shots_back_middle_right_target'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_back_right_target'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_bakc_middle_left_target'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_bottom_left_slingshot'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_left_target'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_middle_target'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_right_target'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_lane_to_pop'====== Args={'value': 102, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_inlane'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit'====== Args={'value': 181, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_mask'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 90, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_pop_bumper'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_ramp'====== Args={'value': 78, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_ramp_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_right_inlane'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_right_orbit'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_right_orbit_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_right_outlane'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_saucer'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_saucer_dirtmouth'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_saucer_frogotten_crossroads'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_left_slingshot'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_right_slingshot'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_vuk'====== Args={'value': 316, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_vuk_dirtmouth'====== Args={'value': 194, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_vuk_frogotten_crossroads'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_left_target'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_middle_left_target'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_middle_right_target'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_back_right_target'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_left_slingshot'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bottom_right_slingshot'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_left_target'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_middle_target'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_right_target'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,981 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lane_to_pop'====== Args={'value': 104, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 173, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit'====== Args={'value': 183, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 347, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_bumper'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 80, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 256, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit'====== Args={'value': 301, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_saucer'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_left_slingshot'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_right_slingshot'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 68, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 52, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk'====== Args={'value': 336, 'prev_value': None, 'change': True}
+2025-12-02 10:39:27,982 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-12-02 10:39:27,983 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-12-02 10:39:27,983 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-12-02 10:39:27,994 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-12-02 10:39:27,994 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-12-02 10:39:27,994 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-12-02 10:39:27,994 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-12-02 10:39:27,995 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-12-02 10:39:27,995 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:39:27,995 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:39:27,995 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-12-02 10:39:27,995 : INFO : Mode.attract : Started. Priority: 10
+2025-12-02 10:39:27,995 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:27,995 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-12-02 10:39:27,996 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-12-02 10:39:27,996 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-12-02 10:39:27,996 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-12-02 10:39:28,135 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-12-02 10:39:28,135 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-12-02 10:39:28,136 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-12-02 10:39:28,844 : INFO : BcpServer : New client connected.
+2025-12-02 10:39:31,652 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2025-12-02 10:39:31,751 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2025-12-02 10:39:31,752 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-12-02 10:39:31,753 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.0998939159908332}
+2025-12-02 10:39:31,754 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.0998939159908332}
+2025-12-02 10:39:31,755 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.0998939159908332}
+2025-12-02 10:39:31,755 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-12-02 10:39:31,756 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-12-02 10:39:31,756 : INFO : Mode.attract : Stopped.
+2025-12-02 10:39:31,756 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,757 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-12-02 10:39:31,758 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-12-02 10:39:31,759 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-12-02 10:39:31,759 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:39:31,759 : INFO : Mode.game : Started. Priority: 20
+2025-12-02 10:39:31,759 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,760 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.0998939159908332}
+2025-12-02 10:39:31,761 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-12-02 10:39:31,761 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-12-02 10:39:31,762 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('bc5e7630-b363-49f0-8d12-79f4244ad26a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('6e827fec-38c3-400b-95e0-2d9abc27d904'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-12-02 10:39:31,763 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-12-02 10:39:31,768 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-12-02 10:39:31,769 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-12-02 10:39:31,770 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-12-02 10:39:31,770 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-12-02 10:39:31,770 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,771 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,771 : INFO : EventManager : Event: ======'player_dirtmouth_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,772 : INFO : EventManager : Event: ======'player_mode_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,772 : INFO : EventManager : Event: ======'player_lane_to_pop_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,772 : INFO : EventManager : Event: ======'player_lanes_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,772 : INFO : EventManager : Event: ======'player_left_orbit_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,773 : INFO : EventManager : Event: ======'player_pop_bumper_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,773 : INFO : EventManager : Event: ======'player_ramp_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,773 : INFO : EventManager : Event: ======'player_right_orbit_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,773 : INFO : EventManager : Event: ======'player_saucer_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,774 : INFO : EventManager : Event: ======'player_slingshots_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,774 : INFO : EventManager : Event: ======'player_targets_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,774 : INFO : EventManager : Event: ======'player_vuk_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,774 : INFO : EventManager : Event: ======'player_travel_progress'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,774 : INFO : EventManager : Event: ======'player_travel_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 40.0, 'prev_value': 40.0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,775 : INFO : EventManager : Event: ======'player_travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 2, 'prev_value': 2, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,775 : INFO : EventManager : Event: ======'player_frogotten_crossroads_active'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,775 : INFO : EventManager : Event: ======'player_masks'====== Args={'value': 5, 'prev_value': 5, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,775 : INFO : EventManager : Event: ======'player_max_masks'====== Args={'value': 5, 'prev_value': 5, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,775 : INFO : EventManager : Event: ======'player_soul'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,776 : INFO : EventManager : Event: ======'player_max_soul'====== Args={'value': 9, 'prev_value': 9, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,776 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:31,788 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-12-02 10:39:31,790 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-12-02 10:39:31,795 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-12-02 10:39:31,796 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,796 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-12-02 10:39:31,797 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-12-02 10:39:31,797 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-12-02 10:39:31,797 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-12-02 10:39:31,798 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-12-02 10:39:31,798 : INFO : Mode.base : Started. Priority: 100
+2025-12-02 10:39:31,798 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,798 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-12-02 10:39:31,798 : INFO : EventManager : Event: ======'start_mode_right_orbit'====== Args={'priority': 0}
+2025-12-02 10:39:31,798 : INFO : EventManager : Event: ======'start_mode_slingshots'====== Args={'priority': 0}
+2025-12-02 10:39:31,798 : INFO : EventManager : Event: ======'start_mode_lanes'====== Args={'priority': 0}
+2025-12-02 10:39:31,798 : INFO : EventManager : Event: ======'start_mode_vuk'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_ramp'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_left_orbit'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_lane_to_pop'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_saucer'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_targets'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_pop_bumper'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_dirtmouth'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'start_mode_mask_controller'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'mode_right_orbit_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,799 : INFO : EventManager : Event: ======'player_shot_right_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,800 : INFO : EventManager : Event: ======'mode_right_orbit_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,800 : INFO : EventManager : Event: ======'mode_slingshots_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,800 : INFO : EventManager : Event: ======'player_shot_top_left_slingshot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,800 : INFO : EventManager : Event: ======'player_shot_bottom_left_slingshot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,801 : INFO : EventManager : Event: ======'player_shot_top_right_slingshot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,801 : INFO : EventManager : Event: ======'player_shot_bottom_right_slingshot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,801 : INFO : EventManager : Event: ======'slingshots_complete'====== Args={'state': 'unlit'}
+2025-12-02 10:39:31,801 : INFO : EventManager : Event: ======'slingshots_unlit_complete'====== Args={}
+2025-12-02 10:39:31,802 : INFO : EventManager : Event: ======'mode_slingshots_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,802 : INFO : EventManager : Event: ======'mode_lanes_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,802 : INFO : EventManager : Event: ======'player_shot_left_outlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,802 : INFO : EventManager : Event: ======'player_shot_left_inlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,802 : INFO : EventManager : Event: ======'player_shot_right_inlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,803 : INFO : EventManager : Event: ======'player_shot_right_outlane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,803 : INFO : EventManager : Event: ======'lanes_complete'====== Args={'state': 'unlit'}
+2025-12-02 10:39:31,803 : INFO : EventManager : Event: ======'lanes_unlit_complete'====== Args={}
+2025-12-02 10:39:31,803 : INFO : EventManager : Event: ======'mode_lanes_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,803 : INFO : EventManager : Event: ======'mode_vuk_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,803 : INFO : EventManager : Event: ======'player_shot_vuk_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,804 : INFO : EventManager : Event: ======'mode_vuk_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,804 : INFO : EventManager : Event: ======'mode_ramp_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,804 : INFO : EventManager : Event: ======'player_shot_ramp_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,804 : INFO : EventManager : Event: ======'mode_ramp_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,804 : INFO : EventManager : Event: ======'mode_left_orbit_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,804 : INFO : EventManager : Event: ======'player_shot_left_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,805 : INFO : EventManager : Event: ======'mode_left_orbit_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,805 : INFO : EventManager : Event: ======'mode_lane_to_pop_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,805 : INFO : EventManager : Event: ======'player_shot_lane_to_pop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,805 : INFO : EventManager : Event: ======'mode_lane_to_pop_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,805 : INFO : EventManager : Event: ======'mode_saucer_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,805 : INFO : EventManager : Event: ======'player_shot_saucer_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,806 : INFO : EventManager : Event: ======'mode_saucer_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,806 : INFO : EventManager : Event: ======'mode_targets_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,806 : INFO : EventManager : Event: ======'player_shot_front_left_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,806 : INFO : EventManager : Event: ======'player_shot_front_middle_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,806 : INFO : EventManager : Event: ======'player_shot_front_right_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,806 : INFO : EventManager : Event: ======'player_shot_back_left_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,807 : INFO : EventManager : Event: ======'player_shot_bakc_middle_left_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,807 : INFO : EventManager : Event: ======'player_shot_back_middle_right_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,807 : INFO : EventManager : Event: ======'player_shot_back_right_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,807 : INFO : EventManager : Event: ======'targets_complete'====== Args={'state': 'unlit'}
+2025-12-02 10:39:31,807 : INFO : EventManager : Event: ======'targets_unlit_complete'====== Args={}
+2025-12-02 10:39:31,807 : INFO : EventManager : Event: ======'mode_targets_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,808 : INFO : EventManager : Event: ======'mode_pop_bumper_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,808 : INFO : EventManager : Event: ======'player_shot_pop_bumper_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,808 : INFO : EventManager : Event: ======'mode_pop_bumper_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,808 : INFO : EventManager : Event: ======'mode_dirtmouth_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,808 : INFO : EventManager : Event: ======'player_shot_vuk_dirtmouth_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,808 : INFO : EventManager : Event: ======'player_shot_saucer_dirtmouth_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,809 : INFO : EventManager : Event: ======'locks_dirtmouth_complete'====== Args={'state': 'unlit'}
+2025-12-02 10:39:31,809 : INFO : EventManager : Event: ======'locks_dirtmouth_unlit_complete'====== Args={}
+2025-12-02 10:39:31,809 : INFO : EventManager : Event: ======'mode_dirtmouth_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,809 : INFO : EventManager : Event: ======'mode_mask_controller_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:31,809 : INFO : EventManager : Event: ======'player_shot_lane_to_pop_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,809 : INFO : EventManager : Event: ======'player_shot_left_orbit_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,810 : INFO : EventManager : Event: ======'player_shot_ramp_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,810 : INFO : EventManager : Event: ======'player_shot_right_orbit_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,810 : INFO : EventManager : Event: ======'player_shot_saucer_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,810 : INFO : EventManager : Event: ======'player_shot_front_left_target_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,810 : INFO : EventManager : Event: ======'player_shot_front_middle_target_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,810 : INFO : EventManager : Event: ======'player_shot_front_right_target_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,810 : INFO : EventManager : Event: ======'player_shot_back_left_target_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,811 : INFO : EventManager : Event: ======'player_shot_back_middle_left_target_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,811 : INFO : EventManager : Event: ======'player_shot_back_middle_right_target_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,811 : INFO : EventManager : Event: ======'player_shot_back_right_target_mask_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:31,811 : INFO : EventManager : Event: ======'mask_update_complete'====== Args={'state': 'unlit'}
+2025-12-02 10:39:31,811 : INFO : EventManager : Event: ======'mask_update_unlit_complete'====== Args={}
+2025-12-02 10:39:31,812 : INFO : EventManager : Event: ======'mode_mask_controller_starting'====== Args={'priority': 0}
+2025-12-02 10:39:31,812 : INFO : Mode.mask_controller : Started. Priority: 125
+2025-12-02 10:39:31,812 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,812 : INFO : EventManager : Event: ======'mode_mask_controller_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,812 : INFO : Mode.dirtmouth : Started. Priority: 250
+2025-12-02 10:39:31,812 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,812 : INFO : EventManager : Event: ======'mode_dirtmouth_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,812 : INFO : EventManager : Event: ======'player_dirtmouth_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'dirtmouth'}
+2025-12-02 10:39:31,813 : INFO : Mode.pop_bumper : Started. Priority: 150
+2025-12-02 10:39:31,813 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,813 : INFO : EventManager : Event: ======'mode_pop_bumper_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,813 : INFO : EventManager : Event: ======'player_pop_bumper_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'pop_bumper'}
+2025-12-02 10:39:31,814 : INFO : Mode.targets : Started. Priority: 175
+2025-12-02 10:39:31,814 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,814 : INFO : EventManager : Event: ======'mode_targets_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,814 : INFO : EventManager : Event: ======'player_targets_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'targets'}
+2025-12-02 10:39:31,815 : INFO : Mode.saucer : Started. Priority: 200
+2025-12-02 10:39:31,815 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,815 : INFO : EventManager : Event: ======'mode_saucer_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,816 : INFO : EventManager : Event: ======'player_saucer_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'saucer'}
+2025-12-02 10:39:31,817 : INFO : Mode.lane_to_pop : Started. Priority: 200
+2025-12-02 10:39:31,817 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,817 : INFO : EventManager : Event: ======'mode_lane_to_pop_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,817 : INFO : EventManager : Event: ======'player_lane_to_pop_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'lane_to_pop'}
+2025-12-02 10:39:31,817 : INFO : Mode.left_orbit : Started. Priority: 200
+2025-12-02 10:39:31,818 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,818 : INFO : EventManager : Event: ======'mode_left_orbit_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,818 : INFO : EventManager : Event: ======'player_left_orbit_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'left_orbit'}
+2025-12-02 10:39:31,818 : INFO : Mode.ramp : Started. Priority: 200
+2025-12-02 10:39:31,818 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,819 : INFO : EventManager : Event: ======'mode_ramp_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,819 : INFO : EventManager : Event: ======'player_ramp_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'ramp'}
+2025-12-02 10:39:31,819 : INFO : Mode.vuk : Started. Priority: 200
+2025-12-02 10:39:31,819 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,819 : INFO : EventManager : Event: ======'mode_vuk_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,820 : INFO : EventManager : Event: ======'player_vuk_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'vuk'}
+2025-12-02 10:39:31,820 : INFO : Mode.lanes : Started. Priority: 150
+2025-12-02 10:39:31,820 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,821 : INFO : EventManager : Event: ======'mode_lanes_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,821 : INFO : EventManager : Event: ======'player_lanes_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'lanes'}
+2025-12-02 10:39:31,821 : INFO : Mode.slingshots : Started. Priority: 150
+2025-12-02 10:39:31,822 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,822 : INFO : EventManager : Event: ======'mode_slingshots_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,822 : INFO : EventManager : Event: ======'player_slingshots_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'slingshots'}
+2025-12-02 10:39:31,822 : INFO : Mode.right_orbit : Started. Priority: 200
+2025-12-02 10:39:31,822 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:31,822 : INFO : EventManager : Event: ======'mode_right_orbit_started'====== Args={'priority': 0}
+2025-12-02 10:39:31,823 : INFO : EventManager : Event: ======'player_right_orbit_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'right_orbit'}
+2025-12-02 10:39:31,823 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-12-02 10:39:31,823 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-12-02 10:39:31,825 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-12-02 10:39:31,825 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-12-02 10:39:31,825 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-12-02 10:39:31,825 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-12-02 10:39:31,825 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-12-02 10:39:31,826 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-12-02 10:39:31,826 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-12-02 10:39:31,826 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2025-12-02 10:39:31,826 : INFO : ball_device.bd_trough : State: ejecting
+2025-12-02 10:39:31,826 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-12-02 10:39:31,826 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-12-02 10:39:31,826 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-12-02 10:39:31,826 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-12-02 10:39:31,826 : INFO : SwitchController : <<<<<<< 's_trough_1' inactive >>>>>>>
+2025-12-02 10:39:31,827 : INFO : ball_device.bd_trough : State: ball_left
+2025-12-02 10:39:31,827 : INFO : ball_device.bd_trough : Ball left
+2025-12-02 10:39:31,827 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2025-12-02 10:39:31,831 : INFO : EventManager : Event: ======'slide_base_created'====== Args={'_from_bcp': True}
+2025-12-02 10:39:31,831 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-12-02 10:39:31,831 : INFO : EventManager : Event: ======'slide_base_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 100.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2025-12-02 10:39:31,831 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-12-02 10:39:31,859 : INFO : EventManager : Event: ======'slide_dirtmouth_created'====== Args={'_from_bcp': True}
+2025-12-02 10:39:31,860 : INFO : EventManager : Event: ======'slide_base_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2025-12-02 10:39:31,860 : INFO : EventManager : Event: ======'slide_dirtmouth_active'====== Args={'original_context': 'dirtmouth', 'original_calling_context': 'mode_dirtmouth_started', 'priority': 250.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-12-02 10:39:31,927 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-12-02 10:39:31,927 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 348, 'prev_value': 347, 'change': 1}
+2025-12-02 10:39:32,429 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2025-12-02 10:39:32,429 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2025-12-02 10:39:32,430 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2025-12-02 10:39:32,432 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2025-12-02 10:39:32,432 : INFO : ball_device.bd_trough : Got eject confirm
+2025-12-02 10:39:32,432 : INFO : ball_device.bd_trough : Eject successful
+2025-12-02 10:39:32,432 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2025-12-02 10:39:32,433 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2025-12-02 10:39:32,433 : INFO : ball_device.bd_trough : State: idle
+2025-12-02 10:39:32,434 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-12-02 10:39:32,434 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-12-02 10:39:32,435 : INFO : ball_device.bd_plunger : State: ejecting
+2025-12-02 10:39:32,435 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-12-02 10:39:32,435 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-12-02 10:39:32,437 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-12-02 10:39:33,419 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:39:33,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 257, 'prev_value': 256, 'change': 1}
+2025-12-02 10:39:33,483 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:39:33,634 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:39:33,635 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 258, 'prev_value': 257, 'change': 1}
+2025-12-02 10:39:33,718 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:39:41,122 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-12-02 10:39:41,122 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'front_right_target'}
+2025-12-02 10:39:41,122 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'front_right_target_mask'}
+2025-12-02 10:39:41,123 : INFO : EventManager : Event: ======'s_front_right_target_active'====== Args={}
+2025-12-02 10:39:41,123 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_right_target'====== Args={'value': 8, 'prev_value': 7, 'change': 1}
+2025-12-02 10:39:41,124 : INFO : EventManager : Event: ======'player_shot_front_right_target'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:41,137 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_right_target'====== Args={'value': 7, 'prev_value': 6, 'change': 1}
+2025-12-02 10:39:41,137 : INFO : EventManager : Event: ======'front_right_target_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,138 : INFO : EventManager : Event: ======'front_right_target_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,138 : INFO : EventManager : Event: ======'front_right_target_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,138 : INFO : EventManager : Event: ======'front_right_target_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,138 : INFO : EventManager : Event: ======'player_shot_front_right_target_mask'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:41,139 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_right_target_mask'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-12-02 10:39:41,139 : INFO : EventManager : Event: ======'front_right_target_mask_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,139 : INFO : EventManager : Event: ======'front_right_target_mask_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,139 : INFO : EventManager : Event: ======'front_right_target_mask_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,139 : INFO : EventManager : Event: ======'front_right_target_mask_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:41,139 : INFO : EventManager : Event: ======'targets_hit'====== Args={'shot': 'front_right_target'}
+2025-12-02 10:39:41,139 : INFO : EventManager : Event: ======'targets_unlit_hit'====== Args={'shot': 'front_right_target'}
+2025-12-02 10:39:41,140 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 2500, 'prev_value': 0, 'change': 2500, 'player_num': 1, 'source': 'targets'}
+2025-12-02 10:39:41,143 : INFO : EventManager : Event: ======'mask_update_hit'====== Args={'shot': 'front_right_target_mask'}
+2025-12-02 10:39:41,143 : INFO : EventManager : Event: ======'mask_update_unlit_hit'====== Args={'shot': 'front_right_target_mask'}
+2025-12-02 10:39:41,236 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-12-02 10:39:41,521 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-12-02 10:39:41,521 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'front_right_target'}
+2025-12-02 10:39:41,522 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'front_right_target_mask'}
+2025-12-02 10:39:41,522 : INFO : EventManager : Event: ======'s_front_right_target_active'====== Args={}
+2025-12-02 10:39:41,523 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_right_target'====== Args={'value': 9, 'prev_value': 8, 'change': 1}
+2025-12-02 10:39:41,523 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_right_target'====== Args={'value': 8, 'prev_value': 7, 'change': 1}
+2025-12-02 10:39:41,524 : INFO : EventManager : Event: ======'front_right_target_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,524 : INFO : EventManager : Event: ======'front_right_target_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,524 : INFO : EventManager : Event: ======'front_right_target_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,524 : INFO : EventManager : Event: ======'front_right_target_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,524 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_right_target_mask'====== Args={'value': 2, 'prev_value': 1, 'change': 1}
+2025-12-02 10:39:41,525 : INFO : EventManager : Event: ======'front_right_target_mask_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,525 : INFO : EventManager : Event: ======'front_right_target_mask_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,525 : INFO : EventManager : Event: ======'front_right_target_mask_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,525 : INFO : EventManager : Event: ======'front_right_target_mask_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,525 : INFO : EventManager : Event: ======'targets_hit'====== Args={'shot': 'front_right_target'}
+2025-12-02 10:39:41,526 : INFO : EventManager : Event: ======'targets_lit_hit'====== Args={'shot': 'front_right_target'}
+2025-12-02 10:39:41,526 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 5000, 'prev_value': 2500, 'change': 2500, 'player_num': 1, 'source': 'targets'}
+2025-12-02 10:39:41,528 : INFO : EventManager : Event: ======'mask_update_hit'====== Args={'shot': 'front_right_target_mask'}
+2025-12-02 10:39:41,528 : INFO : EventManager : Event: ======'mask_update_lit_hit'====== Args={'shot': 'front_right_target_mask'}
+2025-12-02 10:39:41,619 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-12-02 10:39:41,787 : INFO : SwitchController : <<<<<<< 's_front_right_target' active >>>>>>>
+2025-12-02 10:39:41,787 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'front_right_target'}
+2025-12-02 10:39:41,787 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'front_right_target_mask'}
+2025-12-02 10:39:41,787 : INFO : EventManager : Event: ======'s_front_right_target_active'====== Args={}
+2025-12-02 10:39:41,788 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_front_right_target'====== Args={'value': 10, 'prev_value': 9, 'change': 1}
+2025-12-02 10:39:41,788 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_right_target'====== Args={'value': 9, 'prev_value': 8, 'change': 1}
+2025-12-02 10:39:41,789 : INFO : EventManager : Event: ======'front_right_target_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,789 : INFO : EventManager : Event: ======'front_right_target_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,789 : INFO : EventManager : Event: ======'front_right_target_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,789 : INFO : EventManager : Event: ======'front_right_target_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,789 : INFO : EventManager : Event: ======'machine_var_audits_shots_front_right_target_mask'====== Args={'value': 3, 'prev_value': 2, 'change': 1}
+2025-12-02 10:39:41,790 : INFO : EventManager : Event: ======'front_right_target_mask_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,790 : INFO : EventManager : Event: ======'front_right_target_mask_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,790 : INFO : EventManager : Event: ======'front_right_target_mask_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,790 : INFO : EventManager : Event: ======'front_right_target_mask_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:39:41,790 : INFO : EventManager : Event: ======'targets_hit'====== Args={'shot': 'front_right_target'}
+2025-12-02 10:39:41,790 : INFO : EventManager : Event: ======'targets_lit_hit'====== Args={'shot': 'front_right_target'}
+2025-12-02 10:39:41,791 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 7500, 'prev_value': 5000, 'change': 2500, 'player_num': 1, 'source': 'targets'}
+2025-12-02 10:39:41,793 : INFO : EventManager : Event: ======'mask_update_hit'====== Args={'shot': 'front_right_target_mask'}
+2025-12-02 10:39:41,793 : INFO : EventManager : Event: ======'mask_update_lit_hit'====== Args={'shot': 'front_right_target_mask'}
+2025-12-02 10:39:41,887 : INFO : SwitchController : <<<<<<< 's_front_right_target' inactive >>>>>>>
+2025-12-02 10:39:42,438 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2025-12-02 10:39:42,440 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-12-02 10:39:42,440 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2025-12-02 10:39:42,441 : INFO : ball_device.bd_plunger : State: ejecting
+2025-12-02 10:39:42,441 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-12-02 10:39:42,441 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2025-12-02 10:39:42,442 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-12-02 10:39:43,071 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-12-02 10:39:43,071 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'vuk_frogotten_crossroads'}
+2025-12-02 10:39:43,072 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'vuk_dirtmouth'}
+2025-12-02 10:39:43,072 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'vuk'}
+2025-12-02 10:39:43,072 : INFO : EventManager : Event: ======'s_vuk_active'====== Args={}
+2025-12-02 10:39:43,073 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk'====== Args={'value': 337, 'prev_value': 336, 'change': 1}
+2025-12-02 10:39:43,073 : INFO : EventManager : Event: ======'player_shot_vuk_dirtmouth'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:43,074 : INFO : EventManager : Event: ======'machine_var_audits_shots_vuk_dirtmouth'====== Args={'value': 195, 'prev_value': 194, 'change': 1}
+2025-12-02 10:39:43,074 : INFO : EventManager : Event: ======'vuk_dirtmouth_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,075 : INFO : EventManager : Event: ======'vuk_dirtmouth_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,075 : INFO : EventManager : Event: ======'vuk_dirtmouth_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,075 : INFO : EventManager : Event: ======'vuk_dirtmouth_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,075 : INFO : EventManager : Event: ======'player_shot_vuk'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:43,076 : INFO : EventManager : Event: ======'machine_var_audits_shots_vuk'====== Args={'value': 317, 'prev_value': 316, 'change': 1}
+2025-12-02 10:39:43,076 : INFO : EventManager : Event: ======'vuk_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,076 : INFO : EventManager : Event: ======'vuk_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,076 : INFO : EventManager : Event: ======'vuk_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,077 : INFO : EventManager : Event: ======'vuk_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:39:43,077 : INFO : EventManager : Event: ======'locks_dirtmouth_hit'====== Args={'shot': 'vuk_dirtmouth'}
+2025-12-02 10:39:43,077 : INFO : EventManager : Event: ======'locks_dirtmouth_unlit_hit'====== Args={'shot': 'vuk_dirtmouth'}
+2025-12-02 10:39:43,078 : INFO : EventManager : Event: ======'start_mode_carousel_mode_select'====== Args={'priority': 0}
+2025-12-02 10:39:43,078 : INFO : EventManager : Event: ======'mode_carousel_mode_select_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:43,079 : INFO : EventManager : Event: ======'mode_carousel_mode_select_starting'====== Args={'priority': 0}
+2025-12-02 10:39:43,079 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 12500, 'prev_value': 7500, 'change': 5000, 'player_num': 1, 'source': 'vuk'}
+2025-12-02 10:39:43,085 : INFO : Mode.carousel_mode_select : Started. Priority: 500
+2025-12-02 10:39:43,085 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:43,085 : INFO : EventManager : Event: ======'mode_carousel_mode_select_started'====== Args={'priority': 0}
+2025-12-02 10:39:43,086 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': None, 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:43,172 : INFO : EventManager : Event: ======'slide_carousel_mode_select_created'====== Args={'_from_bcp': True}
+2025-12-02 10:39:43,172 : INFO : EventManager : Event: ======'slide_dirtmouth_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2025-12-02 10:39:43,172 : INFO : EventManager : Event: ======'slide_carousel_mode_select_active'====== Args={'original_context': 'carousel_mode_select', 'original_calling_context': 'mode_carousel_mode_select_started', 'priority': 500.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-12-02 10:39:43,203 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-12-02 10:39:46,104 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:39:46,105 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:39:46,105 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 259, 'prev_value': 258, 'change': 1}
+2025-12-02 10:39:46,106 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'leave'}
+2025-12-02 10:39:46,219 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:39:46,489 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:39:46,489 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:39:46,489 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 260, 'prev_value': 259, 'change': 1}
+2025-12-02 10:39:46,490 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:46,604 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:39:46,771 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:39:46,771 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:39:46,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 261, 'prev_value': 260, 'change': 1}
+2025-12-02 10:39:46,772 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'leave'}
+2025-12-02 10:39:46,910 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:39:47,187 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:39:47,187 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:39:47,188 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 262, 'prev_value': 261, 'change': 1}
+2025-12-02 10:39:47,189 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:47,304 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:39:51,518 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-02 10:39:51,518 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-12-02 10:39:51,519 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 174, 'prev_value': 173, 'change': 1}
+2025-12-02 10:39:51,520 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'backwards', 'item': 'leave'}
+2025-12-02 10:39:51,540 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:39:51,541 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:39:51,541 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-12-02 10:39:51,541 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 263, 'prev_value': 262, 'change': 1}
+2025-12-02 10:39:51,542 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:51,542 : INFO : EventManager : Event: ======'carousel_item_selected'====== Args={'carousel': 'carousel_mode_select', 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:51,543 : INFO : EventManager : Event: ======'start_mode_travel_dirtmouth_to_frogotten_crossroads'====== Args={'priority': 0}
+2025-12-02 10:39:51,543 : INFO : EventManager : Event: ======'stop_mode_carousel_mode_select'====== Args={'priority': 0}
+2025-12-02 10:39:51,543 : INFO : EventManager : Event: ======'mode_travel_dirtmouth_to_frogotten_crossroads_will_start'====== Args={'priority': 0}
+2025-12-02 10:39:51,544 : INFO : EventManager : Event: ======'player_shot_ramp_travel_dirtmouth_to_frogotten_crossroads_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:51,544 : INFO : EventManager : Event: ======'player_shot_right_orbit_travel_dirtmouth_to_frogotten_crossroads_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:51,545 : INFO : EventManager : Event: ======'player_shot_left_orbit_travel_dirtmouth_to_frogotten_crossroads_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:51,545 : INFO : EventManager : Event: ======'travel_complete'====== Args={'state': 'unlit'}
+2025-12-02 10:39:51,545 : INFO : EventManager : Event: ======'travel_unlit_complete'====== Args={}
+2025-12-02 10:39:51,545 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_display_timer_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:51,546 : INFO : Timer.travel_display_timer : Starting Timer.
+2025-12-02 10:39:51,546 : INFO : EventManager : Event: ======'timer_travel_display_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:39:51,546 : INFO : EventManager : Event: ======'timer_travel_display_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:39:51,546 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-12-02 10:39:51,547 : INFO : Timer.travel_end_timer : Starting Timer.
+2025-12-02 10:39:51,547 : INFO : EventManager : Event: ======'timer_travel_end_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 100}
+2025-12-02 10:39:51,547 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 100}
+2025-12-02 10:39:51,547 : INFO : EventManager : Event: ======'mode_travel_dirtmouth_to_frogotten_crossroads_starting'====== Args={'priority': 0}
+2025-12-02 10:39:51,548 : INFO : EventManager : Event: ======'mode_carousel_mode_select_will_stop'====== Args={}
+2025-12-02 10:39:51,548 : INFO : EventManager : Event: ======'mode_carousel_mode_select_stopping'====== Args={}
+2025-12-02 10:39:51,548 : INFO : Mode.carousel_mode_select : Stopped.
+2025-12-02 10:39:51,548 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:51,548 : INFO : EventManager : Event: ======'mode_carousel_mode_select_stopped'====== Args={}
+2025-12-02 10:39:51,548 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'carousel_mode_select'}
+2025-12-02 10:39:51,548 : INFO : Mode.travel_dirtmouth_to_frogotten_crossroads : Started. Priority: 300
+2025-12-02 10:39:51,549 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:39:51,549 : INFO : EventManager : Event: ======'mode_travel_dirtmouth_to_frogotten_crossroads_started'====== Args={'priority': 0}
+2025-12-02 10:39:51,549 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 22500, 'prev_value': 12500, 'change': 10000, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:51,549 : INFO : EventManager : Event: ======'player_mode_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:51,549 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 40.0, 'prev_value': 0, 'change': 40.0, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:51,550 : INFO : EventManager : Event: ======'player_travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:51,555 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'travel_dirtmouth_to_frogotten_crossroads', 'direction': None, 'item': 'travel_1'}
+2025-12-02 10:39:51,582 : INFO : EventManager : Event: ======'slide_carousel_mode_select_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-12-02 10:39:51,582 : INFO : EventManager : Event: ======'slide_dirtmouth_active'====== Args={'_from_bcp': True}
+2025-12-02 10:39:51,583 : INFO : EventManager : Event: ======'slide_carousel_mode_select_removed'====== Args={'_from_bcp': True}
+2025-12-02 10:39:51,648 : INFO : EventManager : Event: ======'slide_travel_dirtmouth_to_frogotten_crossroads_created'====== Args={'_from_bcp': True}
+2025-12-02 10:39:51,648 : INFO : EventManager : Event: ======'slide_dirtmouth_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2025-12-02 10:39:51,648 : INFO : EventManager : Event: ======'slide_travel_dirtmouth_to_frogotten_crossroads_active'====== Args={'original_context': 'travel_dirtmouth_to_frogotten_crossroads', 'original_calling_context': 'mode_travel_dirtmouth_to_frogotten_crossroads_started', 'priority': 300.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-12-02 10:39:51,692 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:39:51,693 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-12-02 10:39:51,693 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-02 10:39:51,693 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-12-02 10:39:51,947 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:51,951 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 1, 'ticks_remaining': 99}
+2025-12-02 10:39:51,956 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 39.6, 'prev_value': 40.0, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:52,347 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:52,349 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 2, 'ticks_remaining': 98}
+2025-12-02 10:39:52,355 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 39.2, 'prev_value': 39.6, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:52,442 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2025-12-02 10:39:52,444 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-12-02 10:39:52,444 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2025-12-02 10:39:52,445 : INFO : ball_device.bd_plunger : State: ejecting
+2025-12-02 10:39:52,445 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-12-02 10:39:52,445 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2025-12-02 10:39:52,446 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-12-02 10:39:52,747 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:52,749 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 3, 'ticks_remaining': 97}
+2025-12-02 10:39:52,753 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 38.800000000000004, 'prev_value': 39.2, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:53,148 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:53,149 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 4, 'ticks_remaining': 96}
+2025-12-02 10:39:53,153 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 38.400000000000006, 'prev_value': 38.800000000000004, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:53,548 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:53,551 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 5, 'ticks_remaining': 95}
+2025-12-02 10:39:53,556 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 38.00000000000001, 'prev_value': 38.400000000000006, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:53,947 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:53,949 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 6, 'ticks_remaining': 94}
+2025-12-02 10:39:53,956 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 37.60000000000001, 'prev_value': 38.00000000000001, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:54,348 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:54,352 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 7, 'ticks_remaining': 93}
+2025-12-02 10:39:54,358 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 37.20000000000001, 'prev_value': 37.60000000000001, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:54,748 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:54,750 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 8, 'ticks_remaining': 92}
+2025-12-02 10:39:54,756 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 36.80000000000001, 'prev_value': 37.20000000000001, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:55,148 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:55,149 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 9, 'ticks_remaining': 91}
+2025-12-02 10:39:55,156 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 36.40000000000001, 'prev_value': 36.80000000000001, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:55,547 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 10, 'prev_value': 9, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:55,549 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 10, 'ticks_remaining': 90}
+2025-12-02 10:39:55,556 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 36.000000000000014, 'prev_value': 36.40000000000001, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:55,948 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 11, 'prev_value': 10, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:55,953 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 11, 'ticks_remaining': 89}
+2025-12-02 10:39:55,958 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 35.600000000000016, 'prev_value': 36.000000000000014, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:56,347 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 12, 'prev_value': 11, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:56,349 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 12, 'ticks_remaining': 88}
+2025-12-02 10:39:56,354 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 35.20000000000002, 'prev_value': 35.600000000000016, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:56,546 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_display_timer_tick'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:56,552 : INFO : Timer.travel_display_timer : Timer Complete
+2025-12-02 10:39:56,552 : INFO : Timer.travel_display_timer : Stopping Timer
+2025-12-02 10:39:56,553 : INFO : EventManager : Event: ======'timer_travel_display_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-12-02 10:39:56,553 : INFO : EventManager : Event: ======'timer_travel_display_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-12-02 10:39:56,554 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_display_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-12-02 10:39:56,555 : INFO : Timer.travel_display_timer : Starting Timer.
+2025-12-02 10:39:56,555 : INFO : EventManager : Event: ======'timer_travel_display_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:39:56,555 : INFO : EventManager : Event: ======'timer_travel_display_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:39:56,559 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'travel_dirtmouth_to_frogotten_crossroads', 'direction': 'forwards', 'item': 'travel_2'}
+2025-12-02 10:39:56,748 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 13, 'prev_value': 12, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:56,749 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 13, 'ticks_remaining': 87}
+2025-12-02 10:39:56,756 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 34.80000000000002, 'prev_value': 35.20000000000002, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:57,148 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 14, 'prev_value': 13, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:57,150 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 14, 'ticks_remaining': 86}
+2025-12-02 10:39:57,154 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 34.40000000000002, 'prev_value': 34.80000000000002, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:57,547 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 15, 'prev_value': 14, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:57,549 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 15, 'ticks_remaining': 85}
+2025-12-02 10:39:57,553 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 34.00000000000002, 'prev_value': 34.40000000000002, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:57,948 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 16, 'prev_value': 15, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:57,949 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 16, 'ticks_remaining': 84}
+2025-12-02 10:39:57,953 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 33.60000000000002, 'prev_value': 34.00000000000002, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:58,348 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 17, 'prev_value': 16, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:58,349 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 17, 'ticks_remaining': 83}
+2025-12-02 10:39:58,353 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 33.200000000000024, 'prev_value': 33.60000000000002, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:58,747 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 18, 'prev_value': 17, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:58,748 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 18, 'ticks_remaining': 82}
+2025-12-02 10:39:58,753 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 32.800000000000026, 'prev_value': 33.200000000000024, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:59,148 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 19, 'prev_value': 18, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:59,151 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 19, 'ticks_remaining': 81}
+2025-12-02 10:39:59,154 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 32.40000000000003, 'prev_value': 32.800000000000026, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:59,548 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 20, 'prev_value': 19, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:59,549 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 20, 'ticks_remaining': 80}
+2025-12-02 10:39:59,554 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 32.00000000000003, 'prev_value': 32.40000000000003, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:39:59,948 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 21, 'prev_value': 20, 'change': 1, 'player_num': 1}
+2025-12-02 10:39:59,951 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 21, 'ticks_remaining': 79}
+2025-12-02 10:39:59,954 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 31.60000000000003, 'prev_value': 32.00000000000003, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,347 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 22, 'prev_value': 21, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:00,348 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 22, 'ticks_remaining': 78}
+2025-12-02 10:40:00,354 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 31.20000000000003, 'prev_value': 31.60000000000003, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,622 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-12-02 10:40:00,622 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit_mask'}
+2025-12-02 10:40:00,622 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit'}
+2025-12-02 10:40:00,623 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,623 : INFO : EventManager : Event: ======'s_left_orbit_active'====== Args={}
+2025-12-02 10:40:00,623 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit'====== Args={'value': 184, 'prev_value': 183, 'change': 1}
+2025-12-02 10:40:00,624 : INFO : EventManager : Event: ======'player_shot_left_orbit_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:00,629 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 91, 'prev_value': 90, 'change': 1}
+2025-12-02 10:40:00,629 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,629 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,629 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,629 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,629 : INFO : EventManager : Event: ======'player_shot_left_orbit'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:00,629 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit'====== Args={'value': 182, 'prev_value': 181, 'change': 1}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'player_shot_left_orbit_mask'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_mask'====== Args={'value': 4, 'prev_value': 3, 'change': 1}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_mask_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_mask_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_mask_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'left_orbit_mask_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'travel_hit'====== Args={'shot': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,630 : INFO : EventManager : Event: ======'travel_unlit_hit'====== Args={'shot': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,631 : INFO : EventManager : Event: ======'player_travel_progress'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,631 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 62500, 'prev_value': 22500, 'change': 40000, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,634 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 67500, 'prev_value': 62500, 'change': 5000, 'player_num': 1, 'source': 'left_orbit'}
+2025-12-02 10:40:00,635 : INFO : EventManager : Event: ======'mask_update_hit'====== Args={'shot': 'left_orbit_mask'}
+2025-12-02 10:40:00,635 : INFO : EventManager : Event: ======'mask_update_unlit_hit'====== Args={'shot': 'left_orbit_mask'}
+2025-12-02 10:40:00,748 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 23, 'prev_value': 22, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:00,748 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 23, 'ticks_remaining': 77}
+2025-12-02 10:40:00,751 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 30.800000000000033, 'prev_value': 31.20000000000003, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,752 : INFO : EventManager : Event: ======'player_travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 2, 'prev_value': 3, 'change': -1, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:00,755 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-12-02 10:40:01,148 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 24, 'prev_value': 23, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:01,149 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 24, 'ticks_remaining': 76}
+2025-12-02 10:40:01,155 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 30.400000000000034, 'prev_value': 30.800000000000033, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,253 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-12-02 10:40:01,253 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit_mask'}
+2025-12-02 10:40:01,253 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit'}
+2025-12-02 10:40:01,253 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,253 : INFO : EventManager : Event: ======'s_left_orbit_active'====== Args={}
+2025-12-02 10:40:01,253 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit'====== Args={'value': 185, 'prev_value': 184, 'change': 1}
+2025-12-02 10:40:01,254 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 92, 'prev_value': 91, 'change': 1}
+2025-12-02 10:40:01,254 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,254 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,254 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,254 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,254 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit'====== Args={'value': 183, 'prev_value': 182, 'change': 1}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'left_orbit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'left_orbit_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'left_orbit_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'left_orbit_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_mask'====== Args={'value': 5, 'prev_value': 4, 'change': 1}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'left_orbit_mask_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'left_orbit_mask_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,255 : INFO : EventManager : Event: ======'left_orbit_mask_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,256 : INFO : EventManager : Event: ======'left_orbit_mask_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,256 : INFO : EventManager : Event: ======'travel_hit'====== Args={'shot': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,256 : INFO : EventManager : Event: ======'travel_lit_hit'====== Args={'shot': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,256 : INFO : EventManager : Event: ======'player_travel_progress'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,256 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 107500, 'prev_value': 67500, 'change': 40000, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,259 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 112500, 'prev_value': 107500, 'change': 5000, 'player_num': 1, 'source': 'left_orbit'}
+2025-12-02 10:40:01,260 : INFO : EventManager : Event: ======'mask_update_hit'====== Args={'shot': 'left_orbit_mask'}
+2025-12-02 10:40:01,261 : INFO : EventManager : Event: ======'mask_update_lit_hit'====== Args={'shot': 'left_orbit_mask'}
+2025-12-02 10:40:01,403 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-12-02 10:40:01,548 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_end_timer_tick'====== Args={'value': 25, 'prev_value': 24, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:01,550 : INFO : EventManager : Event: ======'timer_travel_end_timer_tick'====== Args={'ticks': 25, 'ticks_remaining': 75}
+2025-12-02 10:40:01,554 : INFO : EventManager : Event: ======'player_time_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 30.000000000000036, 'prev_value': 30.400000000000034, 'change': -0.3999999999999986, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,555 : INFO : EventManager : Event: ======'player_travel_shots_remaining_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,560 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_display_timer_tick'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:01,561 : INFO : Timer.travel_display_timer : Timer Complete
+2025-12-02 10:40:01,561 : INFO : Timer.travel_display_timer : Stopping Timer
+2025-12-02 10:40:01,561 : INFO : EventManager : Event: ======'timer_travel_display_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-12-02 10:40:01,561 : INFO : EventManager : Event: ======'timer_travel_display_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-12-02 10:40:01,561 : INFO : EventManager : Event: ======'player_travel_dirtmouth_to_frogotten_crossroads_travel_display_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-12-02 10:40:01,562 : INFO : Timer.travel_display_timer : Starting Timer.
+2025-12-02 10:40:01,562 : INFO : EventManager : Event: ======'timer_travel_display_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:40:01,562 : INFO : EventManager : Event: ======'timer_travel_display_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:40:01,564 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'travel_dirtmouth_to_frogotten_crossroads', 'direction': 'forwards', 'item': 'travel_3'}
+2025-12-02 10:40:01,788 : INFO : SwitchController : <<<<<<< 's_left_orbit' active >>>>>>>
+2025-12-02 10:40:01,788 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit_mask'}
+2025-12-02 10:40:01,788 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit'}
+2025-12-02 10:40:01,789 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,789 : INFO : EventManager : Event: ======'s_left_orbit_active'====== Args={}
+2025-12-02 10:40:01,789 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_orbit'====== Args={'value': 186, 'prev_value': 185, 'change': 1}
+2025-12-02 10:40:01,790 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_travel_dirtmouth_to_frogotten_crossroads'====== Args={'value': 93, 'prev_value': 92, 'change': 1}
+2025-12-02 10:40:01,790 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,791 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,791 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,791 : INFO : EventManager : Event: ======'left_orbit_travel_dirtmouth_to_frogotten_crossroads_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,791 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit'====== Args={'value': 184, 'prev_value': 183, 'change': 1}
+2025-12-02 10:40:01,791 : INFO : EventManager : Event: ======'left_orbit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,792 : INFO : EventManager : Event: ======'left_orbit_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,792 : INFO : EventManager : Event: ======'left_orbit_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,792 : INFO : EventManager : Event: ======'left_orbit_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,792 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_orbit_mask'====== Args={'value': 6, 'prev_value': 5, 'change': 1}
+2025-12-02 10:40:01,793 : INFO : EventManager : Event: ======'left_orbit_mask_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,793 : INFO : EventManager : Event: ======'left_orbit_mask_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,793 : INFO : EventManager : Event: ======'left_orbit_mask_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,793 : INFO : EventManager : Event: ======'left_orbit_mask_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:01,793 : INFO : EventManager : Event: ======'travel_hit'====== Args={'shot': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,794 : INFO : EventManager : Event: ======'travel_lit_hit'====== Args={'shot': 'left_orbit_travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,794 : INFO : EventManager : Event: ======'stop_mode_travel_dirtmouth_to_frogotten_crossroads'====== Args={'priority': 0}
+2025-12-02 10:40:01,794 : INFO : EventManager : Event: ======'start_mode_frogotten_crossroads'====== Args={'priority': 0}
+2025-12-02 10:40:01,794 : INFO : EventManager : Event: ======'stop_mode_dirtmouth'====== Args={'priority': 0}
+2025-12-02 10:40:01,795 : INFO : EventManager : Event: ======'player_travel_progress'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,795 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 152500, 'prev_value': 112500, 'change': 40000, 'player_num': 1, 'source': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,795 : INFO : EventManager : Event: ======'mode_travel_dirtmouth_to_frogotten_crossroads_will_stop'====== Args={}
+2025-12-02 10:40:01,795 : INFO : EventManager : Event: ======'mode_travel_dirtmouth_to_frogotten_crossroads_stopping'====== Args={}
+2025-12-02 10:40:01,796 : INFO : EventManager : Event: ======'mode_frogotten_crossroads_will_start'====== Args={'priority': 0}
+2025-12-02 10:40:01,796 : INFO : EventManager : Event: ======'player_shot_vuk_frogotten_crossroads_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:01,797 : INFO : EventManager : Event: ======'player_shot_saucer_frogotten_crossroads_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:01,797 : INFO : EventManager : Event: ======'locks_frogotten_crossroads_complete'====== Args={'state': 'unlit'}
+2025-12-02 10:40:01,798 : INFO : EventManager : Event: ======'locks_frogotten_crossroads_unlit_complete'====== Args={}
+2025-12-02 10:40:01,799 : INFO : EventManager : Event: ======'mode_frogotten_crossroads_starting'====== Args={'priority': 0}
+2025-12-02 10:40:01,800 : INFO : EventManager : Event: ======'mode_dirtmouth_will_stop'====== Args={}
+2025-12-02 10:40:01,801 : INFO : EventManager : Event: ======'mode_dirtmouth_stopping'====== Args={}
+2025-12-02 10:40:01,805 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 157500, 'prev_value': 152500, 'change': 5000, 'player_num': 1, 'source': 'left_orbit'}
+2025-12-02 10:40:01,807 : INFO : EventManager : Event: ======'mask_update_hit'====== Args={'shot': 'left_orbit_mask'}
+2025-12-02 10:40:01,807 : INFO : EventManager : Event: ======'mask_update_lit_hit'====== Args={'shot': 'left_orbit_mask'}
+2025-12-02 10:40:01,807 : INFO : Mode.dirtmouth : Stopped.
+2025-12-02 10:40:01,807 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:01,807 : INFO : EventManager : Event: ======'mode_dirtmouth_stopped'====== Args={}
+2025-12-02 10:40:01,808 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'dirtmouth'}
+2025-12-02 10:40:01,808 : INFO : EventManager : Event: ======'player_dirtmouth_active'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1, 'source': 'base'}
+2025-12-02 10:40:01,810 : INFO : Mode.frogotten_crossroads : Started. Priority: 250
+2025-12-02 10:40:01,810 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:01,810 : INFO : EventManager : Event: ======'mode_frogotten_crossroads_started'====== Args={'priority': 0}
+2025-12-02 10:40:01,810 : INFO : EventManager : Event: ======'player_frogotten_crossroads_active'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'frogotten_crossroads'}
+2025-12-02 10:40:01,812 : INFO : Mode.travel_dirtmouth_to_frogotten_crossroads : Stopped.
+2025-12-02 10:40:01,812 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:01,812 : INFO : EventManager : Event: ======'mode_travel_dirtmouth_to_frogotten_crossroads_stopped'====== Args={}
+2025-12-02 10:40:01,812 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:01,813 : INFO : EventManager : Event: ======'player_travel_progress'====== Args={'value': 0, 'prev_value': 3, 'change': -3, 'player_num': 1, 'source': 'base'}
+2025-12-02 10:40:01,813 : INFO : EventManager : Event: ======'player_mode_active'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1, 'source': 'base'}
+2025-12-02 10:40:01,815 : INFO : Timer.travel_end_timer : Stopping Timer
+2025-12-02 10:40:01,816 : INFO : EventManager : Event: ======'timer_travel_end_timer_stopped'====== Args={'ticks': 25, 'ticks_remaining': 75}
+2025-12-02 10:40:01,816 : INFO : Timer.travel_display_timer : Stopping Timer
+2025-12-02 10:40:01,816 : INFO : EventManager : Event: ======'timer_travel_display_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-12-02 10:40:01,832 : INFO : EventManager : Event: ======'slide_dirtmouth_removed'====== Args={'_from_bcp': True}
+2025-12-02 10:40:01,860 : INFO : EventManager : Event: ======'slide_frogotten_crossroads_created'====== Args={'_from_bcp': True}
+2025-12-02 10:40:01,869 : INFO : EventManager : Event: ======'slide_travel_dirtmouth_to_frogotten_crossroads_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-12-02 10:40:01,869 : INFO : EventManager : Event: ======'slide_frogotten_crossroads_active'====== Args={'_from_bcp': True}
+2025-12-02 10:40:01,870 : INFO : EventManager : Event: ======'slide_travel_dirtmouth_to_frogotten_crossroads_removed'====== Args={'_from_bcp': True}
+2025-12-02 10:40:01,919 : INFO : SwitchController : <<<<<<< 's_left_orbit' inactive >>>>>>>
+2025-12-02 10:40:02,447 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2025-12-02 10:40:02,452 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-12-02 10:40:02,452 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 3}
+2025-12-02 10:40:02,454 : INFO : ball_device.bd_plunger : State: ejecting
+2025-12-02 10:40:02,455 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-12-02 10:40:02,455 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 3}
+2025-12-02 10:40:02,456 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-12-02 10:40:03,505 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2025-12-02 10:40:03,505 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'vuk_frogotten_crossroads'}
+2025-12-02 10:40:03,506 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'vuk_dirtmouth'}
+2025-12-02 10:40:03,506 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'vuk'}
+2025-12-02 10:40:03,507 : INFO : EventManager : Event: ======'s_vuk_active'====== Args={}
+2025-12-02 10:40:03,507 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk'====== Args={'value': 338, 'prev_value': 337, 'change': 1}
+2025-12-02 10:40:03,508 : INFO : EventManager : Event: ======'player_shot_vuk_frogotten_crossroads'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-12-02 10:40:03,509 : INFO : EventManager : Event: ======'machine_var_audits_shots_vuk_frogotten_crossroads'====== Args={'value': 43, 'prev_value': 42, 'change': 1}
+2025-12-02 10:40:03,509 : INFO : EventManager : Event: ======'vuk_frogotten_crossroads_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:03,510 : INFO : EventManager : Event: ======'vuk_frogotten_crossroads_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:03,510 : INFO : EventManager : Event: ======'vuk_frogotten_crossroads_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:03,510 : INFO : EventManager : Event: ======'vuk_frogotten_crossroads_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-12-02 10:40:03,511 : INFO : EventManager : Event: ======'machine_var_audits_shots_vuk'====== Args={'value': 318, 'prev_value': 317, 'change': 1}
+2025-12-02 10:40:03,511 : INFO : EventManager : Event: ======'vuk_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:03,512 : INFO : EventManager : Event: ======'vuk_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:03,512 : INFO : EventManager : Event: ======'vuk_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:03,512 : INFO : EventManager : Event: ======'vuk_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-12-02 10:40:03,513 : INFO : EventManager : Event: ======'locks_frogotten_crossroads_hit'====== Args={'shot': 'vuk_frogotten_crossroads'}
+2025-12-02 10:40:03,513 : INFO : EventManager : Event: ======'locks_frogotten_crossroads_unlit_hit'====== Args={'shot': 'vuk_frogotten_crossroads'}
+2025-12-02 10:40:03,513 : INFO : EventManager : Event: ======'start_mode_carousel_mode_select'====== Args={'priority': 0}
+2025-12-02 10:40:03,514 : INFO : EventManager : Event: ======'mode_carousel_mode_select_will_start'====== Args={'priority': 0}
+2025-12-02 10:40:03,515 : INFO : EventManager : Event: ======'mode_carousel_mode_select_starting'====== Args={'priority': 0}
+2025-12-02 10:40:03,515 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 162500, 'prev_value': 157500, 'change': 5000, 'player_num': 1, 'source': 'vuk'}
+2025-12-02 10:40:03,520 : INFO : Mode.carousel_mode_select : Started. Priority: 500
+2025-12-02 10:40:03,520 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:03,520 : INFO : EventManager : Event: ======'mode_carousel_mode_select_started'====== Args={'priority': 0}
+2025-12-02 10:40:03,521 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': None, 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:03,552 : INFO : EventManager : Event: ======'slide_carousel_mode_select_created'====== Args={'_from_bcp': True}
+2025-12-02 10:40:03,552 : INFO : EventManager : Event: ======'slide_frogotten_crossroads_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2025-12-02 10:40:03,552 : INFO : EventManager : Event: ======'slide_carousel_mode_select_active'====== Args={'original_context': 'carousel_mode_select', 'original_calling_context': 'mode_carousel_mode_select_started', 'priority': 500.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-12-02 10:40:03,619 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-12-02 10:40:07,137 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:07,137 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:07,138 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 264, 'prev_value': 263, 'change': 1}
+2025-12-02 10:40:07,139 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'false_knight_controller'}
+2025-12-02 10:40:07,286 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:07,521 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:07,521 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:07,522 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 265, 'prev_value': 264, 'change': 1}
+2025-12-02 10:40:07,523 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'leave'}
+2025-12-02 10:40:07,636 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:07,821 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:07,821 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:07,822 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 266, 'prev_value': 265, 'change': 1}
+2025-12-02 10:40:07,822 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:07,936 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:08,054 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:08,054 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:08,054 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 267, 'prev_value': 266, 'change': 1}
+2025-12-02 10:40:08,055 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'false_knight_controller'}
+2025-12-02 10:40:08,153 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:08,254 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:08,254 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:08,255 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 268, 'prev_value': 267, 'change': 1}
+2025-12-02 10:40:08,255 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'leave'}
+2025-12-02 10:40:08,352 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:08,424 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:08,424 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:08,424 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 269, 'prev_value': 268, 'change': 1}
+2025-12-02 10:40:08,425 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:08,519 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:08,605 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:08,605 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:08,606 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 270, 'prev_value': 269, 'change': 1}
+2025-12-02 10:40:08,608 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'false_knight_controller'}
+2025-12-02 10:40:08,702 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:08,803 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:08,803 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:08,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 271, 'prev_value': 270, 'change': 1}
+2025-12-02 10:40:08,804 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'leave'}
+2025-12-02 10:40:08,885 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:09,003 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-02 10:40:09,003 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-12-02 10:40:09,004 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 272, 'prev_value': 271, 'change': 1}
+2025-12-02 10:40:09,004 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'carousel_mode_select', 'direction': 'forwards', 'item': 'travel_dirtmouth_to_frogotten_crossroads'}
+2025-12-02 10:40:09,119 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-02 10:40:11,542 : INFO : Machine : Shutting down...
+2025-12-02 10:40:11,542 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-12-02 10:40:11,544 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-12-02 10:40:11,546 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_lane_to_pop_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_lane_to_pop_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_targets_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_targets_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_frogotten_crossroads_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_frogotten_crossroads_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_mask_controller_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_mask_controller_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_ramp_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_ramp_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_right_orbit_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_right_orbit_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_slingshots_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_slingshots_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_vuk_will_stop'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_vuk_stopping'====== Args={}
+2025-12-02 10:40:11,547 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_carousel_mode_select_will_stop'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_carousel_mode_select_stopping'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_lanes_will_stop'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_lanes_stopping'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_left_orbit_will_stop'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_left_orbit_stopping'====== Args={}
+2025-12-02 10:40:11,548 : INFO : EventManager : Event: ======'mode_saucer_will_stop'====== Args={}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'mode_saucer_stopping'====== Args={}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'mode_pop_bumper_will_stop'====== Args={}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'mode_pop_bumper_stopping'====== Args={}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_right_orbit'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_slingshots'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_lanes'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_vuk'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_ramp'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_left_orbit'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_lane_to_pop'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_saucer'====== Args={'priority': 0}
+2025-12-02 10:40:11,549 : INFO : EventManager : Event: ======'stop_mode_targets'====== Args={'priority': 0}
+2025-12-02 10:40:11,550 : INFO : EventManager : Event: ======'stop_mode_pop_bumper'====== Args={'priority': 0}
+2025-12-02 10:40:11,550 : INFO : EventManager : Event: ======'stop_mode_dirtmouth'====== Args={'priority': 0}
+2025-12-02 10:40:11,550 : INFO : EventManager : Event: ======'stop_mode_false_knight_controller'====== Args={'priority': 0}
+2025-12-02 10:40:11,550 : INFO : EventManager : Event: ======'stop_mode_frogotten_crossroads'====== Args={'priority': 0}
+2025-12-02 10:40:11,550 : INFO : EventManager : Event: ======'stop_mode_travel_dirtmouth_to_frogotten_crossroads'====== Args={'priority': 0}
+2025-12-02 10:40:11,550 : INFO : EventManager : Event: ======'stop_mode_carousel_mode_select'====== Args={'priority': 0}
+2025-12-02 10:40:11,550 : INFO : EventManager : Event: ======'stop_mode_mask_controller'====== Args={'priority': 0}
+2025-12-02 10:40:11,551 : INFO : Mode.pop_bumper : Stopped.
+2025-12-02 10:40:11,551 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,551 : INFO : EventManager : Event: ======'mode_pop_bumper_stopped'====== Args={}
+2025-12-02 10:40:11,551 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'pop_bumper'}
+2025-12-02 10:40:11,551 : INFO : EventManager : Event: ======'player_pop_bumper_active'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1, 'source': 'base'}
+2025-12-02 10:40:11,561 : INFO : Mode.saucer : Stopped.
+2025-12-02 10:40:11,561 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,561 : INFO : EventManager : Event: ======'mode_saucer_stopped'====== Args={}
+2025-12-02 10:40:11,561 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'saucer'}
+2025-12-02 10:40:11,561 : INFO : EventManager : Event: ======'player_saucer_active'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1, 'source': 'base'}
+2025-12-02 10:40:11,563 : INFO : Mode.left_orbit : Stopped.
+2025-12-02 10:40:11,563 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,563 : INFO : EventManager : Event: ======'mode_left_orbit_stopped'====== Args={}
+2025-12-02 10:40:11,563 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'left_orbit'}
+2025-12-02 10:40:11,563 : INFO : EventManager : Event: ======'player_left_orbit_active'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1, 'source': 'base'}
+2025-12-02 10:40:11,565 : INFO : Mode.lanes : Stopped.
+2025-12-02 10:40:11,565 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,565 : INFO : EventManager : Event: ======'mode_lanes_stopped'====== Args={}
+2025-12-02 10:40:11,565 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'lanes'}
+2025-12-02 10:40:11,565 : INFO : EventManager : Event: ======'player_lanes_active'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1, 'source': 'base'}
+2025-12-02 10:40:11,567 : INFO : Mode.carousel_mode_select : Stopped.
+2025-12-02 10:40:11,567 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,567 : INFO : EventManager : Event: ======'mode_carousel_mode_select_stopped'====== Args={}
+2025-12-02 10:40:11,567 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'carousel_mode_select'}
+2025-12-02 10:40:11,567 : INFO : Mode.base : Stopped.
+2025-12-02 10:40:11,567 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,567 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-12-02 10:40:11,568 : INFO : Mode.vuk : Stopped.
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'mode_vuk_stopped'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'vuk'}
+2025-12-02 10:40:11,568 : INFO : Mode.slingshots : Stopped.
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'mode_slingshots_stopped'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'slingshots'}
+2025-12-02 10:40:11,568 : INFO : Mode.right_orbit : Stopped.
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'mode_right_orbit_stopped'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'right_orbit'}
+2025-12-02 10:40:11,568 : INFO : Mode.ramp : Stopped.
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'mode_ramp_stopped'====== Args={}
+2025-12-02 10:40:11,568 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'ramp'}
+2025-12-02 10:40:11,569 : INFO : Mode.mask_controller : Stopped.
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'mode_mask_controller_stopped'====== Args={}
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'mask_controller'}
+2025-12-02 10:40:11,569 : INFO : Mode.frogotten_crossroads : Stopped.
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'mode_frogotten_crossroads_stopped'====== Args={}
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'frogotten_crossroads'}
+2025-12-02 10:40:11,569 : INFO : Mode.targets : Stopped.
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'mode_targets_stopped'====== Args={}
+2025-12-02 10:40:11,569 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'targets'}
+2025-12-02 10:40:11,570 : INFO : Mode.lane_to_pop : Stopped.
+2025-12-02 10:40:11,570 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,570 : INFO : EventManager : Event: ======'mode_lane_to_pop_stopped'====== Args={}
+2025-12-02 10:40:11,570 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'lane_to_pop'}
+2025-12-02 10:40:11,570 : INFO : Mode.game : Stopped.
+2025-12-02 10:40:11,570 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-02 10:40:11,570 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-12-02 10:40:11,570 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-12-02 10:40:11,571 : INFO : root : MPF run loop ended.
