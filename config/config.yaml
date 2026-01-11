@@ -16,7 +16,7 @@ game:
   balls_per_game: 3
 
 hardware:
-  platform: smart_virtual #change this back to opp
+  platform: opp #change this betweeen opp and smart_virtual
   driverboards: gen2
 
 config:
@@ -63,10 +63,11 @@ modes:
   - carousel_mode_select
   - mask_controller
 
-
+opp:
+   ports: /dev/cu.usbmodem4E7B377B48001, /dev/cu.usbmodem5678485D30001 #changes based on computer
 
 #Get rid of this when pushing to the game
-virtual_platform_start_active_switches:
-  - s_trough_1
-  - s_trough_2
-  - s_trough_3
+#virtual_platform_start_active_switches:
+#  - s_trough_1
+#  - s_trough_2
+#  - s_trough_3

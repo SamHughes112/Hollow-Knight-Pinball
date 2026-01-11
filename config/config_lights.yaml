@@ -1,1 +1,8 @@
 #config_version=6
+
+#Change this later to be acurate also start all names with l_
+lights:
+   test_led_1:
+      number: 0-0-1 
+      subtype: led
+      type: rgb

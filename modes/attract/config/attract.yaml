@@ -44,3 +44,9 @@ timers:
         action: stop
       - event: flipper_cradle_release
         action: restart
+
+#Example code for now
+light_player:
+  mode_attract_started:
+    test_led_1:
+      color: 00EE00

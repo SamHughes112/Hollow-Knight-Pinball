@@ -2,76 +2,76 @@
 
 switches:
   s_left_flipper:
-    number: 
+    number: 0-0-1 #temp
     tags: left_flipper
   s_right_flipper:
-    number: 
+    number: 0-0-2 #temp
     tags: right_flipper
 
 #Trough switches will have to be reworked
   s_trough_1:
-    number: 
+    number: 0-0-3 #temp
   s_trough_2:
-    number:
+    number: 0-0-8 #temp
   s_trough_3:
-    number:
+    number: 0-0-9 #temp
   s_plunger_lane:
-   number:
+   number: 0-0-10 #temp
 
 #Other playfield switches will need more info once I am building them out
 
   s_right_outlane:
-    number:
+    number: 0-0-11 #temp
   s_right_inlane:
-    number:
+    number: 0-0-27 #temp
   s_left_inlane:
-    number:
+    number: 0-0-26 #temp
   s_left_outlane:
-    number:
+    number: 0-0-25 #temp
   
   s_top_left_slingshot:
-    number:
+    number: 0-0-24 #temp
   s_bottom_left_slingshot:
-    number:
+    number: 0-0-19 #temp
   s_top_right_slingshot:
-    number:
+    number: 0-0-18 #temp
   s_bottom_right_slingshot:
-    number:
+    number: 0-0-17 #temp
   
   s_vuk:
-    number:
+    number: 0-0-16 #temp
   s_ramp:
-    number:
+    number: 1-0-1 #temp
   s_left_orbit:
-    number:
+    number: 1-0-2 #temp
   s_lane_to_pop:
-    number:
+    number: 1-0-3 #temp
   s_right_orbit:
-    number:
+    number: 1-0-8 #temp
   s_saucer:
-    number:
+    number: 1-0-9 #temp
 
   s_front_left_target:
-    number:
+    number: 1-0-10 #temp
   s_front_middle_target:
-    number:
+    number: 1-0-11 #temp
   s_front_right_target:
-    number:
+    number: 1-0-31 #temp
   
   s_pop_bumper:
-    number:
+    number: 1-0-30 #temp
   
   s_back_left_target:
-    number:
+    number: 1-0-29 #temp
   s_back_middle_left_target:
-    number:
+    number: 1-0-28 #temp
   s_back_middle_right_target:
-    number:
+    number: 1-0-27 #temp
   s_back_right_target:
-    number:
+    number: 1-0-26 #temp
 
   s_start:
-    number:
+    number: 1-0-25 #temp
     tags: start
   
 

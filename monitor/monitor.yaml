@@ -1,4 +1,8 @@
 device_size: 0.04
+light:
+  test_led_1:
+    x: 0.41554054054054057
+    y: 0.6891891891891893
 switch:
   s_back_left_target:
     x: 0.41216216216216217

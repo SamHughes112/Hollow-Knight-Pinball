@@ -2,29 +2,29 @@
 
 coils:
   c_flipper_left_main:
-    number:
+    number: 1-0-1 #temp
     default_pulse_ms: 
   c_flipper_left_hold:
-    number:
+    number: 1-0-2 #temp
     allow_enable: true
   c_flipper_right_main:
-    number:
+    number: 1-0-3 #temp
     default_pulse_ms:
   c_flipper_right_hold:
-    number:
+    number: 1-0-4 #temp
     allow_enable: true
   c_trough_eject:
-    number:
+    number: 1-0-5 #temp
     default_pulse_ms:
 
   #will need to be modified
 
   c_vuk_eject:
-    number:
+    number: 1-0-6 #temp
     default_pulse_ms:
   c_pop_bumper:
-    number:
+    number: 1-0-7 #temp
     default_pulse_ms:
   c_saucer_eject:
-    number:
+    number: 1-0-0 #temp
     default_pulse_ms:
