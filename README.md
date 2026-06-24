@@ -18,10 +18,14 @@ Features
 
 How it works
 Most of the sketches are drawn on a plane that is set to be at the top of the playfield, I then use an extrude remove to remove as much material down as I need to (typically all the way through the playfield). For complicated shapes I made templates which could be helpful if you wanted to make your own machine (that isn't the same layout as mine). Here are some photos of the templates for the inserts and for the 1 inch circular target cutout.
+
 <img width="292" height="527" alt="Screenshot 2026-06-09 at 10 05 55 PM" src="https://github.com/user-attachments/assets/e158f7ff-359b-4d36-943b-41bfb2690e64" />
 <img width="255" height="158" alt="Screenshot 2026-06-21 at 9 42 10 AM" src="https://github.com/user-attachments/assets/39def6bc-4ca9-456b-9dca-632423804dff" />
+
 Other than that there was obviously a lot of measuring to convert my physical first draft into the CAD so that it could be machined and much neater. The only other thing I want to talk about is the indent in the shooter lane because I think it's kind of cool and was quite a challenge. 
+
 <img width="479" height="380" alt="Screenshot 2026-06-24 at 7 55 51 AM" src="https://github.com/user-attachments/assets/1582a68d-56df-41d9-83f6-2a61b5ad2a7d" />
+
 ^ is what I am talking about. First off I'm sure there are better ways to do this but what other people ultimately helped me figure out is that I could draw a v shape on a plane tilted just a couple of degrees and then I could do a remove extrude out of both sides of that to get the general shape. Then I just used some other tools to round the edges to help it function better but more importantly to reduce damage over time from the ball.
 
 Credits
