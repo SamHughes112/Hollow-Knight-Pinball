@@ -8,7 +8,9 @@ For stardance (if your not here for stardance just ignore this) I am submitting 
 The Demo Link is: https://cad.onshape.com/documents/46a9741959470dc46e7c739c/w/06598aae82bc74cde6aa571a/e/faa4b0390295b76dec385a50?renderMode=0&uiState=6a3bd65cf6d661f4c8947f64
 
 Quickstart:
-The onshape link should work right out of the box if you just want to look. If you are looking to produce your own playfield you can either download it from the onshape link or use the .step in the repository under "CAD Files" it is named "Hollow_Knight_Pinball_Playfield.step" you will need access to a CNC machine obviously to produce it (use 1/2 inch plywood).
+The onshape link should work right out of the box if you just want to look. 
+
+If you are looking to produce your own playfield you can either download it from the onshape link or use the .step in the repository under "CAD Files" it is named "Hollow_Knight_Pinball_Playfield.step" you will need access to a CNC machine obviously to produce it (use 1/2 inch plywood 9+ plies ideally make sure it is very flat). In terms of settings you want a small ish bit the smallest hole on the playfield is 0.125 inches or 1/8th so it has to be smaller than that however some of the other parts have fine details so you might want to use something even smaller at least for those although it would probably work with a 1/8th bit. Keep the depth of your cut under half your bit diameter and run at 16-18000 RPMs. I highly recommend doing some tests before trying to cut the whole large piece.
 
 Features
 - Holes for posts and ball guide for playfield geometry (the path of the ball)
