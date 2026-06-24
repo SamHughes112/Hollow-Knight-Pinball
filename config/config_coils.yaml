@@ -2,19 +2,19 @@
 
 coils:
   c_flipper_left_main:
-    number: 1-0-1 #temp
+    number: 1-0-1 #temp update when assign real coil numbers
     default_pulse_ms: 
   c_flipper_left_hold:
-    number: 1-0-2 #temp
+    number: 1-0-2 #temp update when assign real coil numbers
     allow_enable: true
   c_flipper_right_main:
-    number: 1-0-3 #temp
+    number: 1-0-3 #temp update when assign real coil numbers
     default_pulse_ms:
   c_flipper_right_hold:
-    number: 1-0-4 #temp
+    number: 1-0-4 #temp update when assign real coil numbers
     allow_enable: true
   c_trough_eject:
-    number: 1-0-5 #temp
+    number: 1-0-5 #temp update when assign real coil numbers
     default_pulse_ms:
 
   #will need to be modified
