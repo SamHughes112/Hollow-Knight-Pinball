@@ -1,7 +1,7 @@
 # Hollow-Knight-Pinball
 Hollow Knight Pinball - Custom Pinball Machine
 
-For stardance I am submitting my playfield CAD which is in "CAD Files" it is done and is currently being produced
+For stardance (if your not here for stardance just ignore this) I am submitting my playfield CAD which is in "CAD Files" it is done and is currently being produced
 
 <img width="701" height="447" alt="Screenshot 2026-06-24 at 7 18 13 AM" src="https://github.com/user-attachments/assets/dbb1ed91-87fd-4b12-b3e5-cf3be65db2d3" />
 
