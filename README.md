@@ -1,5 +1,6 @@
 # Hollow-Knight-Pinball
 Hollow Knight Pinball - Custom Pinball Machine
+
 For stardance I am submitting my playfield CAD which is in "CAD Files" it is done and is currently being produced
 
 <img width="701" height="447" alt="Screenshot 2026-06-24 at 7 18 13 AM" src="https://github.com/user-attachments/assets/dbb1ed91-87fd-4b12-b3e5-cf3be65db2d3" />
@@ -30,4 +31,5 @@ Other than that there was obviously a lot of measuring to convert my physical fi
 
 Credits
 My friends and also the custom pinball community were both incredibly helpful and I can't even count the number of stupid questions they answered for me about how to do the most basic things.
+
 AI Disclaimer: I used AI to help me figure out what tools to use since I'm new to CAD and too help with a little bit of math to figure out the radius of the rounded corners. AI did not do any of the modeling.
