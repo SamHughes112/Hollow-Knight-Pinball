@@ -1,27 +1,34 @@
 events:
   game_ended: 6
-  game_started: 173
+  game_started: 174
 missing_switches:
-  s_back_left_target: 45
-  s_back_middle_left_target: 1
-  s_back_middle_right_target: 1
-  s_back_right_target: 135
-  s_bottom_right_slingshot: 132
-  s_front_left_target: 1
-  s_front_middle_target: 1
-  s_front_right_target: 2
-  s_lane_to_pop: 5
-  s_left_inlane: 1
-  s_left_orbit: 1
-  s_left_outlane: 142
-  s_right_orbit: 27
-  s_right_outlane: 142
-  s_start: 4
-  s_top_left_slingshot: 1
-  s_top_right_slingshot: 130
-  s_trough_1: 136
-  s_trough_2: 160
-  s_trough_3: 158
+  s_back_left_target: 46
+  s_back_middle_left_target: 2
+  s_back_middle_right_target: 2
+  s_back_right_target: 136
+  s_bottom_left_slingshot: 1
+  s_bottom_right_slingshot: 133
+  s_front_left_target: 2
+  s_front_middle_target: 2
+  s_front_right_target: 3
+  s_lane_to_pop: 6
+  s_left_flipper: 1
+  s_left_inlane: 2
+  s_left_orbit: 2
+  s_left_outlane: 143
+  s_pop_bumper: 1
+  s_ramp: 1
+  s_right_flipper: 1
+  s_right_inlane: 1
+  s_right_orbit: 28
+  s_right_outlane: 143
+  s_saucer: 1
+  s_top_left_slingshot: 2
+  s_top_right_slingshot: 131
+  s_trough_1: 137
+  s_trough_2: 161
+  s_trough_3: 159
+  s_vuk: 1
 player:
   score:
     average: 36284
@@ -89,7 +96,7 @@ switches:
   s_left_inlane: 10
   s_left_orbit: 189
   s_left_outlane: 6
-  s_plunger_lane: 351
+  s_plunger_lane: 352
   s_pop_bumper: 27
   s_ramp: 83
   s_right_flipper: 300
@@ -97,7 +104,7 @@ switches:
   s_right_orbit: 301
   s_right_outlane: 13
   s_saucer: 47
-  s_start: 63
+  s_start: 66
   s_top_left_slingshot: 23
   s_top_right_slingshot: 25
   s_trough_1: 68
